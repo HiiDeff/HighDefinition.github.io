@@ -22,6 +22,11 @@ export default function About() {
             </div>
 
             <div className="grid-item">
+              <img src={require(`/public/images/sponsors/bwtlink2.jpg`).default.src} height="200px" className="member" />
+              <h3>BTW Link</h3>
+            </div>
+
+            <div className="grid-item">
               <img src={require(`/public/images/sponsors/chineseinstitute.jpg`).default.src} height="200px" className="member" />
               <h3>Chinese Institute of Engineers</h3>
             </div>

@@ -20,11 +20,13 @@ export default function Seasons() {
             <div className="grid-item">
               <h4>League 1 Robot</h4>
               <img src={require(`/public/images/seasons/freightfrenzy/league1robot.png`).default.src} width="80%" />
+              <br /><br />
+              <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=g0no5tn-IBg" target="_blank">League 1 Robot Video</a></div>
             </div>
 
             <div className="grid-item">
               <h4>League 2 Robot</h4>
-              <p>Coming soon...</p>
+              <img src={require(`/public/images/seasons/freightfrenzy/league2robot.png`).default.src} width="80%" />
             </div>
           </div>
         </div>

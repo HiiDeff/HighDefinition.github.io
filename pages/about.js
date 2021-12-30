@@ -23,7 +23,7 @@ export default function About() {
 
             <div className="grid-item">
               <img src={require(`/public/images/sponsors/bwtlink2.jpg`).default.src} height="200px" className="member" />
-              <h3>BTW Link</h3>
+              <h3>BWT Link</h3>
             </div>
 
             <div className="grid-item">
@@ -165,7 +165,7 @@ export default function About() {
             <div className="grid-item">
               <img src={require(`/public/images/teammembers/emma.jpg`).default.src} height="300px" className="member" />
               <h3>Emma Shi</h3>
-              <p className="description">Co-Captain:</p>
+              <p className="description">Co-Captain</p>
               <p className="description">Business / Outreach / Engineering Notebook</p>
               <br />
               <p style={{fontWeight: 300}}>Hi, my name is Emma! This is my 9th year in FIRST and 6th year in FTC. In these last several years, I've had the opportunity to gain experience in all the disciplines in FIRST. This year, as co-captain, I'm in charge of the business and outreach aspect of our team, as well as mentoring and teaching the younger students. Outside of robotics, I like to read, bake, listen to musicals, ski, and play all sorts of games!</p>
@@ -174,7 +174,7 @@ export default function About() {
             <div className="grid-item">
               <img src={require(`/public/images/teammembers/erik.jpg`).default.src} height="300px" className="member" />
               <h3>Erik Ma</h3>
-              <p className="description">Co-Captain:</p>
+              <p className="description">Co-Captain</p>
               <p className="description">CAD / Mechanical / Programming / Drive</p>
               <br />
               <p style={{fontWeight: 300}}>Hey there! My name is Erik and I am a senior at Interlake High School. This is my 3rd year within FIRST (FTC/FRC) and I have a big passion for engineering. This year as co-captain, I manage the overall architectural design of our robot (mechanical, programming, and CAD), lead the drive team, and mentor students/teams in robotics. In my free time, I love spending time with friends, hosting events, and playing ultimate frisbee!</p>

@@ -53,6 +53,7 @@ export default function Events() {
                     <li>Gravitational Waves in Astronomy</li>
                     <li>AI Applications in Transportation Engineering</li>
                     <li>Connected Automated Vehicles</li>
+                    <li>Leveraging Scale Designs for Connected Automated Vehicles Research</li>
                   </ul>
                 </>   
               ) : (
@@ -130,6 +131,11 @@ export default function Events() {
                   <tr style={{fontWeight: 300}}>
                     <td>Connected Automated Vehicles</td>
                     <td>Xiaopeng (Shaw) Li</td>
+                  </tr>
+
+                  <tr style={{fontWeight: 300}}>
+                    <td><td>Leveraging Scale Designs for Connected Automated Vehicles Research</td></td>
+                    <td>Osama Osman</td>
                   </tr>
                 </table>
               )}

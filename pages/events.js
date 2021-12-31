@@ -134,7 +134,7 @@ export default function Events() {
                   </tr>
 
                   <tr style={{fontWeight: 300}}>
-                    <td><td>Leveraging Scale Designs for Connected Automated Vehicles Research</td></td>
+                    <td>Leveraging Scale Designs for Connected Automated Vehicles Research</td>
                     <td>Osama Osman</td>
                   </tr>
                 </table>

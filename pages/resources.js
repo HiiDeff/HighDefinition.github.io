@@ -49,6 +49,13 @@ export default function Resources() {
 
               <a href="https://www.youtube.com/playlist?list=PLUHAVG5dAdrM8x77VdUg-EOhq5HwJ2RLn" className="button">Watch Now</a>
             </div>
+
+            <div className="grid-item">
+              <h4>FTC Scout</h4>
+              <p>FTC Scout is a resource for FTC teams to use to scout throughout the season. This incorporates pre-match and during-match scouting while allowing you to view the capabilities of other teams on the platform. Check it out now!</p>
+
+              <a href="https://ftcscout.herokuapp.com/" className="button">Scout Now</a>
+            </div>
           </div>
 
         <div className="section" style={{backgroundColor: '#aaaaa'}}>

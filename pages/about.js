@@ -3,12 +3,14 @@ import Top from '../components/top';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
+import Banner from '../components/banner';
 
 export default function About() {
   return (
     <>
       <Top name="About" />
       <NavBar name="About" />
+      <Banner />
       <Header title="About" description="Learn about the High Definition Team!" />
       
       <div className="About">

@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTrophy } from '@fortawesome/free-solid-svg-icons';
 import UpcomingEvents from '../components/upcomingevents';
 import Link from 'next/link';
+import Banner from '../components/banner';
 
 export default function Index() {
   const photos1 = ['IMG_4087.jpg', 'IMG_4089.jpg', 'IMG_4090.jpg', 'IMG_4091.jpg', 'IMG_4889.jpg', 'img1.jpg', 'img7.jpg', 'img8.jpg', 'img12.jpg'];
@@ -18,6 +19,7 @@ export default function Index() {
     <>
       <Top name="Home" />
       <NavBar name="Home" />
+      <Banner />
       <Header title="High Definition" description="FTC Team 18225" />
       
       <div className="Index">

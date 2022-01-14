@@ -3,12 +3,14 @@ import Top from '../components/top';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
+import Banner from '../components/banner';
 
 export default function Seasons() {
   return (
     <>
       <Top name="Seasons" />
       <NavBar name="Seasons" />
+      <Banner />
       <Header title="Seasons" description="Check out High Definition work from different seasons." />
       
       <div className="Seasons">

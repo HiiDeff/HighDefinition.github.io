@@ -7,6 +7,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLeaf, faTrophy } from '@fortawesome/free-solid-svg-icons';
 import UpcomingEvents from '../components/upcomingevents';
 import React, { useEffect, useState } from 'react';
+import Banner from '../components/banner';
 
 export default function Events() {
   const [width, setWidth] = useState(0);

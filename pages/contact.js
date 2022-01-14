@@ -3,6 +3,7 @@ import Top from '../components/top';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import {useState} from 'react';
+import Banner from '../components/banner';
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -45,6 +46,7 @@ export default function Contact() {
     <>
       <Top name="Contact" />
       <NavBar name="Contact" />
+      <Banner />
       <Header title="Contact" description="Want to reach us? Contact us below!" />
       
       <div className="Contact">

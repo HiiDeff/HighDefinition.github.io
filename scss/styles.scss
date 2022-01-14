@@ -125,6 +125,44 @@ html, body {
     }
 }
 
+.Banner {
+    .banner-bar {
+        background-color: $highlightpurple;
+        color: $purple;
+        margin: 0;
+        padding: 5px;
+        text-align: center;
+        font-weight: 400;
+        font-size: 16px;
+        display: block;
+    }
+
+    .banner-x {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .banner-left {
+        width: 97%;
+    }
+
+    .banner-right {
+        width: 1%;
+    }
+
+    @media all and (max-width: 900px) {
+        .banner-left {
+            width: 87%;
+            margin-left: 5px;
+            margin-right: 15px;
+        }
+        .banner-right {
+            margin-right: 10px;
+        }
+    }
+}
+
 .Header {
     height: 70vh;
     width: 100%;

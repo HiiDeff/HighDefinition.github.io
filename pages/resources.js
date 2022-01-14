@@ -4,12 +4,14 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
 import Link from 'next/link';
+import Banner from '../components/banner';
 
 export default function Resources() {
   return (
     <>
       <Top name="Resources" />
       <NavBar name="Resources" />
+      <Banner />
       <Header title="Resources" description="Here are some resources for FLL and FTC Teams!" />
       
       <div className="Resources">

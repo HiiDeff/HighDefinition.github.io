@@ -126,6 +126,17 @@ html, body {
 }
 
 .Banner {
+    .col {
+        float: left !important;
+        width: 50%;
+    }
+    
+    .row::after {
+        clear: both !important;
+        display: table !important;
+        content: "" !important;
+    }
+
     .banner-bar {
         background-color: $highlightpurple;
         color: $purple;
@@ -136,21 +147,21 @@ html, body {
         font-size: 16px;
         display: block;
     }
-
+    
     .banner-x {
         background: none;
         border: none;
         cursor: pointer;
     }
-
+    
     .banner-left {
         width: 97%;
     }
-
+    
     .banner-right {
         width: 1%;
     }
-
+    
     @media all and (max-width: 900px) {
         .banner-left {
             width: 87%;
@@ -160,7 +171,7 @@ html, body {
         .banner-right {
             margin-right: 10px;
         }
-    }
+    }    
 }
 
 .Header {

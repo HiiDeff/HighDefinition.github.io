@@ -159,7 +159,13 @@ html, body {
     }
     
     .banner-right {
-        width: 1%;
+        width: 15px;
+    }
+
+    p { 
+        margin: 0;
+        padding: 0;
+        padding-top: 5px;
     }
     
     @media all and (max-width: 900px) {

@@ -43,6 +43,12 @@ export default function Accomplishments() {
           </div>
           <h4>Interleague Awards</h4>
           <div className="award-grid grid">
+            <div className="grid-item">Inspire Award Winner 2022</div>
+            <div className="grid-item">Finalist Alliance Captain 2022</div>
+            <div className="grid-item">Control Award Finalist 2022</div>
+            <div className="grid-item">Motivate Award Finalist 2022</div>
+            <div className="grid-item">Think Award Finalist 2022</div>
+
             <div className="grid-item">Inspire Award Finalist 2021</div>
             <div className="grid-item">Top-Ranked Team 2021</div>
             <div className="grid-item">Collins Aerospace Innovate Award 2021</div>

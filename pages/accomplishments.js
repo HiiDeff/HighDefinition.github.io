@@ -45,6 +45,7 @@ export default function Accomplishments() {
           <div className="award-grid grid">
             <div className="grid-item">Inspire Award Winner 2022</div>
             <div className="grid-item">Finalist Alliance Captain 2022</div>
+            <div className="grid-item">Design Award Finalist 2022</div>
             <div className="grid-item">Control Award Finalist 2022</div>
             <div className="grid-item">Motivate Award Finalist 2022</div>
             <div className="grid-item">Think Award Finalist 2022</div>

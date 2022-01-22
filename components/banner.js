@@ -28,7 +28,7 @@ export default function Banner() {
         <div className="Banner">
             <div className="row banner-bar" style={{textAlign: 'center'}} id="banner1">
                 <div className="col banner-left">
-                    <p>Sign up for our STEM Advocacy Training Day or Washington Tech Invitationals <Link style={{color: 'rgb(180, 0, 180)'}} target="_blank" href="/events">here!</Link></p>
+                    <p>Sign up for Washington Tech Invitationals <Link style={{color: 'rgb(180, 0, 180)'}} target="_blank" href="/events">here!</Link></p>
                 </div>
 
                 <div className="col banner-right">

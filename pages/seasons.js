@@ -30,6 +30,11 @@ export default function Seasons() {
               <h4>League 2 Robot</h4>
               <img src={require(`/public/images/seasons/freightfrenzy/league2robot.png`).default.src} width="80%" />
             </div>
+
+            <div className="grid-item">
+              <h4>Interleague</h4>
+              <img src={require(`/public/images/seasons/freightfrenzy/interleague.png`).default.src} width="80%" />
+            </div>
           </div>
         </div>
 

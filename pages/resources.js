@@ -78,12 +78,21 @@ export default function Resources() {
           <Title name="Store" />
           <div className="resource-grid grid">
             <div className="grid-item">
-              <h4>BL-300-2M Slide (with 2 pulley modules) - From BWTLink LLC</h4>
+              <h4>BL-300-2M Slide (with 2 pulley modules) - From BWTLink</h4>
               <img src={require(`/public/images/DrawerSlides.png`).default.src} width="60%" />
               <br />
               <br />
 
               <a href="https://www.bwtlink.com/ProductItem.aspx?PID=2" className="button">Buy Now</a>
+            </div>
+
+            <div className="grid-item">
+              <h4>M4-6-5.5 Slide Stack Screw - From BWTLink</h4>
+              <img src={require(`/public/images/screws.jpg`).default.src} width="54%" />
+              <br />
+              <br />
+
+              <a href="https://www.bwtlink.com/ProductItem.aspx?PID=4" className="button">Buy Now</a>
             </div>
           </div>
         </div>

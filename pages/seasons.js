@@ -35,6 +35,11 @@ export default function Seasons() {
               <h4>Interleague</h4>
               <img src={require(`/public/images/seasons/freightfrenzy/interleague.png`).default.src} width="80%" />
             </div>
+
+            <div className="grid-item">
+              <h4>States</h4>
+              <img src={require(`/public/images/seasons/freightfrenzy/states.jpg`).default.src} width="80%" />
+            </div>
           </div>
         </div>
 

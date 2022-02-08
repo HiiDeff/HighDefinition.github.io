@@ -8,7 +8,7 @@ export default function UpcomingEvents() {
       <div className="section">
         <Title name="Upcoming or Current Events" />
         <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center', flexDirection: 'column'}}>
-          <span style={{display: 'flex', alignItems: 'center'}}><FontAwesomeIcon icon={faTrophy} width="20" height="20" className="icon"/> &nbsp; &nbsp; <p style={{fontWeight: 300}}><b>States</b>: February 6th</p></span>
+          <span style={{display: 'flex', alignItems: 'center'}}><FontAwesomeIcon icon={faTrophy} width="20" height="20" className="icon"/> &nbsp; &nbsp; <p style={{fontWeight: 300}}><b>World Championship</b>: April</p></span>
         </div>
       </div>
     </>

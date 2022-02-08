@@ -55,6 +55,8 @@ export default function Events() {
                     <li>AI Applications in Transportation Engineering</li>
                     <li>Connected Automated Vehicles</li>
                     <li>Leveraging Scale Designs for Connected Automated Vehicles Research</li>
+                    <li>Artificial Intelligence and Robotics</li>
+                    <li>Science & Education: Indoors and Out</li>
                   </ul>
                 </>   
               ) : (
@@ -138,6 +140,16 @@ export default function Events() {
                     <td>Leveraging Scale Designs for Connected Automated Vehicles Research</td>
                     <td>Osama Osman</td>
                   </tr>
+
+                  <tr style={{fontWeight: 300}}>
+                    <td>Artificial Intelligence and Robotics</td>
+                    <td>Anne Kao</td>
+                  </tr>
+
+                  <tr style={{fontWeight: 300}}>
+                    <td>Science & Education: Indoors and Out</td>
+                    <td>Laura LeBlanc</td>
+                  </tr>
                 </table>
               )}
             </div>
@@ -145,6 +157,7 @@ export default function Events() {
             <div className="eventsection">Python Workshop</div>
             <div className="eventsection">Virtual FTC Scrimmage</div>
             <div className="eventsection">Chipotle Fundraiser</div>
+            <div className="eventsection">Washington Tech Invitationals (Co-Hosted with Saints Robotics)</div>
           </div>
         </div>
       </div>

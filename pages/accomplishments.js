@@ -16,15 +16,15 @@ export default function Accomplishments() {
       <div className="Accomplishments">
         <div className="section">
           <Title name="Impact" />
-          <p>Our team has impacted <b>1000</b> people through <b>157</b> hours of outreach.</p>
-          <p>We have mentored <b>20+</b> FIRST teams</p>
+          <p>Since our rookie season, our team has impacted <b>2000</b> people by mentoring <b>30+</b> FIRST teams, starting <b>5</b> FIRST teams, and awarding <b>$1000</b> in grants to rookie teams.</p>
 
           <br />
 
           <p>Our most impactful outreaches include the following:</p>
+          <p className="light">STEM Advocacy</p>
+          <p className="light">Washington Tech Invitationals</p>
+          <p className="light">FIRST team mentoring & resources</p>
           <p className="light">Connecting with Professionals Series</p>
-          <p className="light">Hacktable CAD Workshop</p>
-          <p className="light">Virtual FTC Scrimmage</p>
         </div>
 
         <div className="section">

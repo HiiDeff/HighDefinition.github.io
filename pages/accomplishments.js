@@ -4,6 +4,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
 import Banner from '../components/banner';
+import Link from 'next/link';
 
 export default function Accomplishments() {
   return (
@@ -21,10 +22,10 @@ export default function Accomplishments() {
           <br />
 
           <p>Our most impactful outreaches include the following:</p>
-          <p className="light">STEM Advocacy</p>
+          <p className="light"><a href="https://advocacy.everstem.org/" target="_blank" style={{textDecoration: 'none'}}>STEM Advocacy</a></p>
           <p className="light">Washington Tech Invitationals</p>
-          <p className="light">FIRST team mentoring & resources</p>
-          <p className="light">Connecting with Professionals Series</p>
+          <p className="light"><Link href="/resources"><p style={{textDecoration: 'none', cursor: 'pointer'}}>FIRST Team Resources</p></Link></p>
+          <p className="light"><a href="https://www.youtube.com/c/EverstemEducation" target="_blank"  style={{textDecoration: 'none'}}>Connecting with Professionals Series</a></p>
         </div>
 
         <div className="section">

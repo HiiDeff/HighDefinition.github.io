@@ -62,6 +62,11 @@ export default function About() {
               <img src={require(`/public/images/sponsors/sendcutsend.png`).default.src} height="200px" className="member" />
               <h3>SendCutSend</h3>
             </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/sponsors/tmobile.jpg`).default.src} height="200px" className="member" />
+              <h3>T-Mobile</h3>
+            </div>
           </div>
         </div>
 

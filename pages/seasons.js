@@ -39,6 +39,8 @@ export default function Seasons() {
             <div className="grid-item">
               <h4>States</h4>
               <img src={require(`/public/images/seasons/freightfrenzy/states.jpg`).default.src} width="80%" />
+              <br /><br />
+              <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=UlNMlCkZbEQ" target="_blank">Control Award Submission Video</a></div>
             </div>
           </div>
         </div>

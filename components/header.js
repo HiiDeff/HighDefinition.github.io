@@ -1,6 +1,9 @@
 import React, { useEffect, useState } from 'react';
+import Top from './top';
+import NavBar from './navbar';
+import Banner from './banner';
 
-export default function Header({title, description}) {
+export default function Header({title, description, page}) {
   const [image, setImage] = useState("");
 
   useEffect(() => {
@@ -16,6 +19,10 @@ export default function Header({title, description}) {
 
   return (
     <>
+      <Top name={page} />
+      <NavBar name={page} />
+      <Banner />
+
       <div className="Header" style={{ 
         backgroundImage: `url(${process.env.PUBLIC_URL + image})`,
         backgroundRepeat: 'no-repeat',

@@ -24,9 +24,7 @@ export default function Events() {
 
   return (
     <>
-      <Top name="Events" />
-      <NavBar name="Events" />
-      <Header title="Events" description="High Definition hosts many events throughout the year. Become a part of our community!" />
+      <Header title="Events" page="Events" description="High Definition hosts many events throughout the year. Become a part of our community!" />
       
       <div className="Events">
         <UpcomingEvents />

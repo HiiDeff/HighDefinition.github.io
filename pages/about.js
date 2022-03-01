@@ -8,10 +8,7 @@ import Banner from '../components/banner';
 export default function About() {
   return (
     <>
-      <Top name="About" />
-      <NavBar name="About" />
-      <Banner />
-      <Header title="About" description="Learn about the High Definition Team!" />
+      <Header title="About" page="About" description="Learn about the High Definition Team!" />
       
       <div className="About">
         <div className="section">

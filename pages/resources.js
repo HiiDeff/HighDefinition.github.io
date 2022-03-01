@@ -9,10 +9,7 @@ import Banner from '../components/banner';
 export default function Resources() {
   return (
     <>
-      <Top name="Resources" />
-      <NavBar name="Resources" />
-      <Banner />
-      <Header title="Resources" description="Here are some resources for FLL and FTC Teams!" />
+      <Header title="Resources" description="Here are some resources for FLL and FTC Teams!" page="Resources" />
       
       <div className="Resources">
         <div className="section">

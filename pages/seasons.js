@@ -8,10 +8,7 @@ import Banner from '../components/banner';
 export default function Seasons() {
   return (
     <>
-      <Top name="Seasons" />
-      <NavBar name="Seasons" />
-      <Banner />
-      <Header title="Seasons" description="Check out High Definition work from different seasons." />
+      <Header title="Seasons" description="Check out High Definition work from different seasons." page="Seasons" />
       
       <div className="Seasons">
         <div className="section">

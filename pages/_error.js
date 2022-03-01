@@ -8,9 +8,7 @@ import Link from 'next/link';
 export default function Error() {
   return (
     <>
-      <Top name="Error" />
-      <NavBar name="Error" />
-      <Header title="Error" description="Our wires have been cut short here! Try going to another page." />
+      <Header title="Error" page="Error" description="Our wires have been cut short here! Try going to another page." />
       
       <div className="Error">
         <div className="section">

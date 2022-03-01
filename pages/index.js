@@ -1,5 +1,3 @@
-import NavBar from '../components/navbar';
-import Top from '../components/top';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
@@ -8,6 +6,7 @@ import { faTrophy } from '@fortawesome/free-solid-svg-icons';
 import UpcomingEvents from '../components/upcomingevents';
 import Link from 'next/link';
 import Banner from '../components/banner';
+import NavBar from '../components/navbar';
 
 export default function Index() {
   const photos1 = ['IMG_4087.jpg', 'IMG_4089.jpg', 'IMG_4090.jpg', 'IMG_4091.jpg', 'IMG_4889.jpg', 'img1.jpg', 'img7.jpg', 'img8.jpg', 'img12.jpg'];
@@ -17,10 +16,27 @@ export default function Index() {
 
   return (
     <>
-      <Top name="Home" />
       <NavBar name="Home" />
-      <Banner />
-      <Header title="High Definition" description="FTC Team 18225" />
+      <div className="coolHeader" style={{ 
+        backgroundImage: `url(${process.env.PUBLIC_URL + "/images/coolstaterobotcadphoto.jpg"})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'top right',
+        backgroundAttachment: 'fixed',
+        backgroundSize: 'cover',
+      }}>
+        <div className="sidepanel">
+          <div style={{
+            fontFamily: 'Roboto',
+            fontWeight: 400,
+            color: 'white'
+          }}>
+            <h1 style={{marginBottom: 5}}>HIGH DEFINITION</h1>
+            <p style={{margin: 0, padding: 0, fontSize: 25}}>FTC 18225</p>
+            <p style={{margin: 0, padding: 0}}><i>Reaching High. Defining Futures.</i></p>
+          </div>
+        </div>
+      </div>
+      {/*<Header title="High Definition" description="FTC Team 18225" page="Home" />*/}
       
       <div className="Index">
         <div className="section">

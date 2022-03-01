@@ -9,10 +9,7 @@ import Link from 'next/link';
 export default function Accomplishments() {
   return (
     <>
-      <Top name="Accomplishments" />
-      <NavBar name="Accomplishments" />
-      <Banner />
-      <Header title="Accomplishments" description="High Definitions have made tremendous contributions. Check them out!" />
+      <Header title="Accomplishments" page="Accomplishments" description="High Definitions have made tremendous contributions. Check them out!" />
       
       <div className="Accomplishments">
         <div className="section">

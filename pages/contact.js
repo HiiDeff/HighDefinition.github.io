@@ -44,10 +44,7 @@ export default function Contact() {
 
   return (
     <>
-      <Top name="Contact" />
-      <NavBar name="Contact" />
-      <Banner />
-      <Header title="Contact" description="Want to reach us? Contact us below!" />
+      <Header title="Contact" page="Contact" description="Want to reach us? Contact us below!" />
       
       <div className="Contact">
         <div className="middle">

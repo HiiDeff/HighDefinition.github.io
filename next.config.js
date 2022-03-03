@@ -20,6 +20,12 @@ module.exports = {
   }),
   assetPrefix: assetPrefix,
   basePath: assetPrefix,
+  rewrites: async () => [
+    {
+      source: "/public/ftc-programming-guide-beginner.html",
+      destination: "/pages/api/myfile.js",
+    },
+  ],
   webpack: config => {
     config.plugins.push(
       new webpack.DefinePlugin({

@@ -48,6 +48,13 @@ html, body {
     }
 }
 
+iframe {
+    width: 70%;
+    height: 95vh;
+    border: 1px solid black;
+    outline: 0;
+}
+
 /*grid*/
 
 .grid {

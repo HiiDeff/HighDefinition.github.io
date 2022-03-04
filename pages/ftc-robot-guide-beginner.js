@@ -1,8 +1,8 @@
-import Header from '../../components/header';
-import Footer from '../../components/footer';
+import Header from '../components/header';
+import Footer from '../components/footer';
 import {useState} from 'react';
 
-export default function ProgrammingGuide() {
+export default function RobotGuide() {
   return (
     <>
         <h1 style={{textAlign: 'center', fontFamily: 'Roboto'}}>FIRST FTC Mechanical Guide for Beginners</h1>

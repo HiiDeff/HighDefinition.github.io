@@ -17,15 +17,11 @@ module.exports = {
     "/resources": { page: "/resources" },
     "/contact": { page: "/contact" },
     "/seasons": { page: "/seasons" },
+    "/guides/ftc-programming-guide": { page: "/guides/ftc-programming-guide" },
+    "/guides/ftc-robot-guide": { page: "/guides/ftc-robot-guide" },
   }),
   assetPrefix: assetPrefix,
   basePath: assetPrefix,
-  rewrites: async () => [
-    {
-      source: "/public/ftc-programming-guide-beginner.html",
-      destination: "/pages/api/myfile.js",
-    },
-  ],
   webpack: config => {
     config.plugins.push(
       new webpack.DefinePlugin({

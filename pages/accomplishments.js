@@ -9,7 +9,7 @@ import Link from 'next/link';
 export default function Accomplishments() {
   return (
     <>
-      <Header title="Accomplishments" page="Accomplishments" description="High Definitions have made tremendous contributions. Check them out!" />
+      <Header title="Accomplishments" page="Accomplishments" description="Check out the tremendous contributions from FTC 18225" />
       
       <div className="Accomplishments">
         <div className="section">

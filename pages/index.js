@@ -17,27 +17,7 @@ export default function Index() {
 
   return (
     <>
-      <Top name="Home" />
-      <div className="coolHeader" style={{
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'top right',
-        backgroundAttachment: 'fixed',
-        backgroundSize: 'cover',
-      }}>
-        <NavBar name="Home" />
-        <div className="sidepanel">
-          <div style={{
-            fontFamily: 'Roboto',
-            fontWeight: 400,
-            color: 'white'
-          }} className="floating">
-            <h1 style={{marginBottom: 5}}>HIGH DEFINITION</h1>
-            <p style={{margin: 0, padding: 0, fontSize: 25}}>FTC 18225</p>
-            <p style={{margin: 0, padding: 0}}><i>Reaching High. Defining Futures.</i></p>
-          </div>
-        </div>
-      </div>
-      {/*<Header title="High Definition" description="FTC Team 18225" page="Home" />*/}
+      <Header title="HIGH DEFINITION" description="FTC Team 18225" page="Home" />
       
       <div className="Index">
         <div className="section">

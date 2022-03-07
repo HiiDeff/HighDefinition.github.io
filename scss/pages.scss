@@ -1,20 +1,21 @@
 @import 'vars';
 
 .coolHeader {
+    background: linear-gradient(to bottom,rgba(0,0,0,1), rgba(0,0,0, 0.5)), url("/images/coolstaterobotcadphoto.jpg");
     height: 100vh;
     width: 100%;
     padding: 0;
 
     .sidepanel {
-        background-color: rgba(0, 0, 0, 0.692);
-        height: 96.5vh;
-        width: 60%;
         display: flex;
-        padding: 20px;
+        position: absolute;
+        width: 60%;
         padding-left: 40px;
         margin-bottom: 0;
         padding-bottom: 0;
         align-items: center;
+        height: 100vh;
+        top: 0;
 
         h1 {
             font-family: 'Roboto';

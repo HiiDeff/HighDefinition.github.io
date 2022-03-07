@@ -7,6 +7,7 @@ import UpcomingEvents from '../components/upcomingevents';
 import Link from 'next/link';
 import Banner from '../components/banner';
 import NavBar from '../components/navbar';
+import Top from '../components/top';
 
 export default function Index() {
   const photos1 = ['IMG_4087.jpg', 'IMG_4089.jpg', 'IMG_4090.jpg', 'IMG_4091.jpg', 'IMG_4889.jpg', 'img1.jpg', 'img7.jpg', 'img8.jpg', 'img12.jpg'];
@@ -16,20 +17,20 @@ export default function Index() {
 
   return (
     <>
-      <NavBar name="Home" />
-      <div className="coolHeader" style={{ 
-        backgroundImage: `url(${process.env.PUBLIC_URL + "/images/coolstaterobotcadphoto.jpg"})`,
+      <Top name="Home" />
+      <div className="coolHeader" style={{
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'top right',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
       }}>
+        <NavBar name="Home" />
         <div className="sidepanel">
           <div style={{
             fontFamily: 'Roboto',
             fontWeight: 400,
             color: 'white'
-          }}>
+          }} className="floating">
             <h1 style={{marginBottom: 5}}>HIGH DEFINITION</h1>
             <p style={{margin: 0, padding: 0, fontSize: 25}}>FTC 18225</p>
             <p style={{margin: 0, padding: 0}}><i>Reaching High. Defining Futures.</i></p>

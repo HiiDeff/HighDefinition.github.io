@@ -56,6 +56,11 @@ export default function About() {
             </div>
 
             <div className="grid-item">
+              <img src={require(`/public/images/sponsors/mose.jpg`).default.src} height="200px" className="member" />
+              <h3>MOSE</h3>
+            </div>
+
+            <div className="grid-item">
               <img src={require(`/public/images/sponsors/sendcutsend.png`).default.src} height="200px" className="member" />
               <h3>SendCutSend</h3>
             </div>

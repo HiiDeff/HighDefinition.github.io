@@ -7,6 +7,7 @@ export default function Header({title, description, page}) {
   const [image, setImage] = useState("");
 
   useEffect(() => {
+    console.log(title);
     window.addEventListener("resize", updateDimensions);
     updateDimensions();
     return () => window.removeEventListener("resize", updateDimensions);
@@ -25,9 +26,12 @@ export default function Header({title, description, page}) {
         backgroundPosition: 'top right',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
+        height: page == "Home" ? "100vh" : "80vh"
       }}>
         <NavBar name={page} />
-        <div className="sidepanel">
+        <div className="sidepanel" style={{
+          height: page == "Home" ? "70vh" : "45vh"
+        }}>
           <div style={{
             fontFamily: 'Roboto',
             fontWeight: 400,

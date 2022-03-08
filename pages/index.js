@@ -21,7 +21,7 @@ export default function Index() {
       
       <div className="Index">
         <div className="section">
-          <div className="row" style={{margin: 10, padding: 10, backgroundColor: '#ddd', borderRadius: 10}}>
+          <div className="row" style={{margin: 10, padding: 10, backgroundColor: '#333', borderRadius: 10}}>
             <div className="column" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
               <img src={require(`/public/images/TeamPicture.png`).default.src} width="80%" />
             </div>

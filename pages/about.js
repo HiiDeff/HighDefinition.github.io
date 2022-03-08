@@ -8,7 +8,7 @@ import Banner from '../components/banner';
 export default function About() {
   return (
     <>
-      <Header title="About" page="About" description="Learn about the High Definition Team!" />
+      <Header title="About" page="About" description="Learn about High Definition" />
       
       <div className="About">
         <div className="section">

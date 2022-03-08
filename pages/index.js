@@ -36,21 +36,28 @@ export default function Index() {
 
         <div className="section">
           <Title name="About FIRST" />
-          <div className="row">
-            <div className="column">
-              <p style={{fontWeight: 300, marginTop: 0}}>"FIRST® inspires young people to be science and technology leaders and innovators by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership" (<a href="https://www.firstinspires.org/">FIRST Inspires</a>).</p>
+          <p style={{fontWeight: 300, marginTop: 0}}>"FIRST® inspires young people to be science and technology leaders and innovators by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership" (<a href="https://www.firstinspires.org/">FIRST Inspires</a>).</p>
 
-              <p>FIRST consists of 3 programs:</p>
-              <ul style={{fontWeight: 300, textAlign: 'left'}}>
-                <li><a href="https://www.firstinspires.org/robotics/fll">FIRST Lego League:</a> "FIRST LEGO League guides youth through STEM learning and exploration at an early age. From Discover, to Explore and then to Challenge, students will understand the basics of STEM and apply their skills in an exciting competition while gaining productive learning habits, confidence, and teamwork skills along the way" (FIRST Lego League).</li>
-                <br />
-                <li><a href="https://www.firstinspires.org/robotics/ftc">FIRST Tech Challenge:</a> "FIRST Tech Challenge students learn to think like engineers. Teams design, build, and code robots to compete in an alliance format against other teams. Robots are built from a reusable platform, powered by Android technology, and can be coded using a variety of levels of Java-based programming" (FIRST Tech Challenge).</li>
-                <br />
-                <li><a href="https://www.firstinspires.org/robotics/frc">FIRST Robotics Challenge:</a> "Under strict rules and limited time and resources, teams of high school students are challenged to build industrial-size robots to play a difficult field game in alliance with other teams, while also fundraising to meet their goals, designing a team 'brand,' and advancing respect and appreciation for STEM within the local community" (FIRST Robotics Challenge).</li>
-              </ul>
+          <p>FIRST consists of 3 programs:</p>
+
+          <div className="firstrow">
+            <div className="col">
+              <a href="https://www.firstinspires.org/robotics/fll">
+                <h3>FIRST Lego League</h3>
+                <p>"FIRST LEGO League guides youth through STEM learning and exploration at an early age. From Discover, to Explore and then to Challenge, students will understand the basics of STEM and apply their skills in an exciting competition while gaining productive learning habits, confidence, and teamwork skills along the way" (FIRST Lego League).</p>
+              </a>
             </div>
-            <div className="column" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-              <img src={require(`/public/images/firstpathway.png`).default.src} width="100%" />
+            <div className="col">
+              <a href="https://www.firstinspires.org/robotics/ftc">
+                <h3>FIRST Tech Challenge</h3>
+                <p>"FIRST Tech Challenge students learn to think like engineers. Teams design, build, and code robots to compete in an alliance format against other teams. Robots are built from a reusable platform, powered by Android technology, and can be coded using a variety of levels of Java-based programming" (FIRST Tech Challenge).</p>
+              </a>
+            </div>
+            <div className="col">
+              <a href="https://www.firstinspires.org/robotics/frc">
+                <h3>FIRST Robotics Competition</h3>
+                <p>"Under strict rules and limited time and resources, teams of high school students are challenged to build industrial-size robots to play a difficult field game in alliance with other teams, while also fundraising to meet their goals, designing a team 'brand,' and advancing respect and appreciation for STEM within the local community" (FIRST Robotics Challenge).</p>
+              </a>
             </div>
           </div>
         </div>

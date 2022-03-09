@@ -114,6 +114,20 @@ iframe {
     padding: 10px;
 }
 
+h1 {
+    animation: glowalt 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glowalt {
+    from {
+      text-shadow: 0 0 1px $purple, 0 0 2px $purple, 0 0 3px $purple, 0 0 5px $purple, 0 0 6px $purple, 0 0 7px $purple, 0 0 8px $purple;
+    }
+    
+    to {
+        text-shadow: 0 0 1px $purple, 0 0 2px $purple, 0 0 3px $purple, 0 0 5px $purple, 0 0 6px $purple, 0 0 7px $purple, 0 0 8px $purple;
+    }
+}
+
 /*components*/
 
 .Tabs {

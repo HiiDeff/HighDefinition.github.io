@@ -4,6 +4,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
 import Banner from '../components/banner';
+import FadeInSection from '../components/fadeinsection';
 
 export default function About() {
   return (
@@ -11,7 +12,7 @@ export default function About() {
       <Header title="About" page="About" description="Learn about High Definition" />
       
       <div className="About">
-        <div className="section">
+        <FadeInSection><div className="section">
           <Title name="Sponsors" />
           <p>Thank you for supporting our team and helping us learn.</p>
           <div className="person-grid grid">
@@ -70,9 +71,9 @@ export default function About() {
               <h3>T-Mobile</h3>
             </div>
           </div>
-        </div>
+        </div></FadeInSection>
 
-        <div className="section">
+        <FadeInSection><div className="section">
           <Title name="Coaches" />
           <div className="person-grid grid">
            <div className="grid-item">
@@ -96,9 +97,9 @@ export default function About() {
               <p style={{fontWeight: 300}}>Hi there, my name is Mark! I work for King County DJA and have been a FTC mentor/coach for 3 years. Supporting STEM is one of my biggest passions, and in FIRST I focus on coaching the mechanical and CAD side of things. I strive to push students to think creatively while learning important knowledge/skills such as problem analysis and resolution.</p>
             </div>
           </div>
-        </div>
+        </div></FadeInSection>
 
-        <div className="section">
+        <FadeInSection><div className="section">
           <Title name="Mentors" />
           <div className="person-grid grid">
             <div className="grid-item">
@@ -121,9 +122,9 @@ export default function About() {
               <h3>Yinhai Wang</h3>
             </div>
           </div>
-        </div>
+        </div></FadeInSection>
 
-        <div className="section">
+        <FadeInSection><div className="section">
           <Title name="About the Team" />
           <div className="person-grid grid">
             <div className="grid-item">
@@ -243,7 +244,7 @@ export default function About() {
               <p style={{fontWeight: 300}}>Hi, I'm Rohit Venkatesan, an 8th grader, currently going to evergreen middle school. I have 1 past year of experience with FIRST(FLL) and two years of experience with VEX(IQ). My current hobbies include reading, playing board games, and playing various instruments including piano, and several other percussion instruments.</p>
             </div>
           </div>
-        </div>
+        </div></FadeInSection>
       </div>
       
       <Footer />

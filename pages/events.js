@@ -8,6 +8,7 @@ import { faLeaf, faTrophy } from '@fortawesome/free-solid-svg-icons';
 import UpcomingEvents from '../components/upcomingevents';
 import React, { useEffect, useState } from 'react';
 import Banner from '../components/banner';
+import FadeInSection from '../components/fadeinsection';
 
 export default function Events() {
   const [width, setWidth] = useState(0);
@@ -28,7 +29,7 @@ export default function Events() {
       
       <div className="Events">
         <UpcomingEvents />
-        <div className="section">
+        <FadeInSection><div className="section">
           <Title name="Past Events" />
           <div id="outreaches">
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/c/EverstemEducation" target="_blank">Watch Some of Our Past Events Here</a></div>
@@ -157,7 +158,7 @@ export default function Events() {
             <div className="eventsection">Chipotle Fundraiser</div>
             <div className="eventsection">Washington Tech Invitationals (Co-Hosted with Saints Robotics)</div>
           </div>
-        </div>
+        </div></FadeInSection>
       </div>
       
       <Footer />

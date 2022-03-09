@@ -5,6 +5,7 @@ import Footer from '../components/footer';
 import Title from '../components/title';
 import Link from 'next/link';
 import Banner from '../components/banner';
+import FadeInSection from '../components/fadeinsection';
 
 export default function Resources() {
   return (
@@ -12,7 +13,7 @@ export default function Resources() {
       <Header title="Resources" description="Here are some resources for FLL and FTC Teams!" page="Resources" />
       
       <div className="Resources">
-        <div className="section">
+        <FadeInSection><div className="section">
           <Title name="Resources" />
           <div className="resource-grid grid">
             <div className="grid-item">
@@ -70,8 +71,9 @@ export default function Resources() {
               <Link href="/documents/FTCPreMatchScouting.pdf" target="_blank" download id="ftcprematchdownloadbutton"><a className="button" id="ftcprematchscouting">Download Now</a></Link>
             </div>
           </div>
+        </div></FadeInSection>
 
-        <div className="section" style={{backgroundColor: '#aaaaa'}}>
+        <FadeInSection><div className="section" style={{backgroundColor: '#aaaaa'}}>
           <Title name="Store" />
           <div className="resource-grid grid">
             <div className="grid-item">
@@ -92,8 +94,7 @@ export default function Resources() {
               <a href="https://www.bwtlink.com/ProductItem.aspx?PID=4" className="button" id='bwtlinkscrews'>Buy Now</a>
             </div>
           </div>
-        </div>
-        </div>
+        </div></FadeInSection>
       </div>
       
       <Footer />

@@ -4,6 +4,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import {useState} from 'react';
 import Banner from '../components/banner';
+import FadeInSection from '../components/fadeinsection';
 
 export default function Contact() {
   const [name, setName] = useState("");

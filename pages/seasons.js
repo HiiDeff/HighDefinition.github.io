@@ -4,6 +4,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
 import Banner from '../components/banner';
+import FadeInSection from '../components/fadeinsection';
 
 export default function Seasons() {
   return (
@@ -11,7 +12,7 @@ export default function Seasons() {
       <Header title="Seasons" description="Check out High Definition work from different seasons." page="Seasons" />
       
       <div className="Seasons">
-        <div className="section">
+        <FadeInSection><div className="section">
           <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/channel/UC8ZLjVy_9Y56cfqpqarRoQg" target="_blank">Watch Our Team Videos</a></div>
 
           <Title name="Freight Frenzy: 2021 - 2022" />
@@ -40,9 +41,9 @@ export default function Seasons() {
               <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=UlNMlCkZbEQ" target="_blank">Control Award Submission Video</a></div>
             </div>
           </div>
-        </div>
+        </div></FadeInSection>
 
-        <div className="section">
+        <FadeInSection><div className="section">
           <Title name="Ultimate Goal: 2020 - 2021" />
           <div className="grid">
             <div className="grid-item">
@@ -60,7 +61,7 @@ export default function Seasons() {
               <img src={require(`/public/images/seasons/ultimategoal/interleagues.jpg`).default.src} width="80%" />
             </div>
           </div>
-        </div>
+        </div></FadeInSection>
       </div>
       
       <Footer />

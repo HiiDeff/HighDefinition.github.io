@@ -5,6 +5,7 @@ import Footer from '../components/footer';
 import Title from '../components/title';
 import Banner from '../components/banner';
 import Link from 'next/link';
+import FadeInSection from '../components/fadeinsection';
 
 export default function Accomplishments() {
   return (
@@ -12,7 +13,7 @@ export default function Accomplishments() {
       <Header title="Accomplishments" page="Accomplishments" description="Check out the tremendous contributions from FTC 18225" />
       
       <div className="Accomplishments">
-        <div className="section">
+        <FadeInSection><div className="section">
           <Title name="Impact" />
           <p>Since our rookie season, our team has impacted <b>2000</b> people by mentoring <b>30+</b> FIRST teams, starting <b>5</b> FIRST teams, and awarding <b>$1000</b> in grants to rookie teams.</p>
 
@@ -23,9 +24,9 @@ export default function Accomplishments() {
           <p className="light">Washington Tech Invitationals</p>
           <p className="light"><Link href="/resources"><p style={{textDecoration: 'none', cursor: 'pointer'}}>FIRST Team Resources</p></Link></p>
           <p className="light"><a href="https://www.youtube.com/c/EverstemEducation" target="_blank"  style={{textDecoration: 'none', color: 'white'}}>Connecting with Professionals Series</a></p>
-        </div>
+        </div></FadeInSection>
 
-        <div className="section">
+        <FadeInSection><div className="section">
           <Title name="Awards" />
           <h4>Global Awards</h4>
           <div className="award-grid grid">
@@ -56,7 +57,7 @@ export default function Accomplishments() {
             <div className="grid-item">Collins Aerospace Innovate Award 2021</div>
             <div className="grid-item">Connect Award 3rd Place 2021</div>
           </div>
-        </div>
+        </div></FadeInSection>
       </div>
       
       <Footer />

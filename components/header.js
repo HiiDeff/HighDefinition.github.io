@@ -26,11 +26,11 @@ export default function Header({title, description, page}) {
         backgroundPosition: 'top right',
         backgroundAttachment: 'fixed',
         backgroundSize: 'cover',
-        height: page == "Home" ? "100vh" : "80vh"
+        height: page == "Home" ? "100vh" : "60vh"
       }}>
         <NavBar name={page} />
         <div className="sidepanel" style={{
-          height: page == "Home" ? "70vh" : "45vh"
+          height: page == "Home" ? "70vh" : "25vh"
         }}>
           <div style={{
             fontFamily: 'Roboto',

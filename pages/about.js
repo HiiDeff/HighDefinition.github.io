@@ -7,71 +7,17 @@ import Banner from '../components/banner';
 import FadeInSection from '../components/fadeinsection';
 
 export default function About() {
+  const photos1 = ['IMG_4087.jpg', 'IMG_4089.jpg', 'IMG_4090.jpg', 'IMG_4091.jpg', 'IMG_4889.jpg', 'img1.jpg', 'img7.jpg', 'img8.jpg', 'img12.jpg'];
+  const photos2 = ['IMG_4094.jpg', 'IMG_4801.jpg', 'IMG_4803.jpg', 'IMG_5863.jpg', 'IMG_5867.jpg', 'img2.jpg', 'IMG_4888.jpg', 'img10.jpg', 'meeting.jpg'];
+  const photos3 = ['IMG_4885.jpg', 'IMG_4886.jpg', 'IMG_4887.jpg', 'img3.jpg', 'img6.jpg', 'img9.jpg', 'outreach1.jpg', 'img20.jpg'];
+  const photos4 = ['IMG_4804.jpg', 'IMG_4881.jpg', 'IMG_4883.jpg', 'IMG_4884.jpg', 'IMG_6818.jpg', 'img5.jpg', 'img4.jpg', 'img11.jpg', 'outreach2.jpg'];
+
   return (
     <>
       <Header title="About" page="About" description="Learn about High Definition" />
       
       <div className="About">
-        <FadeInSection><div className="section">
-          <Title name="Sponsors" />
-          <p>Thank you for supporting our team and helping us learn.</p>
-          <div className="person-grid grid">
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/boeing.png`).default.src} height="200px" className="member" />
-              <h3>Boeing</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/bwtlink2.jpg`).default.src} height="200px" className="member" />
-              <h3>BWT Link</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/chineseinstitute.jpg`).default.src} height="200px" className="member" />
-              <h3>Chinese Institute of Engineers</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/chipotle.png`).default.src} height="200px" className="member" />
-              <h3>Chipotle</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/everstem.jpg`).default.src} height="200px" className="member" />
-              <h3>Everstem Education</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/firstwa.jpg`).default.src} height="200px" className="member" />
-              <h3>FIRST Washington</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/google.png`).default.src} height="200px" className="member" />
-              <h3>Google</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/microsoft.png`).default.src} height="200px" className="member" />
-              <h3>Microsoft</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/mose.jpg`).default.src} height="200px" className="member" />
-              <h3>MOSE</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/sendcutsend.png`).default.src} height="200px" className="member" />
-              <h3>SendCutSend</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/tmobile.jpg`).default.src} height="200px" className="member" />
-              <h3>T-Mobile</h3>
-            </div>
-          </div>
-        </div></FadeInSection>
+        <div className="typewriter" style={{textAlign: 'center', fontFamily: 'Mali', fontSize: 30, flexDirection: 'row', paddingTop: 20, paddingBottom: 20}}>Our mission is to promote STEM and FIRST within our community to help establish the next generation of innovators!</div>
 
         <FadeInSection><div className="section">
           <Title name="Coaches" />
@@ -125,7 +71,7 @@ export default function About() {
         </div></FadeInSection>
 
         <FadeInSection><div className="section">
-          <Title name="About the Team" />
+          <Title name="The Team" />
           <div className="person-grid grid">
             <div className="grid-item">
               <img src={require(`/public/images/teammembers/albert.jpg`).default.src} height="300px" className="member" />
@@ -243,6 +189,16 @@ export default function About() {
               <br />
               <p style={{fontWeight: 300}}>Hi, I'm Rohit Venkatesan, an 8th grader, currently going to evergreen middle school. I have 1 past year of experience with FIRST(FLL) and two years of experience with VEX(IQ). My current hobbies include reading, playing board games, and playing various instruments including piano, and several other percussion instruments.</p>
             </div>
+          </div>
+        </div></FadeInSection>
+
+        <FadeInSection><div className="section">
+          <Title name="Photo Gallery" />
+          <div className="photogallery">
+            <div className="picrow"> { photos1.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
+            <div className="picrow"> { photos2.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
+            <div className="picrow"> { photos3.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
+            <div className="picrow"> { photos4.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
           </div>
         </div></FadeInSection>
       </div>

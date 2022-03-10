@@ -54,7 +54,7 @@ export default function Contact() {
               <h1 style={{padding: 0, margin: 0, marginBottom: 5}}>CONTACT US</h1>
               <p style={{padding: 0, margin: 0, fontWeight: 300}}>Email: <a href="mailto:ftc18225@gmail.com">ftc18225@gmail.com</a></p>
               <p style={{padding: 0, margin: 0, fontWeight: 300}}>Instagram: <a href="https://www.instagram.com/ftc18225/">@ftc18225</a></p>
-              <p style={{padding: 0, margin: 0, fontWeight: 300}}>Twitch: <a href="https://www.twitch.tv/hdefinition">@hdefinition</a></p>
+              <p style={{padding: 0, margin: 0, fontWeight: 300}}>Youtube <a href="https://www.youtube.com/channel/UC8ZLjVy_9Y56cfqpqarRoQg">Channel</a></p>
             </div>
 
             <form className="contact-form" action='https://api.staticforms.xyz/submit' method='POST' onSubmit={handleSubmit}>

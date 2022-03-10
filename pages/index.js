@@ -8,11 +8,6 @@ import Typewriter from 'typewriter-effect';
 import React from 'react';
 
 export default function Index() {
-  const photos1 = ['IMG_4087.jpg', 'IMG_4089.jpg', 'IMG_4090.jpg', 'IMG_4091.jpg', 'IMG_4889.jpg', 'img1.jpg', 'img7.jpg', 'img8.jpg', 'img12.jpg'];
-  const photos2 = ['IMG_4094.jpg', 'IMG_4801.jpg', 'IMG_4803.jpg', 'IMG_5863.jpg', 'IMG_5867.jpg', 'img2.jpg', 'IMG_4888.jpg', 'img10.jpg', 'meeting.jpg'];
-  const photos3 = ['IMG_4885.jpg', 'IMG_4886.jpg', 'IMG_4887.jpg', 'img3.jpg', 'img6.jpg', 'img9.jpg', 'outreach1.jpg', 'img20.jpg'];
-  const photos4 = ['IMG_4804.jpg', 'IMG_4881.jpg', 'IMG_4883.jpg', 'IMG_4884.jpg', 'IMG_6818.jpg', 'img5.jpg', 'img4.jpg', 'img11.jpg', 'outreach2.jpg'];
-
   return (
     <>
       <Header title="HIGH DEFINITION" description="FTC Team 18225" page="Home" />
@@ -86,15 +81,146 @@ export default function Index() {
           </div>
         </div></FadeInSection>
 
-        <UpcomingEvents />
+        <FadeInSection><div className="section">
+          <Title name="Impact" />
+          <p>Since our rookie season, our team has impacted <b>2000</b> people by mentoring <b>30+</b> FIRST teams, starting <b>5</b> FIRST teams, and awarding <b>$1000</b> in grants to rookie teams.</p>
+
+          <br />
+
+          <p>Our most impactful outreaches include the following:</p>
+          <p className="light"><a href="https://advocacy.everstem.org/" target="_blank" style={{textDecoration: 'none', color: 'white'}}>STEM Advocacy</a></p>
+          <p className="light">Washington Tech Invitationals</p>
+          <p className="light"><Link href="/resources"><p style={{textDecoration: 'none', cursor: 'pointer'}}>FIRST Team Resources</p></Link></p>
+          <p className="light"><a href="https://www.youtube.com/c/EverstemEducation" target="_blank"  style={{textDecoration: 'none', color: 'white'}}>Connecting with Professionals Series</a></p>
+        </div></FadeInSection>
 
         <FadeInSection><div className="section">
-          <Title name="Photo Gallery" />
-          <div className="photogallery">
-            <div className="picrow"> { photos1.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
-            <div className="picrow"> { photos2.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
-            <div className="picrow"> { photos3.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
-            <div className="picrow"> { photos4.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
+          <Title name="Team Highlights" />
+          <div className="teamhighlights grid">
+            <div className="col" style={{
+              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/controlthumbnail.jpg'})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'top center',
+              backgroundAttachment: 'fixed',
+              backgroundSize: 'cover'
+            }}>
+              <a href="https://www.youtube.com/watch?v=UlNMlCkZbEQ">
+                <h3>Washington State Control Award Video</h3>
+              </a>
+            </div>
+            <div className="col" style={{
+              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/VISIONARY.jpg'})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'top center',
+              backgroundAttachment: 'fixed',
+              backgroundSize: 'cover'
+            }}>
+              <a href="https://www.youtube.com/watch?v=VaWNdEoWUtE">
+                <h3>World Championship Robot Reveal Trailer</h3>
+              </a>
+            </div>
+            <div className="col" style={{
+              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/fundraiser.jpeg'})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'top center',
+              backgroundAttachment: 'fixed',
+              backgroundSize: 'cover'
+            }}>
+              <a href="https://gofund.me/7da764b4">
+                <h3>World Championship Robot Reveal Trailer</h3>
+              </a>
+            </div>
+            <div className="col" style={{
+              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/coolstaterobotcadphoto.jpg'})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'top center',
+              backgroundAttachment: 'fixed',
+              backgroundSize: 'cover'
+            }}>
+              <a href="https://tinyurl.com/FTC18225StateRobot">
+                <h3>Washington State Freight Frenzy Robot CAD</h3>
+              </a>
+            </div>
+            <div className="col" style={{
+              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/prematchscouting.png'})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'top center',
+              backgroundAttachment: 'fixed',
+              backgroundSize: 'cover'
+            }}>
+              <a href="https://ftc18225.everstem.org/resources">
+                <h3>Resources for Other Teams</h3>
+              </a>
+            </div>
+            <div className="col" style={{backgroundColor: '#333'}}>
+              <div>
+                <h3>Scoring Capabilities</h3>
+                <p><b>Auto: </b>8-cycle auto + park, spin duck + score duck/preload + park</p>
+                <p><b>Tele: </b>14-15 cycle on either hub</p>
+                <p><b>Endgame: </b>double capping + park, ducks + park</p>
+              </div>
+            </div>
+          </div>
+        </div></FadeInSection>
+
+        <FadeInSection><div className="section">
+          <Title name="Sponsors" />
+          <p>Thank you for supporting our team and helping us learn.</p>
+          <div className="person-grid grid">
+            <div className="grid-item">
+              <img src={require(`/public/images/sponsors/boeing.png`).default.src} height="200px" className="member" />
+              <h3>Boeing</h3>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/sponsors/bwtlink2.jpg`).default.src} height="200px" className="member" />
+              <h3>BWT Link</h3>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/sponsors/chineseinstitute.jpg`).default.src} height="200px" className="member" />
+              <h3>Chinese Institute of Engineers</h3>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/sponsors/chipotle.png`).default.src} height="200px" className="member" />
+              <h3>Chipotle</h3>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/sponsors/everstem.jpg`).default.src} height="200px" className="member" />
+              <h3>Everstem Education</h3>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/sponsors/firstwa.jpg`).default.src} height="200px" className="member" />
+              <h3>FIRST Washington</h3>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/sponsors/google.png`).default.src} height="200px" className="member" />
+              <h3>Google</h3>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/sponsors/microsoft.png`).default.src} height="200px" className="member" />
+              <h3>Microsoft</h3>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/sponsors/mose.jpg`).default.src} height="200px" className="member" />
+              <h3>MOSE</h3>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/sponsors/sendcutsend.png`).default.src} height="200px" className="member" />
+              <h3>SendCutSend</h3>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/sponsors/tmobile.jpg`).default.src} height="200px" className="member" />
+              <h3>T-Mobile</h3>
+            </div>
           </div>
         </div></FadeInSection>
       </div>

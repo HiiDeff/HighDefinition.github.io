@@ -32,7 +32,7 @@ export default function Events() {
         <FadeInSection><div className="section">
           <Title name="Past Events" />
           <div id="outreaches">
-            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/c/EverstemEducation" target="_blank">Watch Some of Our Past Events Here</a></div>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', margin: 20}}><a className="purplebutton" href="https://www.youtube.com/c/EverstemEducation" target="_blank">Watch Some of Our Past Events Here</a></div>
             <div className="eventsection">
               <p>Connecting with Professionals</p>
 

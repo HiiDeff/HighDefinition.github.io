@@ -56,6 +56,7 @@ export default function Events() {
                     <li>Leveraging Scale Designs for Connected Automated Vehicles Research</li>
                     <li>Artificial Intelligence and Robotics</li>
                     <li>Science & Education: Indoors and Out</li>
+                    <li>IP Protection in Robotics and Smart Transportation</li>
                   </ul>
                 </>   
               ) : (
@@ -148,6 +149,11 @@ export default function Events() {
                   <tr style={{fontWeight: 300}}>
                     <td>Science & Education: Indoors and Out</td>
                     <td>Laura LeBlanc</td>
+                  </tr>
+
+                  <tr style={{fontWeight: 300}}>
+                    <td>IP Protection in Robotics and Smart Transportation</td>
+                    <td>Shaobin Zhu</td>
                   </tr>
                 </table>
               )}

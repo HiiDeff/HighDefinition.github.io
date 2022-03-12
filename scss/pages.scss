@@ -54,12 +54,25 @@
 }
 
 .Index {
+    .impact {
+        .grid {
+            grid-template-columns: 33% 33% 33%;
+
+            .col {
+                h2, .icon {
+                    color: white !important;
+                }
+            }
+        }
+    }
+
     .teamhighlights {
         .col {
             min-height: 200px;
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: all .2s ease-in-out;
 
             h3 {
                 color: white !important;
@@ -68,9 +81,13 @@
             a {
                 text-decoration: none;
                 color: white !important;
-                background-color: rgba(51, 51, 51, 0.555);
+                background-color: rgba(104, 19, 93, 0.705);
                 width: 100%;
             }
+        }
+
+        .col:hover {
+            transform: scale(1.15);
         }
     }
 
@@ -217,7 +234,7 @@
         padding: 10px;
         margin: 10px;
         border-radius: 10px;
-        border-left: 7px solid purple;
+        border-left: 7px solid $purple;
     }
     
     table {
@@ -231,7 +248,7 @@
 
     th {
         font-weight: 300;
-        background-color: $purple;
+        background-color: darkmagenta;
     }
 
     td, th {

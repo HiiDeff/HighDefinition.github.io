@@ -43,9 +43,11 @@ export default function Header({title, description, page}) {
           </div>
         </div>
       </div>
-      <Banner />
+      {/*
 
-      {/*<div className="Header" style={{ 
+      <Banner />
+      
+      <div className="Header" style={{ 
         backgroundImage: `url(${process.env.PUBLIC_URL + image})`,
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'top center',

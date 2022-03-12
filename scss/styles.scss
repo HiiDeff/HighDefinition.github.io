@@ -36,6 +36,12 @@ html, body {
     text-decoration: none;
 }
 
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (min-width: 900px) {
     .column {
         float: left;

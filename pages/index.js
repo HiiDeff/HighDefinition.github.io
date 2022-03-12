@@ -6,6 +6,8 @@ import UpcomingEvents from '../components/upcomingevents';
 import Link from 'next/link';
 import Typewriter from 'typewriter-effect';
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faUser, faPeopleCarry, faMoneyBill } from '@fortawesome/free-solid-svg-icons';
 
 export default function Index() {
   return (
@@ -41,7 +43,7 @@ export default function Index() {
                 <img src={require(`/public/images/TeamPicture.png`).default.src} width="80%" />
               </div>
               <div className="column" style={{fontWeight: 300}}>
-                <Title name="Who Are We?" />
+                <Title name="About Us" />
                 <p>We are First Tech Challenge (FTC) Team 18225 High Definition, a 2nd year veteran robotics team from Bellevue, Washington composed of 14 enthusiastic and motivated students from the 7th-12th grades. <b>Our mission</b> is to promote STEM and FIRST within our community to help establish the next generation of innovators! This includes all aspects, including CAD, mechanical, programming, business, and connecting students with experts to inspire and ensure their success.</p>
 
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><Link href='/about' as={ process.env.PUBLIC_URL + '/about'}><a className="purplebutton">Learn more here</a></Link></div>
@@ -51,47 +53,22 @@ export default function Index() {
         </div>
 
         <FadeInSection><div className="section">
-          <Title name="About FIRST" />
-          <p style={{fontWeight: 300, marginTop: 0}}>"FIRST® inspires young people to be science and technology leaders and innovators by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership" (<a href="https://www.firstinspires.org/" style={{color: 'white'}}>FIRST Inspires</a>).</p>
-
-          <p>FIRST consists of 3 programs:</p>
-
-          <div className="firstrow">
-            <div className="col">
-              <a href="https://www.firstinspires.org/robotics/fll">
-                <h3>FIRST Lego League</h3>
-                <p>"FIRST LEGO League guides youth through STEM learning and exploration at an early age. From Discover, to Explore and then to Challenge, students will understand the basics of STEM and apply their skills in an exciting competition while gaining productive learning habits, confidence, and teamwork skills along the way" (FIRST Lego League).</p>
-                <img src="https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/fll/event-experience.jpg" width="300px" />
-              </a>
+          <div className="flex impact"><div className="grid" style={{width: '80%'}}>
+            <div class="col" style={{textAlign: 'center'}}>
+              <FontAwesomeIcon icon={faUser} width="75" height="75" className="icon"/>
+              <h2>Impacted 2000 People</h2>
             </div>
-            <div className="col">
-              <a href="https://www.firstinspires.org/robotics/ftc">
-                <h3>FIRST Tech Challenge</h3>
-                <p>"FIRST Tech Challenge students learn to think like engineers. Teams design, build, and code robots to compete in an alliance format against other teams. Robots are built from a reusable platform, powered by Android technology, and can be coded using a variety of levels of Java-based programming" (FIRST Tech Challenge).</p>
-                <img src="https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/ftc/event-experience.jpg" width="300px" />
-              </a>
+
+            <div class="col" style={{textAlign: 'center'}}>
+              <FontAwesomeIcon icon={faPeopleCarry} width="75" height="75" className="icon"/>
+              <h2>Mentored 30+ Teams</h2>
             </div>
-            <div className="col">
-              <a href="https://www.firstinspires.org/robotics/frc">
-                <h3>FIRST Robotics Competition</h3>
-                <p>"Teams of high school students are challenged to build industrial-size robots to play a difficult field game in alliance with other teams, while also fundraising to meet their goals, designing a team 'brand,' and advancing respect and appreciation for STEM within the local community" (FIRST Robotics Challenge).</p>
-                <img src="https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/frc/event-experience.jpg" width="300px" />
-              </a>
+
+            <div class="col" style={{textAlign: 'center'}}>
+              <FontAwesomeIcon icon={faMoneyBill} width="75" height="75" className="icon"/>
+              <h2>Awarded $1000 in Grants</h2>
             </div>
-          </div>
-        </div></FadeInSection>
-
-        <FadeInSection><div className="section">
-          <Title name="Impact" />
-          <p>Since our rookie season, our team has impacted <b>2000</b> people by mentoring <b>30+</b> FIRST teams, starting <b>5</b> FIRST teams, and awarding <b>$1000</b> in grants to rookie teams.</p>
-
-          <br />
-
-          <p>Our most impactful outreaches include the following:</p>
-          <p className="light"><a href="https://advocacy.everstem.org/" target="_blank" style={{textDecoration: 'none', color: 'white'}}>STEM Advocacy</a></p>
-          <p className="light">Washington Tech Invitationals</p>
-          <p className="light"><Link href="/resources"><p style={{textDecoration: 'none', cursor: 'pointer'}}>FIRST Team Resources</p></Link></p>
-          <p className="light"><a href="https://www.youtube.com/c/EverstemEducation" target="_blank"  style={{textDecoration: 'none', color: 'white'}}>Connecting with Professionals Series</a></p>
+          </div></div>
         </div></FadeInSection>
 
         <FadeInSection><div className="section">
@@ -152,6 +129,17 @@ export default function Index() {
                 <h3>Resources for Other Teams</h3>
               </a>
             </div>
+            <div className="col" style={{
+              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/scrimmage.jpg'})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'top center',
+              backgroundAttachment: 'fixed',
+              backgroundSize: 'cover'
+            }}>
+              <a href="https://ftc18225.everstem.org/events">
+                <h3>Resources for Other Teams</h3>
+              </a>
+            </div>
             <div className="col" style={{backgroundColor: '#333'}}>
               <div>
                 <h3>Scoring Capabilities</h3>
@@ -159,6 +147,37 @@ export default function Index() {
                 <p><b>Tele: </b>14-15 cycle on either hub</p>
                 <p><b>Endgame: </b>double capping + park, ducks + park</p>
               </div>
+            </div>
+          </div>
+        </div></FadeInSection>
+
+        <FadeInSection><div className="section">
+          <Title name="About FIRST" />
+          <p style={{fontWeight: 300, marginTop: 0}}>"FIRST® inspires young people to be science and technology leaders and innovators by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership" (<a href="https://www.firstinspires.org/" style={{color: 'white'}}>FIRST Inspires</a>).</p>
+
+          <p>FIRST consists of 3 programs:</p>
+
+          <div className="firstrow">
+            <div className="col">
+              <a href="https://www.firstinspires.org/robotics/fll">
+                <h3>FIRST Lego League</h3>
+                <p>"FIRST LEGO League guides youth through STEM learning and exploration at an early age. From Discover, to Explore and then to Challenge, students will understand the basics of STEM and apply their skills in an exciting competition while gaining productive learning habits, confidence, and teamwork skills along the way" (FIRST Lego League).</p>
+                <img src="https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/fll/event-experience.jpg" width="300px" />
+              </a>
+            </div>
+            <div className="col">
+              <a href="https://www.firstinspires.org/robotics/ftc">
+                <h3>FIRST Tech Challenge</h3>
+                <p>"FIRST Tech Challenge students learn to think like engineers. Teams design, build, and code robots to compete in an alliance format against other teams. Robots are built from a reusable platform, powered by Android technology, and can be coded using a variety of levels of Java-based programming" (FIRST Tech Challenge).</p>
+                <img src="https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/ftc/event-experience.jpg" width="300px" />
+              </a>
+            </div>
+            <div className="col">
+              <a href="https://www.firstinspires.org/robotics/frc">
+                <h3>FIRST Robotics Competition</h3>
+                <p>"Teams of high school students are challenged to build industrial-size robots to play a difficult field game in alliance with other teams, while also fundraising to meet their goals, designing a team 'brand,' and advancing respect and appreciation for STEM within the local community" (FIRST Robotics Challenge).</p>
+                <img src="https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/frc/event-experience.jpg" width="300px" />
+              </a>
             </div>
           </div>
         </div></FadeInSection>

@@ -20,13 +20,13 @@ export default function Resources() {
               <h4>Introduction to FTC Programming</h4>
               <p>This is a beginner's guide to FTC Programming from tele-op, servors, motors, sensors, and more. You will learn how to operate the control hub along with the station phones, and how to connect these to your Java code. Additionally, you will learn version code and its importance in FTC.</p>
 
-              <a href="https://everstem.org/ftc18225/ftc-programming-guide-beginner.htm" className="button" id="ftcprogrammingguide">Read Now</a>
+              <a href="https://ftc18225.everstem.org/guides/ftc-programming-guide" className="button" id="ftcprogrammingguide">Read Now</a>
             </div>
             <div className="grid-item">
               <h4>Introduction to FTC Robot Hardware</h4>
               <p>This is a beginner's guide to FTC Robot Hardware from building a basic chassis, attaching arm mechanisms, using Onshape as a CAD software, and more. This guide will teach you the skills necessary to create a sample robot with instructions at the end of the guide.</p>
 
-              <a href="https://everstem.org/ftc18225/ftc-robot-guide-beginner.htm" className="button" id="ftcrobotguide">Read Now</a>
+              <a href="https://ftc18225.everstem.org/guides/ftc-robot-guide" className="button" id="ftcrobotguide">Read Now</a>
             </div>
 
             <div className="grid-item">

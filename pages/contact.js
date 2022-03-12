@@ -5,13 +5,16 @@ import Footer from '../components/footer';
 import {useState} from 'react';
 import Banner from '../components/banner';
 import FadeInSection from '../components/fadeinsection';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope, faLocationArrow } from '@fortawesome/free-solid-svg-icons';
+import { faYoutube, faInstagram } from '@fortawesome/free-brands-svg-icons';
 
 export default function Contact() {
   const [name, setName] = useState("");
   const [subject, setSubject] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [error, setError] = useState("");
+  const [error, setError] = useState("SEND");
   const [honeypot, setHoneypot] = useState("");
 
   const handleSubmit = async (e) => {
@@ -48,49 +51,84 @@ export default function Contact() {
       <Header title="Contact" page="Contact" description="Want to reach us? Contact us below!" />
       
       <div className="Contact">
-        <div className="middle">
-          <div className="contact-form-box">
-            <div className="contact-title">
-              <h1 style={{padding: 0, margin: 0, marginBottom: 5}}>CONTACT US</h1>
-              <p style={{padding: 0, margin: 0, fontWeight: 300}}>Email: <a href="mailto:ftc18225@gmail.com">ftc18225@gmail.com</a></p>
-              <p style={{padding: 0, margin: 0, fontWeight: 300}}>Instagram: <a href="https://www.instagram.com/ftc18225/">@ftc18225</a></p>
-              <p style={{padding: 0, margin: 0, fontWeight: 300}}>Youtube <a href="https://www.youtube.com/channel/UC8ZLjVy_9Y56cfqpqarRoQg">Channel</a></p>
+        <div className="contactbox">
+          <h1 style={{padding: 0, margin: 0, marginBottom: 5}}>CONTACT US</h1>
+          <br />
+          <div className="twogrid">
+            <div className="col" style={{alignContent: 'center', justifyContent: 'center', display: 'flex'}}>
+              <table className="contactTable">
+                <br />
+                <tr>
+                  <td><FontAwesomeIcon icon={faEnvelope} width="25" height="25" className="icon" style={{color: 'white', marginRight: 5}}/></td>
+                  <td><div className="tablesection">
+                    <p>Email</p>
+                    <a href="mailto:ftc18225@gmail.com">ftc18225@gmail.com</a>
+                  </div></td>
+                </tr>
+
+                <br /><br />
+
+                <tr>
+                  <td><FontAwesomeIcon icon={faInstagram} width="25" height="25" className="icon" style={{color: 'white', marginRight: 5}}/></td>
+                  <td><div className="tablesection">
+                    <p>Instagram</p>
+                    <a href="https://www.instagram.com/ftc18225/">@ftc18225</a>
+                  </div></td>
+                </tr>
+
+                <br /><br />
+
+                <tr>
+                  <td><FontAwesomeIcon icon={faYoutube} width="25" height="25" className="icon" style={{color: 'white', marginRight: 5}}/></td>
+                  <td><div className="tablesection">
+                    <p>Youtube</p>
+                    <a href="https://www.youtube.com/channel/UC8ZLjVy_9Y56cfqpqarRoQg">Channel</a>
+                  </div></td>
+                </tr>
+
+                <br /><br />
+
+                <tr>
+                  <td><FontAwesomeIcon icon={faLocationArrow} width="25" height="25" className="icon" style={{color: 'white', marginRight: 5}}/></td>
+                  <td><div className="tablesection">
+                    <p>Location</p>
+                    <a href="">Bellevue, Washington</a>
+                  </div></td>
+                </tr>
+              </table>
             </div>
 
-            <form className="contact-form" action='https://api.staticforms.xyz/submit' method='POST' onSubmit={handleSubmit}>
-              <label htmlFor="firstname">Name: </label><br />
-              <input type="text" id="name" name="name" value={name} onChange={(e) => {setName(e.target.value)}} placeholder="Type Name Here..." required/>
+            <div className="col" style={{alignContent: 'center', justifyContent: 'center', display: 'flex'}}>
+              <form className="contact-form" action='https://api.staticforms.xyz/submit' method='POST' onSubmit={handleSubmit}>
+                <label htmlFor="firstname">NAME:</label><br />
+                <input type="text" id="name" name="name" value={name} onChange={(e) => {setName(e.target.value)}} placeholder="Type Name Here..." required/>
 
-              <br/>
-              <br/>
+                <br/>
+                <br/>
 
-              <label htmlFor="email">Email: </label><br/>
-              <input type="email" id="email" name="email" value={email} onChange={(e) => {setEmail(e.target.value)}} placeholder="Email..." required/>
+                <label htmlFor="email">EMAIL:</label><br/>
+                <input type="email" id="email" name="email" value={email} onChange={(e) => {setEmail(e.target.value)}} placeholder="Email..." required/>
 
-              <br/>
-              <br/>
+                <br/>
+                <br/>
 
-              <label htmlFor="subject">Subject: </label><br/>
-              <input type="text" id="subject" name="subject" value={subject} onChange={(e) => {setSubject(e.target.value)}} placeholder="Subject..." required/>
+                <label htmlFor="subject">SUBJECT:</label><br/>
+                <input type="text" id="subject" name="subject" value={subject} onChange={(e) => {setSubject(e.target.value)}} placeholder="Subject..." required/>
 
-              <br/>
-              <br/>
+                <br/>
+                <br/>
 
-              <label htmlFor="message">Message: </label><br/>
-              <textarea name="message" id="user-message" rows="10" value={message} onChange={(e) => {setMessage(e.target.value)}} placeholder="Enter your message..." required />
+                <label htmlFor="message">MESSAGE:</label><br/>
+                <textarea name="message" id="user-message" value={message} onChange={(e) => {setMessage(e.target.value)}} placeholder="Enter your message..." required />
 
-              <br/>
-              <br/>
+                <br/>
+                <br/>
 
-              <input type="text" name="honeypot" onChange={(e) => {setHoneypot(e.target.value)}} style={{display: "none"}} />
+                <input type="text" name="honeypot" onChange={(e) => {setHoneypot(e.target.value)}} style={{display: "none"}} />
 
-              <br/>
-              <br/>
-
-              <button type="submit" className="submit">Send</button>
-
-              <p id="successMessage" style={{color: 'rgb(255, 255, 255)'}}>{error}</p>
-            </form>
+                <div className="flex"><button type="submit" className="submit flex"><FontAwesomeIcon icon={faEnvelope} width="18" height="18" className="icon" style={{color: 'white', marginRight: 5}}/>{error}</button></div>
+              </form>
+            </div>
           </div>
         </div>
       </div>

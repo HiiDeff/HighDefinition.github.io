@@ -54,17 +54,17 @@ export default function Index() {
 
         <FadeInSection><div className="section">
           <div className="flex impact"><div className="grid" style={{width: '80%'}}>
-            <div class="col" style={{textAlign: 'center'}}>
+            <div className="col" style={{textAlign: 'center'}}>
               <FontAwesomeIcon icon={faUser} width="75" height="75" className="icon"/>
               <h2>Impacted 2000 People</h2>
             </div>
 
-            <div class="col" style={{textAlign: 'center'}}>
+            <div className="col" style={{textAlign: 'center'}}>
               <FontAwesomeIcon icon={faPeopleCarry} width="75" height="75" className="icon"/>
               <h2>Mentored 30+ Teams</h2>
             </div>
 
-            <div class="col" style={{textAlign: 'center'}}>
+            <div className="col" style={{textAlign: 'center'}}>
               <FontAwesomeIcon icon={faMoneyBill} width="75" height="75" className="icon"/>
               <h2>Awarded $1000 in Grants</h2>
             </div>

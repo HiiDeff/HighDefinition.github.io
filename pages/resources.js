@@ -17,42 +17,42 @@ export default function Resources() {
           <Title name="Resources" />
           <div className="resource-grid grid">
             <div className="grid-item">
-              <h4>Introduction to FTC Programming</h4>
-              <p>This is a beginner's guide to FTC Programming from tele-op, servors, motors, sensors, and more. You will learn how to operate the control hub along with the station phones, and how to connect these to your Java code. Additionally, you will learn version code and its importance in FTC.</p>
+              <h4>FIRST FTC Programming Guide for Beginners</h4>
+              <p>This is a beginner's guide to FTC Programming that explains servors, motors, sensors, and more. Learn how to operate the control hub along with the station phones and use version control to maximize efficiency in FTC.</p>
 
               <a href="https://ftc18225.everstem.org/guides/ftc-programming-guide" className="button" id="ftcprogrammingguide">Read Now</a>
             </div>
             <div className="grid-item">
-              <h4>Introduction to FTC Robot Hardware</h4>
-              <p>This is a beginner's guide to FTC Robot Hardware from building a basic chassis, attaching arm mechanisms, using Onshape as a CAD software, and more. This guide will teach you the skills necessary to create a sample robot with instructions at the end of the guide.</p>
+              <h4>FIRST FTC Mechanical Guide for Beginners</h4>
+              <p>This is a beginner's guide to FTC Hardware that explains building a basic chassis, attaching arm mechanisms, using Onshape as a CAD software, and more. Learn the skills necessary to build an example competitive robot by the end.</p>
 
               <a href="https://ftc18225.everstem.org/guides/ftc-robot-guide" className="button" id="ftcrobotguide">Read Now</a>
             </div>
 
             <div className="grid-item">
               <h4>FLL Programming Tutorials</h4>
-              <p>This is a Youtube playlist for FLL teams struggling with FLL programming. This series includes videos on how to follow a straight line smoothly, lifting an arm while moving, follow a line with a sharp curve, and more! Check them out!</p>
+              <p>Learn how to follow a straight line smoothly, lift an arm while moving, follow a line with a sharp curve, and more by watching these short, informative videos.</p>
 
               <a href="https://www.youtube.com/playlist?list=PLUHAVG5dAdrM8x77VdUg-EOhq5HwJ2RLn" className="button" id="fllprogrammingtutorial">Watch Now</a>
             </div>
 
             <div className="grid-item">
               <h4>FTC Scout</h4>
-              <p>FTC Scout is a resource for FTC teams to use to scout throughout the season. This incorporates pre-match and during-match scouting while allowing you to view the capabilities of other teams on the platform. Check it out now!</p>
+              <p>FTC Scout is a resource for FTC teams to use to scout throughout the season. This incorporates pre-match and during-match scouting with the additional functions of viewing other teams scoring capabilities.</p>
 
               <a href="https://ftcscout.herokuapp.com/" className="button" id="ftcscout">Scout Now</a>
             </div>
 
             <div className="grid-item">
               <h4>FTC Shipping Element Detector</h4>
-              <p>Detect any Team Shipping Element for the FTC 2021-2022 Freight Frenzy season. This is a one-of-a-kind solution for autonomous that is easy to implement!</p>
+              <p>Detect any Team Shipping Element for the FTC 2021-2022 Freight Frenzy season. This is a one-of-a-kind solution for autonomous that is easy to implement.</p>
 
               <a href="https://github.com/HiiDeff/ShippingElementDetector" className="button" id="ftcshippingelementdetector">View Now</a>
             </div>
 
             <div className="grid-item">
               <h4>Connecting with Professionals Series</h4>
-              <p>Every month, we invite a professional in the STEM field to share their career experiences to students in our local community and answer questions through Everstem Education YouTube live streams. We believe that professionals in the industry can engage and  help students in and out of FIRST learn about what they want to pursue and prepare for a career in.</p>
+              <p>Learn from industry professionals in the STEM field about their career and ask your questions in our interactive live streamed talks. Get engaged in growing fields of interest to prepare for future careers.</p>
 
               <a href="https://www.youtube.com/c/EverstemEducation" className="button" id="connectingwprofessionals">Watch Now</a>
             </div>

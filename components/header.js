@@ -39,7 +39,7 @@ export default function Header({title, description, page}) {
           }} className="floating">
             <h1 style={{marginBottom: 5}}>{title}</h1>
             <p style={{margin: 0, padding: 0, fontSize: 25}}>{description}</p>
-            <p style={{margin: 0, padding: 0}}><i>Reaching High. Defining Futures.</i></p>
+            <p style={{margin: 0, padding: 0}}><i>FTC Team 18225</i></p>
           </div>
         </div>
       </div>

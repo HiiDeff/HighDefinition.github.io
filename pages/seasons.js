@@ -9,11 +9,11 @@ import FadeInSection from '../components/fadeinsection';
 export default function Seasons() {
   return (
     <>
-      <Header title="Seasons" description="Check out High Definition work from different seasons." page="Seasons" />
+      <Header title="Seasons" description="Our accomplishments by season" page="Seasons" />
       
       <div className="Seasons">
         <FadeInSection><div className="section">
-          <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: 5}}><a className="purplebutton" href="https://www.youtube.com/channel/UC8ZLjVy_9Y56cfqpqarRoQg" target="_blank">Check Out Our Youtube Channel!</a></div>
+          <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: 5}}><a className="purplebutton" href="https://www.youtube.com/channel/UC8ZLjVy_9Y56cfqpqarRoQg" target="_blank">Our Youtube Channel</a></div>
 
           <FadeInSection><div className="section">
             <Title name="Awards" />
@@ -71,7 +71,7 @@ export default function Seasons() {
               <h4>States</h4>
               <img src={require(`/public/images/seasons/freightfrenzy/states.jpg`).default.src} width="80%" />
               <br /><br />
-              <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=UlNMlCkZbEQ" target="_blank">Control Award Submission Video</a></div>
+              <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=UlNMlCkZbEQ" target="_blank">WA State Control Award Video</a></div>
             </div>
           </div>
         </div></FadeInSection>

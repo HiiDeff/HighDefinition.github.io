@@ -12,7 +12,7 @@ import { faUser, faPeopleCarry, faMoneyBill } from '@fortawesome/free-solid-svg-
 export default function Index() {
   return (
     <>
-      <Header title="HIGH DEFINITION" description="FTC Team 18225" page="Home" />
+      <Header title="HIGH DEFINITION" description="Reaching High. Defining Futures." page="Home" />
       
       <div className="Index">
         <div className="section">
@@ -44,9 +44,11 @@ export default function Index() {
               </div>
               <div className="column" style={{fontWeight: 300}}>
                 <Title name="About Us" />
-                <p>We are First Tech Challenge (FTC) Team 18225 High Definition, a 2nd year veteran robotics team from Bellevue, Washington composed of 14 enthusiastic and motivated students from the 7th-12th grades. <b>Our mission</b> is to promote STEM and FIRST within our community to help establish the next generation of innovators! This includes all aspects, including CAD, mechanical, programming, business, and connecting students with experts to inspire and ensure their success.</p>
+                <p>We are First Tech Challenge (FTC) Team 18225 High Definition, a 2nd year veteran robotics team from Bellevue, Washington composed of 13 enthusiastic students grades 7-12.</p>
+                
+                <p><b>Our mission</b> is to promote STEM and FIRST within our community to inspire the next generation of innovators to solve challenges of the future! We spread mechanical, programming, business, and other practices within the community to ensure their success.</p>
 
-                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><Link href='/about' as={ process.env.PUBLIC_URL + '/about'}><a className="purplebutton">Learn more here</a></Link></div>
+                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><Link href='/about' as={ process.env.PUBLIC_URL + '/about'}><a className="purplebutton">More about us</a></Link></div>
               </div>
             </div>
           </FadeInSection>
@@ -104,7 +106,7 @@ export default function Index() {
               backgroundSize: 'cover'
             }}>
               <a href="https://gofund.me/7da764b4">
-                <h3>World Championship Robot Reveal Trailer</h3>
+                <h3>Fund Our Journey to Worlds</h3>
               </a>
             </div>
             <div className="col" style={{
@@ -119,6 +121,17 @@ export default function Index() {
               </a>
             </div>
             <div className="col" style={{
+              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/scrimmage.jpg'})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'top center',
+              backgroundAttachment: 'fixed',
+              backgroundSize: 'cover'
+            }}>
+              <a href="https://ftc18225.everstem.org/events">
+                <h3>Upcoming Events</h3>
+              </a>
+            </div>
+            <div className="col" style={{
               backgroundImage: `url(${process.env.PUBLIC_URL+'/images/prematchscouting.png'})`,
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'top center',
@@ -129,21 +142,10 @@ export default function Index() {
                 <h3>Resources for Other Teams</h3>
               </a>
             </div>
-            <div className="col" style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/scrimmage.jpg'})`,
-              backgroundRepeat: 'no-repeat',
-              backgroundPosition: 'top center',
-              backgroundAttachment: 'fixed',
-              backgroundSize: 'cover'
-            }}>
-              <a href="https://ftc18225.everstem.org/events">
-                <h3>Resources for Other Teams</h3>
-              </a>
-            </div>
             <div className="col" style={{backgroundColor: '#333'}}>
               <div>
-                <h3>Scoring Capabilities</h3>
-                <p><b>Auto: </b>8-cycle auto + park, spin duck + score duck/preload + park</p>
+                <h3>SCORING CAPABILITIES</h3>
+                <p><b>Auto: </b>7-cycle hub + park, spin duck + score duck/preload + park</p>
                 <p><b>Tele: </b>14-15 cycle on either hub</p>
                 <p><b>Endgame: </b>double capping + park, ducks + park</p>
               </div>
@@ -153,29 +155,29 @@ export default function Index() {
 
         <FadeInSection><div className="section">
           <Title name="About FIRST" />
-          <p style={{fontWeight: 300, marginTop: 0}}>"FIRST® inspires young people to be science and technology leaders and innovators by engaging them in exciting mentor-based programs that build science, engineering, and technology skills, that inspire innovation, and that foster well-rounded life capabilities including self-confidence, communication, and leadership" (<a href="https://www.firstinspires.org/" style={{color: 'white'}}>FIRST Inspires</a>).</p>
+          <p style={{fontWeight: 300, marginTop: 0}}><a href="https://www.firstinspires.org/" style={{color: 'white'}}>FIRST Inspires</a> is a non-profit that strives to inspire the next generation of STEM innovators by challenging them in hands-on-learning through robotics competitions. Through these programs, students not only learn how to build and program a robot, but how to be a leader, work in a team, be confident in themselves, and more.</p>
 
           <p>FIRST consists of 3 programs:</p>
 
           <div className="firstrow">
             <div className="col">
               <a href="https://www.firstinspires.org/robotics/fll">
-                <h3>FIRST Lego League</h3>
-                <p>"FIRST LEGO League guides youth through STEM learning and exploration at an early age. From Discover, to Explore and then to Challenge, students will understand the basics of STEM and apply their skills in an exciting competition while gaining productive learning habits, confidence, and teamwork skills along the way" (FIRST Lego League).</p>
+                <h3>FIRST LEGO LEAGUE</h3>
+                <p>Students ages 4-16 compete in friendly competition where they are encouraged to explore real world challenges by developing a solution and build/program a LEGO robot to complete missions on a field.</p>
                 <img src="https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/fll/event-experience.jpg" width="300px" />
               </a>
             </div>
             <div className="col">
               <a href="https://www.firstinspires.org/robotics/ftc">
-                <h3>FIRST Tech Challenge</h3>
-                <p>"FIRST Tech Challenge students learn to think like engineers. Teams design, build, and code robots to compete in an alliance format against other teams. Robots are built from a reusable platform, powered by Android technology, and can be coded using a variety of levels of Java-based programming" (FIRST Tech Challenge).</p>
+                <h3>FIRST TECH CHALLENGE</h3>
+                <p>Students ages 12-18 learn to design and build robots using electronics programmed by Android technology and Java-based programming. Teams compete in an alliance format against other teams and in the process, learn to think like engineers.</p>
                 <img src="https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/ftc/event-experience.jpg" width="300px" />
               </a>
             </div>
             <div className="col">
               <a href="https://www.firstinspires.org/robotics/frc">
-                <h3>FIRST Robotics Competition</h3>
-                <p>"Teams of high school students are challenged to build industrial-size robots to play a difficult field game in alliance with other teams, while also fundraising to meet their goals, designing a team 'brand,' and advancing respect and appreciation for STEM within the local community" (FIRST Robotics Challenge).</p>
+                <h3>FIRST ROBOTICS COMPETITION</h3>
+                <p>Teams of high school students are challenged to design industrial-size robots to compete in difficult field missions in an alliance format. Through this process, they maintain a team brand, meet their goals, and promote STEM respect in the community.</p>
                 <img src="https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/frc/event-experience.jpg" width="300px" />
               </a>
             </div>
@@ -184,7 +186,7 @@ export default function Index() {
 
         <FadeInSection><div className="section">
           <Title name="Sponsors" />
-          <p>Thank you for supporting our team and helping us learn.</p>
+          <p>Thank you to our sponsors for supporting our team and helping us learn.</p>
           <div className="person-grid grid">
             <div className="grid-item">
               <img src={require(`/public/images/sponsors/boeing.png`).default.src} height="200px" className="member" />

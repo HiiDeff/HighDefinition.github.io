@@ -48,7 +48,7 @@ export default function Contact() {
 
   return (
     <>
-      <Header title="Contact" page="Contact" description="Want to reach us? Contact us below!" />
+      <Header title="Contact" page="Contact" description="Want to reach us? Contact us using the form below" />
       
       <div className="Contact">
         <div className="contactbox">

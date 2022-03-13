@@ -25,14 +25,17 @@ export default function Events() {
 
   return (
     <>
-      <Header title="Events" page="Events" description="Join us throughout our various events" />
+      <Header title="Events" page="Events" description="Join us at our various events" />
       
       <div className="Events">
         <UpcomingEvents />
         <FadeInSection><div className="section">
           <Title name="Past Events" />
           <div id="outreaches">
-            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', margin: 20}}><a className="purplebutton" href="https://www.youtube.com/c/EverstemEducation" target="_blank">Watch Some of Our Past Events Here</a></div>
+            <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', margin: 20}}><a className="purplebutton" href="https://www.youtube.com/c/EverstemEducation" target="_blank">Watch Our CWP Events Here</a></div>
+            
+            <div className="eventsection">STEM Advocacy</div>
+            <div className="eventsection">Washington Tech Invitationals (Co-Hosted with Saints Robotics)</div>
             <div className="eventsection">
               <p>Connecting with Professionals</p>
 
@@ -158,11 +161,9 @@ export default function Events() {
                 </table>
               )}
             </div>
-            <div className="eventsection">Hacktable CAD Workshop</div>
-            <div className="eventsection">Python Workshop</div>
-            <div className="eventsection">Virtual FTC Scrimmage</div>
+            <div className="eventsection">CADTable</div>
             <div className="eventsection">Chipotle Fundraiser</div>
-            <div className="eventsection">Washington Tech Invitationals (Co-Hosted with Saints Robotics)</div>
+            <div className="eventsection">Python Workshop</div>
           </div>
         </div></FadeInSection>
       </div>

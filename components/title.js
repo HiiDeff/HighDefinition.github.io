@@ -3,7 +3,7 @@
 export default function Title({name}) {
     return (
       <>
-        <h1>{name}</h1>
+        <h1 style={{fontFamily: 'Hubballi', fontSize: 35, transform: 'scale(1, 1.3)'}}>{name}</h1>
         <hr style={{width: 300}} />
       </>
     );

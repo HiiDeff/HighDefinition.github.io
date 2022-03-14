@@ -25,7 +25,7 @@ export default function Events() {
 
   return (
     <>
-      <Header title="Events" page="Events" description="Join us at our various events" />
+      <Header title="Events" page="Events" description="Join us at our various events!" />
       
       <div className="Events">
         <UpcomingEvents />
@@ -36,6 +36,8 @@ export default function Events() {
             
             <div className="eventsection">STEM Advocacy</div>
             <div className="eventsection">Washington Tech Invitationals (Co-Hosted with Saints Robotics)</div>
+            <div className="eventsection">Chipotle Fundraiser</div>
+            <div className="eventsection">Python Workshop</div>
             <div className="eventsection">
               <p>Connecting with Professionals</p>
 
@@ -161,9 +163,6 @@ export default function Events() {
                 </table>
               )}
             </div>
-            <div className="eventsection">CADTable</div>
-            <div className="eventsection">Chipotle Fundraiser</div>
-            <div className="eventsection">Python Workshop</div>
           </div>
         </div></FadeInSection>
       </div>

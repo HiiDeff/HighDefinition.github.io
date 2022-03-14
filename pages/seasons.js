@@ -9,7 +9,7 @@ import FadeInSection from '../components/fadeinsection';
 export default function Seasons() {
   return (
     <>
-      <Header title="Seasons" description="Our accomplishments by season" page="Seasons" />
+      <Header title="Seasons" description="Our accomplishments by season!" page="Seasons" />
       
       <div className="Seasons">
         <FadeInSection><div className="section">
@@ -92,6 +92,8 @@ export default function Seasons() {
             <div className="grid-item">
               <h4>Interleague / State</h4>
               <img src={require(`/public/images/seasons/ultimategoal/interleagues.jpg`).default.src} width="80%" />
+              <br /><br />
+              <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=vkxp2Lw1z80" target="_blank">WA State Control Award Video</a></div>
             </div>
           </div>
         </div></FadeInSection>

@@ -48,7 +48,7 @@ export default function Contact() {
 
   return (
     <>
-      <Header title="Contact" page="Contact" description="Want to reach us? Contact us using the form below" />
+      <Header title="Contact" page="Contact" description="Want to reach us? Contact us using the form below!" />
       
       <div className="Contact">
         <div className="contactbox">
@@ -81,8 +81,8 @@ export default function Contact() {
                 <tr>
                   <td><FontAwesomeIcon icon={faYoutube} width="25" height="25" className="icon" style={{color: 'white', marginRight: 5}}/></td>
                   <td><div className="tablesection">
-                    <p>Youtube</p>
-                    <a href="https://www.youtube.com/channel/UC8ZLjVy_9Y56cfqpqarRoQg">Channel</a>
+                    <p>Youtube Channel</p>
+                    <a href="https://www.youtube.com/channel/UC8ZLjVy_9Y56cfqpqarRoQg">High Definition</a>
                   </div></td>
                 </tr>
 

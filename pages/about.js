@@ -5,8 +5,11 @@ import Footer from '../components/footer';
 import Title from '../components/title';
 import Banner from '../components/banner';
 import FadeInSection from '../components/fadeinsection';
+import Gallery from 'react-photo-gallery';
+import React, {useEffect} from 'react';
+React.useLayoutEffect = React.useEffect;
 
-export default function About() {
+export default function About({photos}) {
   const photos1 = ['IMG_4087.jpg', 'IMG_4089.jpg', 'IMG_4090.jpg', 'IMG_4091.jpg', 'IMG_4889.jpg', 'img1.jpg', 'img7.jpg', 'img8.jpg', 'img12.jpg'];
   const photos2 = ['IMG_4094.jpg', 'IMG_4801.jpg', 'IMG_4803.jpg', 'IMG_5863.jpg', 'IMG_5867.jpg', 'img2.jpg', 'IMG_4888.jpg', 'img10.jpg', 'meeting.jpg'];
   const photos3 = ['IMG_4885.jpg', 'IMG_4886.jpg', 'IMG_4887.jpg', 'img3.jpg', 'img6.jpg', 'img9.jpg', 'outreach1.jpg', 'img20.jpg'];
@@ -14,7 +17,7 @@ export default function About() {
 
   return (
     <>
-      <Header title="About" page="About" description="Meet the Team" />
+      <Header title="About" page="About" description="Meet the Team!" />
       
       <div className="About">
         <div className="typewriter" style={{textAlign: 'center', fontFamily: 'Mali', fontSize: 30, flexDirection: 'row', paddingTop: 20, paddingBottom: 20}}>Our mission is to promote STEM and FIRST within our community to help establish the next generation of innovators!</div>
@@ -194,12 +197,14 @@ export default function About() {
 
         <FadeInSection><div className="section">
           <Title name="Photo Gallery" />
-          <div className="photogallery">
+          <Gallery photos={photos} />
+
+          {/*<div className="photogallery">
             <div className="picrow"> { photos1.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
             <div className="picrow"> { photos2.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
             <div className="picrow"> { photos3.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
             <div className="picrow"> { photos4.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
-          </div>
+          </div>*/}
         </div></FadeInSection>
       </div>
       
@@ -207,3 +212,14 @@ export default function About() {
     </>
   );
 };
+
+export async function getServerSideProps() {
+  const url = process.env.NODE_ENV === "production" ? "https://ftc18225.everstem.org/" : "http://localhost:3000";
+  const req = await fetch(`${url}/api/gallery`);
+  const res = await req.json();
+  return {
+    props: {
+      photos: res.str
+    }
+  }
+}

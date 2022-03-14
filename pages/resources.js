@@ -10,51 +10,70 @@ import FadeInSection from '../components/fadeinsection';
 export default function Resources() {
   return (
     <>
-      <Header title="Resources" description="Here are some resources for FLL and FTC Teams!" page="Resources" />
+      <Header title="Resources" description="Here are some resources for FIRST Teams!" page="Resources" />
       
       <div className="Resources">
         <FadeInSection><div className="section">
           <Title name="Resources" />
+          <p style={{fontSize: 20}}><b>FTC</b></p>
           <div className="resource-grid grid">
             <div className="grid-item">
               <h4>FIRST FTC Programming Guide for Beginners</h4>
-              <p>This is a beginner's guide to FTC Programming that explains servors, motors, sensors, and more. Learn how to operate the control hub along with the station phones and use version control to maximize efficiency in FTC.</p>
+              <img src={require(`/public/images/resources/ftcprogrammingguide.jpg`).default.src} width="80%" />
+              <br />
+              <br />
 
               <a href="https://ftc18225.everstem.org/guides/ftc-programming-guide" className="button" id="ftcprogrammingguide">Read Now</a>
             </div>
             <div className="grid-item">
               <h4>FIRST FTC Mechanical Guide for Beginners</h4>
-              <p>This is a beginner's guide to FTC Hardware that explains building a basic chassis, attaching arm mechanisms, using Onshape as a CAD software, and more. Learn the skills necessary to build an example competitive robot by the end.</p>
+              <img src={require(`/public/images/resources/ftcrobotguide.jpg`).default.src} width="80%" />
+              <br />
+              <br />
 
               <a href="https://ftc18225.everstem.org/guides/ftc-robot-guide" className="button" id="ftcrobotguide">Read Now</a>
             </div>
-
             <div className="grid-item">
               <h4>FLL Programming Tutorials</h4>
-              <p>Learn how to follow a straight line smoothly, lift an arm while moving, follow a line with a sharp curve, and more by watching these short, informative videos.</p>
-
+              <img src={require(`/public/images/resources/ev3programmingline.jpg`).default.src} width="80%" />
+              <br />
+              <br />
               <a href="https://www.youtube.com/playlist?list=PLUHAVG5dAdrM8x77VdUg-EOhq5HwJ2RLn" className="button" id="fllprogrammingtutorial">Watch Now</a>
             </div>
-
             <div className="grid-item">
               <h4>FTC Scout</h4>
-              <p>FTC Scout is a resource for FTC teams to use to scout throughout the season. This incorporates pre-match and during-match scouting with the additional functions of viewing other teams scoring capabilities.</p>
-
+              <img src={require(`/public/images/resources/ftcscout.jpg`).default.src} width="80%" />
+              <br />
+              <br />
               <a href="https://ftcscout.herokuapp.com/" className="button" id="ftcscout">Scout Now</a>
             </div>
-
             <div className="grid-item">
               <h4>FTC Shipping Element Detector</h4>
-              <p>Detect any Team Shipping Element for the FTC 2021-2022 Freight Frenzy season. This is a one-of-a-kind solution for autonomous that is easy to implement.</p>
-
+              <img src={require(`/public/images/resources/shippingelement.jpg`).default.src} width="80%" />
+              <br />
+              <br />
               <a href="https://github.com/HiiDeff/ShippingElementDetector" className="button" id="ftcshippingelementdetector">View Now</a>
             </div>
-
             <div className="grid-item">
               <h4>Connecting with Professionals Series</h4>
-              <p>Learn from industry professionals in the STEM field about their career and ask your questions in our interactive live streamed talks. Get engaged in growing fields of interest to prepare for future careers.</p>
-
+              <img src={require(`/public/images/resources/cwp.jpg`).default.src} width="80%" />
+              <br />
+              <br />
               <a href="https://www.youtube.com/c/EverstemEducation" className="button" id="connectingwprofessionals">Watch Now</a>
+            </div>
+            <div className="grid-item">
+              <h4>2021 WA State Presentation Slide Deck</h4>
+              <img src={require(`/public/images/resources/statepresentation.jpg`).default.src} width="80%" />
+              <br />
+              <br />
+              <a href="https://docs.google.com/presentation/d/19nc1n9Y2hGBtBj8X745zmOSd-1T8clUsO8TVXPYMakU/edit#slide=id.gd13b2b9e2e_8_6" className="button" id="statepres2021">View Now</a>
+            </div>
+            <div className="grid-item">
+              <h4>2021 WA State Engineering Portfolio</h4>
+              <img src={require(`/public/images/resources/ep.jpg`).default.src} width="80%" />
+              <br />
+              <br />
+              <a href="https://drive.google.com/file/d/1RocDP6b87MZtnrJV8-5Id32_aBtGlHm3/view?usp=sharing" className="button" id="statepres2021">View Now</a>
             </div>
 
             <div className="grid-item">
@@ -69,6 +88,26 @@ export default function Resources() {
               <br />
 
               <Link href="/documents/FTCPreMatchScouting.pdf" target="_blank" download id="ftcprematchdownloadbutton"><a className="button" id="ftcprematchscouting">Download Now</a></Link>
+            </div>
+          </div>
+          <p style={{fontSize: 20}}><b>Everyone</b></p>
+          <div className="resource-grid grid">
+            <div className="grid-item">
+              <h4>Connecting with Professionals Series</h4>
+              <img src={require(`/public/images/resources/cwp.jpg`).default.src} width="80%" />
+              <br />
+              <br />
+              <a href="https://www.youtube.com/c/EverstemEducation" className="button" id="connectingwprofessionals">Watch Now</a>
+            </div>
+          </div>
+          <p style={{fontSize: 20}}><b>FLL</b></p>
+          <div className="resource-grid grid">
+            <div className="grid-item">
+              <h4>FLL Programming Tutorials</h4>
+              <img src={require(`/public/images/resources/ev3programmingline.jpg`).default.src} width="80%" />
+              <br />
+              <br />
+              <a href="https://www.youtube.com/playlist?list=PLUHAVG5dAdrM8x77VdUg-EOhq5HwJ2RLn" className="button" id="fllprogrammingtutorial">Watch Now</a>
             </div>
           </div>
         </div></FadeInSection>

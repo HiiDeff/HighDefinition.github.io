@@ -7,7 +7,7 @@ import Link from 'next/link';
 import Typewriter from 'typewriter-effect';
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faPeopleCarry, faMoneyBill } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faPeopleCarry, faMoneyBill, faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons';
 
 export default function Index() {
   return (
@@ -16,7 +16,7 @@ export default function Index() {
       
       <div className="Index">
         <div className="section">
-          <div className="typewriter" style={{textAlign: 'center', fontFamily: 'Mali', fontSize: 50, flexDirection: 'row', paddingTop: 40, paddingBottom: 40}}>Hello! We are FTC 18225. We strive to 
+          <div className="typewriter" style={{textAlign: 'center', fontFamily: 'Mali', fontSize: 50, flexDirection: 'row', paddingTop: 40, paddingBottom: 40}}>Hello!<br /> We are FTC 18225 striving to
             <Typewriter
               options={{loop: true}}
               onInit={(typewriter) => {
@@ -67,7 +67,7 @@ export default function Index() {
             </div>
 
             <div className="col" style={{textAlign: 'center'}}>
-              <FontAwesomeIcon icon={faMoneyBill} width="75" height="75" className="icon"/>
+              <FontAwesomeIcon icon={faHandHoldingUsd} width="75" height="75" className="icon"/>
               <h2>Awarded $1000 in Grants</h2>
             </div>
           </div></div>
@@ -110,7 +110,7 @@ export default function Index() {
               </a>
             </div>
             <div className="col" style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/coolstaterobotcadphoto.jpg'})`,
+              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/robotskeleton.jpg'})`,
               backgroundRepeat: 'no-repeat',
               backgroundPosition: 'top center',
               backgroundAttachment: 'fixed',
@@ -140,6 +140,17 @@ export default function Index() {
             }}>
               <a href="https://ftc18225.everstem.org/resources">
                 <h3>Resources for Other Teams</h3>
+              </a>
+            </div>
+            <div className="col" style={{
+              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/TeamPicture.png'})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundPosition: 'top center',
+              backgroundAttachment: 'fixed',
+              backgroundSize: 'cover'
+            }}>
+              <a href="https://ftc18225.everstem.org/about">
+                <h3>Learn About our Team</h3>
               </a>
             </div>
             <div className="col" style={{backgroundColor: '#333'}}>
@@ -230,7 +241,7 @@ export default function Index() {
 
             <div className="grid-item">
               <img src={require(`/public/images/sponsors/mose.jpg`).default.src} height="200px" className="member" />
-              <h3>MOSE</h3>
+              <h3>MSOE</h3>
             </div>
 
             <div className="grid-item">

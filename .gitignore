@@ -12,6 +12,8 @@
 /.next
 /out
 
+hdsheets.json
+
 # misc
 .DS_Store
 .env

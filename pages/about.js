@@ -6,14 +6,27 @@ import Title from '../components/title';
 import Banner from '../components/banner';
 import FadeInSection from '../components/fadeinsection';
 import Gallery from 'react-photo-gallery';
-import React, {useEffect} from 'react';
+import React, {useEffect, useState} from 'react';
 React.useLayoutEffect = React.useEffect;
 
-export default function About({photos}) {
-  const photos1 = ['IMG_4087.jpg', 'IMG_4089.jpg', 'IMG_4090.jpg', 'IMG_4091.jpg', 'IMG_4889.jpg', 'img1.jpg', 'img7.jpg', 'img8.jpg', 'img12.jpg'];
-  const photos2 = ['IMG_4094.jpg', 'IMG_4801.jpg', 'IMG_4803.jpg', 'IMG_5863.jpg', 'IMG_5867.jpg', 'img2.jpg', 'IMG_4888.jpg', 'img10.jpg', 'meeting.jpg'];
-  const photos3 = ['IMG_4885.jpg', 'IMG_4886.jpg', 'IMG_4887.jpg', 'img3.jpg', 'img6.jpg', 'img9.jpg', 'outreach1.jpg', 'img20.jpg'];
-  const photos4 = ['IMG_4804.jpg', 'IMG_4881.jpg', 'IMG_4883.jpg', 'IMG_4884.jpg', 'IMG_6818.jpg', 'img5.jpg', 'img4.jpg', 'img11.jpg', 'outreach2.jpg'];
+export default function About() {
+  const [photos, setPhotos] = useState([]);
+
+  useEffect(() => {
+    const list = ['19qxmeBZqmIU4DqapqZ-asCH0ZI0PmXjl', '1kiPlmSqABh5b2tgAabVo63gGRBy-880M', '10N0QTdJ1niOvFId6FJhAre1gFXqg2Klp', '1AczoxNcVOqfEgtFM2NIGlSxyPfuP1WXf', '16iBRlSuusuQWWdc7n4zN_4EjrA_qp3j1', '1YuDu00SGYjAseZcK8xndL71J6Vvdljdn', '19YApSunLS6OIn4wC9_qdzggmMAJZ6yMz', '1TYXiRAL0BbwZXlTpLPBLdMoiA4Su9YOZ', '1wNG5X3qdwPMo32vqp7EdiW7yGvuMb87P', '1o3TPM9Jbg0MYlQyf7FUq9VEGXAUSjfLN', '1_gf1M7m4ni9oMsbZSBrKknJm0c3UKBEl', '1kEg5G1yAOezO3Smg8onx7d9Mn-A6eRQu', '1WL8YXLPc2lEKiCXbfmBeniBDz087Gpxe', '1dcduMy020F2y8SCZ24fLl-DVxZqul0Sf', '16AO0Oqap6MoZS_jZWV2KfoniDk8qgCnB', '1cwC2bHPXyzIVvmpOTfGwjciGLWL9aRC-', '1Hf9Y5vssA4KLeP1k4mGZA9JqNJE0m-cr', '1fn4PqBO2hwd4jVn1DEN4EeXXdhaX1LzW', '1VfCbue92A9EDRuAi7Jkh-7cmgomYQX7P', '1KQt53ADSeLs1TooP2kZLTsrVIEL17ILC', '17Em4HE3xsWYtiMjLhPUNAzJk5BErficy', '1wKvty2CRzpUnNKwWKQnNpmAdQNc2y0L_', '1R56XOd2xthCgBYBMBDUvQXOb-pyBsoK5', '1asJoPEA63zG4syGieA2G1dZGxEmPVX8Y', '1hgf2l6-rEuval20el9X0iOR0uqe5th2m', '1YEomn1oFOPakWkBEHC8SM-f1Yh-qdeuj', '17XcLOfWgnui08mz0IOdD7EWmNjho-YQ3', '1ShacQP5pHH49TrD9liC3Jw_wHcwshqdl']
+
+    const sample = [];
+
+    list.forEach((item) => {
+      sample.push({
+        src: 'https://drive.google.com/uc?export=view&id=' + item,
+        height: 300,
+        width: 300,
+      })
+    })
+
+    setPhotos(sample);
+  }, []);
 
   return (
     <>
@@ -198,13 +211,6 @@ export default function About({photos}) {
         <FadeInSection><div className="section">
           <Title name="Photo Gallery" />
           <Gallery photos={photos} />
-
-          {/*<div className="photogallery">
-            <div className="picrow"> { photos1.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
-            <div className="picrow"> { photos2.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
-            <div className="picrow"> { photos3.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
-            <div className="picrow"> { photos4.map((val) => { return <img key={val} src={require(`/public/images/pics/${val}`).default.src} /> }) } </div>
-          </div>*/}
         </div></FadeInSection>
       </div>
       
@@ -212,14 +218,3 @@ export default function About({photos}) {
     </>
   );
 };
-
-export async function getServerSideProps() {
-  const url = process.env.NODE_ENV === "production" ? "https://ftc18225.everstem.org/" : "http://localhost:3000";
-  const req = await fetch(`${url}/api/gallery`);
-  const res = await req.json();
-  return {
-    props: {
-      photos: res.str
-    }
-  }
-}

@@ -21,7 +21,7 @@ module.exports = {
   }),
   assetPrefix: assetPrefix,
   basePath: assetPrefix,
-  webpack: config => {
+  webpack: config => {    
     config.plugins.push(
       new webpack.DefinePlugin({
         'process.env.ASSET_PREFIX': JSON.stringify(assetPrefix),

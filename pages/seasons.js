@@ -1,12 +1,10 @@
-import NavBar from '../components/navbar';
-import Top from '../components/top';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
-import Banner from '../components/banner';
 import FadeInSection from '../components/fadeinsection';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faBook, faLink, faAward, faPen, faGamepad, faRobot, faMobile, faHandshake, faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
+import Collapse from '../components/collapse';
 
 export default function Seasons() {
   return (
@@ -36,27 +34,31 @@ export default function Seasons() {
           </div></FadeInSection>
           <FadeInSection><div className="seasongrid grid">
             <div className="grid-item">
-              <h4>League 1 Robot</h4>
-              <img src={require(`/public/images/seasons/freightfrenzy/league1robot.png`).default.src} width="80%" />
-              <br /><br />
-              <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=g0no5tn-IBg" target="_blank">League 1 Robot Video</a></div>
+              <Collapse title="League 1">
+                <img src={require(`/public/images/seasons/freightfrenzy/league1robot.png`).default.src} width="80%" />
+                <br /><br />
+                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=g0no5tn-IBg" target="_blank">League 1 Robot Video</a></div>
+              </Collapse>
             </div>
 
             <div className="grid-item">
-              <h4>League 2 Robot</h4>
-              <img src={require(`/public/images/seasons/freightfrenzy/league2robot.png`).default.src} width="80%" />
+              <Collapse title="League 2">
+                <img src={require(`/public/images/seasons/freightfrenzy/league2robot.png`).default.src} width="80%" />
+              </Collapse>
             </div>
 
             <div className="grid-item">
-              <h4>Interleague</h4>
-              <img src={require(`/public/images/seasons/freightfrenzy/interleague.png`).default.src} width="80%" />
+              <Collapse title="Interleague">
+                <img src={require(`/public/images/seasons/freightfrenzy/interleague.png`).default.src} width="80%" />
+              </Collapse>              
             </div>
 
             <div className="grid-item">
-              <h4>States</h4>
-              <img src={require(`/public/images/seasons/freightfrenzy/states.jpg`).default.src} width="80%" />
-              <br /><br />
-              <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=UlNMlCkZbEQ" target="_blank">WA State Control Award Video</a></div>
+              <Collapse title="States">
+                <img src={require(`/public/images/seasons/freightfrenzy/states.jpg`).default.src} width="80%" />
+                <br /><br />
+                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=UlNMlCkZbEQ" target="_blank">WA State Control Award Video</a></div>
+              </Collapse>              
             </div>
           </div></FadeInSection>
         </div>
@@ -87,20 +89,23 @@ export default function Seasons() {
 
           <FadeInSection><div className="seasongrid grid">
             <div className="grid-item">
-              <h4>League 1 Robot</h4>
-              <img src={require(`/public/images/seasons/ultimategoal/league1.jpg`).default.src} width="80%" />
+              <Collapse title="League 1">
+                <img src={require(`/public/images/seasons/ultimategoal/league1.jpg`).default.src} width="80%" />
+              </Collapse>
             </div>
 
             <div className="grid-item">
-              <h4>League 2 Robot</h4>
-              <img src={require(`/public/images/seasons/ultimategoal/league2.jpg`).default.src} width="70%" />
+              <Collapse title="League 2">
+                <img src={require(`/public/images/seasons/ultimategoal/league2.jpg`).default.src} width="70%" />
+              </Collapse>
             </div>
 
             <div className="grid-item">
-              <h4>Interleague / State</h4>
-              <img src={require(`/public/images/seasons/ultimategoal/interleagues.jpg`).default.src} width="80%" />
-              <br /><br />
-              <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=vkxp2Lw1z80" target="_blank">WA State Control Award Video</a></div>
+              <Collapse title="Interleague / State">
+                <img src={require(`/public/images/seasons/ultimategoal/interleagues.jpg`).default.src} width="80%" />
+                <br /><br />
+                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=vkxp2Lw1z80" target="_blank">WA State Control Award Video</a></div>
+              </Collapse>              
             </div>
           </div></FadeInSection>
         </div>

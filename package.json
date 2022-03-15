@@ -24,6 +24,7 @@
     "next": "^12.1.0",
     "nodemailer": "^6.7.0",
     "react": "^17.0.2",
+    "react-collapsed": "^3.3.0",
     "react-dom": "^17.0.2",
     "react-photo-gallery": "^8.0.0",
     "sass": "^1.42.1",

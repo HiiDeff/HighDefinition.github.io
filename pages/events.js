@@ -1,14 +1,10 @@
-import NavBar from '../components/navbar';
-import Top from '../components/top';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLeaf, faTrophy } from '@fortawesome/free-solid-svg-icons';
 import UpcomingEvents from '../components/upcomingevents';
 import React, { useEffect, useState } from 'react';
-import Banner from '../components/banner';
 import FadeInSection from '../components/fadeinsection';
+import Collapse from '../components/collapse';
 
 export default function Events() {
   const [width, setWidth] = useState(0);
@@ -39,129 +35,130 @@ export default function Events() {
             <div className="eventsection">Chipotle Fundraiser</div>
             <div className="eventsection">Python Workshop</div>
             <div className="eventsection">
-              <p>Connecting with Professionals</p>
+              <Collapse title="Connecting with Professionals">
+                <br />
+                {width < 800 ? (
+                  <>
+                    <ul style={{fontWeight: 300}}>
+                      <li>Self Taught Airplane Building and Pilot</li>
+                      <li>Wearable Technology Workshop</li>
+                      <li>Intelligent Transportation Systems</li>
+                      <li>Careers at iRobot</li>
+                      <li>Careers in the Gaming Industry</li>
+                      <li>Startup Life Cycle and Business Funding</li>
+                      <li>Robotics Industry in Japan</li>
+                      <li>The Art of Business and Inventing</li>
+                      <li>Mixed Reality & Robotics</li>
+                      <li>Robotics in Medicine</li>
+                      <li>Business and Entrepreneurship in Robotics</li>
+                      <li>Gravitational Waves in Astronomy</li>
+                      <li>AI Applications in Transportation Engineering</li>
+                      <li>Connected Automated Vehicles</li>
+                      <li>Leveraging Scale Designs for Connected Automated Vehicles Research</li>
+                      <li>Artificial Intelligence and Robotics</li>
+                      <li>Science & Education: Indoors and Out</li>
+                      <li>IP Protection in Robotics and Smart Transportation</li>
+                    </ul>
+                  </>   
+                ) : (
+                  <table id="professionals">
+                    <tr id="firstrow">
+                      <th>EVENT</th>
+                      <th>PROFESSIONALS</th>
+                    </tr>
 
-              {width < 800 ? (
-                <>
-                  <ul style={{fontWeight: 300}}>
-                    <li>Self Taught Airplane Building and Pilot</li>
-                    <li>Wearable Technology Workshop</li>
-                    <li>Intelligent Transportation Systems</li>
-                    <li>Careers at iRobot</li>
-                    <li>Careers in the Gaming Industry</li>
-                    <li>Startup Life Cycle and Business Funding</li>
-                    <li>Robotics Industry in Japan</li>
-                    <li>The Art of Business and Inventing</li>
-                    <li>Mixed Reality & Robotics</li>
-                    <li>Robotics in Medicine</li>
-                    <li>Business and Entrepreneurship in Robotics</li>
-                    <li>Gravitational Waves in Astronomy</li>
-                    <li>AI Applications in Transportation Engineering</li>
-                    <li>Connected Automated Vehicles</li>
-                    <li>Leveraging Scale Designs for Connected Automated Vehicles Research</li>
-                    <li>Artificial Intelligence and Robotics</li>
-                    <li>Science & Education: Indoors and Out</li>
-                    <li>IP Protection in Robotics and Smart Transportation</li>
-                  </ul>
-                </>   
-              ) : (
-                <table id="professionals">
-                  <tr id="firstrow">
-                    <th>EVENT</th>
-                    <th>PROFESSIONALS</th>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Self Taught Airplane Building and Pilot</td>
+                      <td>Walter Haag</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Self Taught Airplane Building and Pilot</td>
-                    <td>Walter Haag</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Wearable Technology Workshop</td>
+                      <td>Kitty Yeung</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Wearable Technology Workshop</td>
-                    <td>Kitty Yeung</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Computer Vision for Intelligent Transportation Systems</td>
+                      <td>Ruimin Ke</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Computer Vision for Intelligent Transportation Systems</td>
-                    <td>Ruimin Ke</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Careers at iRobot</td>
+                      <td>iRobot</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Careers at iRobot</td>
-                    <td>iRobot</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Careers in the Gaming Industry</td>
+                      <td>Robert Neckorcuk & Kirk Williford</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Careers in the Gaming Industry</td>
-                    <td>Robert Neckorcuk & Kirk Williford</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Startup Life Cycle and Business Funding</td>
+                      <td>Howie Xu</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Startup Life Cycle and Business Funding</td>
-                    <td>Howie Xu</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Robotics Industry in Japan</td>
+                      <td>Shiyu Xia</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Robotics Industry in Japan</td>
-                    <td>Shiyu Xia</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>The Art of Business and Inventing</td>
+                      <td>Ryfka Schafer</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>The Art of Business and Inventing</td>
-                    <td>Ryfka Schafer</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Mixed Reality & Robotics</td>
+                      <td>Jeff Delmerico</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Mixed Reality & Robotics</td>
-                    <td>Jeff Delmerico</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Robotics in Medicine</td>
+                      <td>Chumyan Wu</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Robotics in Medicine</td>
-                    <td>Chumyan Wu</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Business and Entrepreneurship in Robotics</td>
+                      <td>Fab Qian, Meera Rajagopalan, & Hannah Liu</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Business and Entrepreneurship in Robotics</td>
-                    <td>Fab Qian, Meera Rajagopalan, & Hannah Liu</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Gravitational Waves in Astronomy</td>
+                      <td>Gwynne Crowder</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Gravitational Waves in Astronomy</td>
-                    <td>Gwynne Crowder</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>AI Applications in Transportation Engineering</td>
+                      <td>Yinhai Wang</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>AI Applications in Transportation Engineering</td>
-                    <td>Yinhai Wang</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Connected Automated Vehicles</td>
+                      <td>Xiaopeng (Shaw) Li</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Connected Automated Vehicles</td>
-                    <td>Xiaopeng (Shaw) Li</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Leveraging Scale Designs for Connected Automated Vehicles Research</td>
+                      <td>Osama Osman</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Leveraging Scale Designs for Connected Automated Vehicles Research</td>
-                    <td>Osama Osman</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Artificial Intelligence and Robotics</td>
+                      <td>Anne Kao</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Artificial Intelligence and Robotics</td>
-                    <td>Anne Kao</td>
-                  </tr>
+                    <tr style={{fontWeight: 300}}>
+                      <td>Science & Education: Indoors and Out</td>
+                      <td>Laura LeBlanc</td>
+                    </tr>
 
-                  <tr style={{fontWeight: 300}}>
-                    <td>Science & Education: Indoors and Out</td>
-                    <td>Laura LeBlanc</td>
-                  </tr>
-
-                  <tr style={{fontWeight: 300}}>
-                    <td>IP Protection in Robotics and Smart Transportation</td>
-                    <td>Shaobin Zhu</td>
-                  </tr>
-                </table>
-              )}
+                    <tr style={{fontWeight: 300}}>
+                      <td>IP Protection in Robotics and Smart Transportation</td>
+                      <td>Shaobin Zhu</td>
+                    </tr>
+                  </table>
+                )}
+              </Collapse>
             </div>
           </div>
         </div></FadeInSection>

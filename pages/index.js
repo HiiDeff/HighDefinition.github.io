@@ -175,13 +175,20 @@ export default function Index() {
                 <h3>Learn About our Team</h3>
               </a>
             </div>
-            <div className="col" style={{backgroundColor: '#333'}}>
-              <div>
-                <h3>SCORING CAPABILITIES</h3>
-                <p><b>Auto: </b>7-cycle hub + park, spin duck + score duck/preload + park</p>
-                <p><b>Tele: </b>14-15 cycle on either hub</p>
-                <p><b>Endgame: </b>double capping + park, ducks + park</p>
-              </div>
+            <div className="col" style={{
+              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/freightfrenzy.jpg'})`,
+              backgroundPosition: 'top center',
+              backgroundAttachment: 'fixed',
+              backgroundSize: 'contain'
+            }}>
+              <a href="">
+                <div>
+                  <h3>SCORING CAPABILITIES</h3>
+                  <p><b>Auto: </b>7-cycle hub + park, spin duck + score duck/preload + park</p>
+                  <p><b>Tele: </b>14-15 cycle on either hub</p>
+                  <p><b>Endgame: </b>double capping + park, ducks + park</p>
+                </div>
+              </a>
             </div>
           </div>
         </div></FadeInSection>

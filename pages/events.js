@@ -24,7 +24,7 @@ export default function Events() {
       <Header title="Events" page="Events" description="Join us at our various events!" />
       
       <div className="Events">
-        <UpcomingEvents />
+        ​<UpcomingEvents />
         <FadeInSection><div className="section">
           <Title name="Past Events" />
           <div id="outreaches">

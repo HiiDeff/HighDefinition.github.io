@@ -76,16 +76,6 @@ export default function Resources() {
               <Link href="/documents/FTCPreMatchScouting.pdf" target="_blank" download id="ftcprematchdownloadbutton"><a className="button" id="ftcprematchscouting">Download Now</a></Link>
             </div>
           </div>
-          <p style={{fontSize: 20}}><b>Everyone</b></p>
-          <div className="resource-grid grid">
-            <div className="grid-item">
-              <h4>Connecting with Professionals Series</h4>
-              <img src={require(`/public/images/resources/cwp.jpg`).default.src} width="80%" />
-              <br />
-              <br />
-              <a href="https://www.youtube.com/c/EverstemEducation" className="button" id="connectingwprofessionals">Watch Now</a>
-            </div>
-          </div>
           <p style={{fontSize: 20}}><b>FLL</b></p>
           <div className="resource-grid grid">
             <div className="grid-item">
@@ -94,6 +84,16 @@ export default function Resources() {
               <br />
               <br />
               <a href="https://www.youtube.com/playlist?list=PLUHAVG5dAdrM8x77VdUg-EOhq5HwJ2RLn" className="button" id="fllprogrammingtutorial">Watch Now</a>
+            </div>
+          </div>
+          <p style={{fontSize: 20}}><b>Everyone</b></p>
+          <div className="resource-grid grid">
+            <div className="grid-item">
+              <h4>Connecting with Professionals Series</h4>
+              <img src={require(`/public/images/resources/cwp.jpg`).default.src} width="80%" />
+              <br />
+              <br />
+              <a href="https://www.youtube.com/c/EverstemEducation" className="button" id="connectingwprofessionals">Watch Now</a>
             </div>
           </div>
         </div></FadeInSection>

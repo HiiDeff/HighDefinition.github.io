@@ -15,8 +15,8 @@ export default function Collapsible(props) {
         <div className="collapsible">
             <div className="header" {...getToggleProps({onClick: handleOnClick})}>
                 <div style={{display: 'flex', alignItems: 'center'}}>
+                    <FontAwesomeIcon icon={isExpanded ? faAngleDown : faAngleUp } width="25" height="25" className="icon" style={{marginRight: 15, color: 'white', margin: 0, padding: 0}}/>
                     <h4>{props.title}</h4>
-                    <FontAwesomeIcon icon={isExpanded ? faAngleDown : faAngleUp } width="25" height="25" className="icon" style={{marginLeft: 15, color: 'white', margin: 0, padding: 0}}/>
                 </div>
             </div>
             <div {...getCollapseProps()}>

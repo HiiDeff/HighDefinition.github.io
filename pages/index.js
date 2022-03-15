@@ -6,8 +6,9 @@ import UpcomingEvents from '../components/upcomingevents';
 import Link from 'next/link';
 import Typewriter from 'typewriter-effect';
 import React from 'react';
+import Gallery from 'react-photo-gallery';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faPeopleCarry, faMoneyBill, faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faPeopleCarry, faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons';
 
 export default function Index() {
   return (
@@ -78,10 +79,9 @@ export default function Index() {
           <div className="teamhighlights grid">
             <div className="col" style={{
               backgroundImage: `url(${process.env.PUBLIC_URL+'/images/controlthumbnail.jpg'})`,
-              backgroundRepeat: 'no-repeat',
               backgroundPosition: 'top center',
               backgroundAttachment: 'fixed',
-              backgroundSize: 'cover'
+              backgroundSize: 'contain'
             }}>
               <a href="https://www.youtube.com/watch?v=UlNMlCkZbEQ">
                 <h3>Washington State Control Award Video</h3>
@@ -89,10 +89,9 @@ export default function Index() {
             </div>
             <div className="col" style={{
               backgroundImage: `url(${process.env.PUBLIC_URL+'/images/VISIONARY.jpg'})`,
-              backgroundRepeat: 'no-repeat',
               backgroundPosition: 'top center',
               backgroundAttachment: 'fixed',
-              backgroundSize: 'cover'
+              backgroundSize: 'contain'
             }}>
               <a href="https://www.youtube.com/watch?v=VaWNdEoWUtE">
                 <h3>World Championship Robot Reveal Trailer</h3>
@@ -100,10 +99,9 @@ export default function Index() {
             </div>
             <div className="col" style={{
               backgroundImage: `url(${process.env.PUBLIC_URL+'/images/fundraiser.jpeg'})`,
-              backgroundRepeat: 'no-repeat',
               backgroundPosition: 'top center',
               backgroundAttachment: 'fixed',
-              backgroundSize: 'cover'
+              backgroundSize: 'contain'
             }}>
               <a href="https://gofund.me/7da764b4">
                 <h3>Fund Our Journey to Worlds</h3>
@@ -111,10 +109,9 @@ export default function Index() {
             </div>
             <div className="col" style={{
               backgroundImage: `url(${process.env.PUBLIC_URL+'/images/robotskeleton.jpg'})`,
-              backgroundRepeat: 'no-repeat',
               backgroundPosition: 'top center',
               backgroundAttachment: 'fixed',
-              backgroundSize: 'cover'
+              backgroundSize: 'contain'
             }}>
               <a href="https://tinyurl.com/FTC18225StateRobot">
                 <h3>Washington State Freight Frenzy Robot CAD</h3>
@@ -122,10 +119,9 @@ export default function Index() {
             </div>
             <div className="col" style={{
               backgroundImage: `url(${process.env.PUBLIC_URL+'/images/scrimmage.jpg'})`,
-              backgroundRepeat: 'no-repeat',
               backgroundPosition: 'top center',
               backgroundAttachment: 'fixed',
-              backgroundSize: 'cover'
+              backgroundSize: 'contain'
             }}>
               <a href="https://ftc18225.everstem.org/events">
                 <h3>Upcoming Events</h3>
@@ -133,10 +129,9 @@ export default function Index() {
             </div>
             <div className="col" style={{
               backgroundImage: `url(${process.env.PUBLIC_URL+'/images/prematchscouting.png'})`,
-              backgroundRepeat: 'no-repeat',
               backgroundPosition: 'top center',
               backgroundAttachment: 'fixed',
-              backgroundSize: 'cover'
+              backgroundSize: 'contain'
             }}>
               <a href="https://ftc18225.everstem.org/resources">
                 <h3>Resources for Other Teams</h3>
@@ -144,10 +139,9 @@ export default function Index() {
             </div>
             <div className="col" style={{
               backgroundImage: `url(${process.env.PUBLIC_URL+'/images/TeamPicture.png'})`,
-              backgroundRepeat: 'no-repeat',
               backgroundPosition: 'top center',
               backgroundAttachment: 'fixed',
-              backgroundSize: 'cover'
+              backgroundSize: 'contain'
             }}>
               <a href="https://ftc18225.everstem.org/about">
                 <h3>Learn About our Team</h3>

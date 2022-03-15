@@ -5,6 +5,8 @@ import Footer from '../components/footer';
 import Title from '../components/title';
 import Banner from '../components/banner';
 import FadeInSection from '../components/fadeinsection';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faStar, faBook, faLink, faAward, faPen, faGamepad, faRobot, faMobile, faHandshake, faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
 
 export default function Seasons() {
   return (
@@ -12,44 +14,27 @@ export default function Seasons() {
       <Header title="Seasons" description="Our accomplishments by season!" page="Seasons" />
       
       <div className="Seasons">
-        <FadeInSection><div className="section">
-          <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: 5}}><a className="purplebutton" href="https://www.youtube.com/channel/UC8ZLjVy_9Y56cfqpqarRoQg" target="_blank">Our Youtube Channel</a></div>
+        <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: 20}}><a className="purplebutton" href="https://www.youtube.com/channel/UC8ZLjVy_9Y56cfqpqarRoQg" target="_blank">Our Youtube Channel</a></div>
 
-          <FadeInSection><div className="section">
-            <Title name="Awards" />
-            <h4>Global Awards</h4>
-            <div className="award-grid grid">
-              <div className="grid-item">Finalist for Innovation Challenge 2021</div>
-              <div className="grid-item">Dean's List Winner 2021 - Emma Shi</div>
-            </div>
+        <div className="section">
+          <Title name="Freight Frenzy: 2021 - 2022" />
+          <FadeInSection><div>
             <h4>State Awards</h4>
             <div className="award-grid grid">
-              <div className="grid-item">Inspire Award Winner 2022</div>
-              <div className="grid-item">Think Award 3rd Place 2022</div>
-
-              <div className="grid-item">Inspire Award Winner 2021</div>
-              <div className="grid-item">Top-Ranked Team 2021</div>
-              <div className="grid-item">Connect Award 3rd Place 2021</div>
-              <div className="grid-item">Think Award 3rd Place 2021</div>
+              <div className="grid-item blue"><FontAwesomeIcon icon={faStar} width="15" height="15" className="icon"/>Inspire Award Winner</div>
+              <div className="grid-item blue"><FontAwesomeIcon icon={faBook} width="15" height="15" className="icon"/>Think Award 3rd Place</div>
             </div>
             <h4>Interleague Awards</h4>
             <div className="award-grid grid">
-              <div className="grid-item">Inspire Award Winner 2022</div>
-              <div className="grid-item">Finalist Alliance Captain 2022</div>
-              <div className="grid-item">Design Award Finalist 2022</div>
-              <div className="grid-item">Control Award Finalist 2022</div>
-              <div className="grid-item">Motivate Award Finalist 2022</div>
-              <div className="grid-item">Think Award Finalist 2022</div>
-
-              <div className="grid-item">Inspire Award Finalist 2021</div>
-              <div className="grid-item">Top-Ranked Team 2021</div>
-              <div className="grid-item">Collins Aerospace Innovate Award 2021</div>
-              <div className="grid-item">Connect Award 3rd Place 2021</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faStar} width="15" height="15" className="icon"/>Inspire Award Winner</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faAward} width="15" height="15" className="icon"/>Finalist Alliance Captain</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faPen} width="15" height="15" className="icon"/>Design Award Finalist</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faGamepad} width="15" height="15" className="icon"/>Control Award Finalist</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faHandshake} width="15" height="15" className="icon"/>Motivate Award Finalist</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faBook} width="15" height="15" className="icon"/>Think Award Finalist</div>
             </div>
           </div></FadeInSection>
-
-          <Title name="Freight Frenzy: 2021 - 2022" />
-          <div className="seasongrid grid">
+          <FadeInSection><div className="seasongrid grid">
             <div className="grid-item">
               <h4>League 1 Robot</h4>
               <img src={require(`/public/images/seasons/freightfrenzy/league1robot.png`).default.src} width="80%" />
@@ -73,12 +58,34 @@ export default function Seasons() {
               <br /><br />
               <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=UlNMlCkZbEQ" target="_blank">WA State Control Award Video</a></div>
             </div>
-          </div>
-        </div></FadeInSection>
+          </div></FadeInSection>
+        </div>
 
-        <FadeInSection><div className="section">
+        <div className="section">
           <Title name="Ultimate Goal: 2020 - 2021" />
-          <div className="seasongrid grid">
+          <FadeInSection><div>
+            <h4>Global Awards</h4>
+            <div className="award-grid grid">
+              <div className="grid-item"><FontAwesomeIcon icon={faMobile} width="15" height="15" className="icon"/>Innovation Challenge Finalist</div>
+              <div className="grid-item"><FontAwesomeIcon icon={faUserAstronaut} width="15" height="15" className="icon"/>Dean's List Winner - Emma Shi</div>
+            </div>
+            <h4>State Awards</h4>
+            <div className="award-grid grid">
+              <div className="grid-item blue"><FontAwesomeIcon icon={faStar} width="15" height="15" className="icon"/>Inspire Award Winner</div>
+              <div className="grid-item blue"><FontAwesomeIcon icon={faAward} width="15" height="15" className="icon"/>Top-Ranked Team</div>
+              <div className="grid-item blue"><FontAwesomeIcon icon={faLink} width="15" height="15" className="icon"/>Connect Award 3rd Place</div>
+              <div className="grid-item blue"><FontAwesomeIcon icon={faBook} width="15" height="15" className="icon"/>Think Award 3rd Place</div>
+            </div>
+            <h4>Interleague Awards</h4>
+            <div className="award-grid grid">
+              <div className="grid-item green"><FontAwesomeIcon icon={faStar} width="15" height="15" className="icon"/>Inspire Award Finalist</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faAward} width="15" height="15" className="icon"/>Top-Ranked Team</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faRobot} width="15" height="15" className="icon"/>Innovate Award</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faLink} width="15" height="15" className="icon"/>Connect Award 3rd Place</div>
+            </div>
+          </div></FadeInSection>
+
+          <FadeInSection><div className="seasongrid grid">
             <div className="grid-item">
               <h4>League 1 Robot</h4>
               <img src={require(`/public/images/seasons/ultimategoal/league1.jpg`).default.src} width="80%" />
@@ -95,8 +102,8 @@ export default function Seasons() {
               <br /><br />
               <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=vkxp2Lw1z80" target="_blank">WA State Control Award Video</a></div>
             </div>
-          </div>
-        </div></FadeInSection>
+          </div></FadeInSection>
+        </div>
       </div>
       
       <Footer />

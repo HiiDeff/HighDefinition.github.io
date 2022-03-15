@@ -185,9 +185,30 @@
 
 .Resources, .Seasons {
     .award-grid {
+        .icon {
+            margin-right: 5px;
+            color: $purple;
+        }
+
         .grid-item {
             border: 2px solid $purple;
             text-align: center;
+        }
+
+        .green {
+            border: 2px solid rgb(48, 160, 48);
+
+            .icon {
+                color: rgb(48, 160, 48);
+            }
+        }
+
+        .blue {
+            border: 2px solid rgb(68, 68, 247);
+
+            .icon {
+                color: rgb(68, 68, 247);
+            }
         }
     
         b {

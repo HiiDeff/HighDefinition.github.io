@@ -34,13 +34,6 @@ export default function Resources() {
               <a href="https://ftc18225.everstem.org/guides/ftc-robot-guide" className="button" id="ftcrobotguide">Read Now</a>
             </div>
             <div className="grid-item">
-              <h4>FLL Programming Tutorials</h4>
-              <img src={require(`/public/images/resources/ev3programmingline.jpg`).default.src} width="80%" />
-              <br />
-              <br />
-              <a href="https://www.youtube.com/playlist?list=PLUHAVG5dAdrM8x77VdUg-EOhq5HwJ2RLn" className="button" id="fllprogrammingtutorial">Watch Now</a>
-            </div>
-            <div className="grid-item">
               <h4>FTC Scout</h4>
               <img src={require(`/public/images/resources/ftcscout.jpg`).default.src} width="80%" />
               <br />
@@ -53,13 +46,6 @@ export default function Resources() {
               <br />
               <br />
               <a href="https://github.com/HiiDeff/ShippingElementDetector" className="button" id="ftcshippingelementdetector">View Now</a>
-            </div>
-            <div className="grid-item">
-              <h4>Connecting with Professionals Series</h4>
-              <img src={require(`/public/images/resources/cwp.jpg`).default.src} width="80%" />
-              <br />
-              <br />
-              <a href="https://www.youtube.com/c/EverstemEducation" className="button" id="connectingwprofessionals">Watch Now</a>
             </div>
             <div className="grid-item">
               <h4>2021 WA State Presentation Slide Deck</h4>

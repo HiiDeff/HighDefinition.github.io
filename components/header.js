@@ -7,7 +7,6 @@ export default function Header({title, description, page}) {
   const [image, setImage] = useState("");
 
   useEffect(() => {
-    console.log(title);
     window.addEventListener("resize", updateDimensions);
     updateDimensions();
     return () => window.removeEventListener("resize", updateDimensions);

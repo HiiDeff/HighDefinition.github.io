@@ -9,8 +9,36 @@ import React from 'react';
 import Gallery from 'react-photo-gallery';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faPeopleCarry, faHandHoldingUsd } from '@fortawesome/free-solid-svg-icons';
+React.useLayoutEffect = React.useEffect;
 
 export default function Index() {
+  var photos = [
+    { src: '/images/sponsors/boeing.png', width: 100, height: 100 },
+    { src: '/images/sponsors/bwtlink2.jpg', width: 100, height: 100 },
+    { src: '/images/sponsors/chineseinstitute.jpg', width: 100, height: 100 },
+    { src: '/images/sponsors/chipotle.png', width: 100, height: 100 },
+    { src: '/images/sponsors/everstem.jpg', width: 100, height: 100 },
+    { src: '/images/sponsors/firstwa.jpg', width: 100, height: 100 },
+    { src: '/images/sponsors/fredmeyer.png', width: 100, height: 100 },
+    { src: '/images/sponsors/google.png', width: 100, height: 100 },
+    { src: '/images/sponsors/hasbro.png', width: 100, height: 100 },
+    { src: '/images/sponsors/homedepot.png', width: 100, height: 100 },
+    { src: '/images/sponsors/kohls.png', width: 100, height: 100 },
+    { src: '/images/sponsors/microsoft.png', width: 100, height: 100 },
+    { src: '/images/sponsors/mose.jpg', width: 100, height: 100 },
+    { src: '/images/sponsors/sendcutsend.png', width: 100, height: 100 },
+    { src: '/images/sponsors/target.jpg', width: 100, height: 100 },
+    { src: '/images/sponsors/tmobile.jpg', width: 100, height: 100 },
+    { src: '/images/sponsors/trader-joes.png', width: 100, height: 100 },
+  ];
+
+  function columns(containerWidth) {
+    let columns = 9;
+    if (containerWidth <= 900) columns = 6;
+    if (containerWidth <= 600) columns = 4;
+    return columns;
+  }
+
   return (
     <>
       <Header title="HIGH DEFINITION" description="Reaching High. Defining Futures." page="Home" />
@@ -192,62 +220,7 @@ export default function Index() {
         <FadeInSection><div className="section">
           <Title name="Sponsors" />
           <p>Thank you to our sponsors for supporting our team and helping us learn.</p>
-          <div className="person-grid grid">
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/boeing.png`).default.src} height="200px" className="member" />
-              <h3>Boeing</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/bwtlink2.jpg`).default.src} height="200px" className="member" />
-              <h3>BWT Link</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/chineseinstitute.jpg`).default.src} height="200px" className="member" />
-              <h3>Chinese Institute of Engineers</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/chipotle.png`).default.src} height="200px" className="member" />
-              <h3>Chipotle</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/everstem.jpg`).default.src} height="200px" className="member" />
-              <h3>Everstem Education</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/firstwa.jpg`).default.src} height="200px" className="member" />
-              <h3>FIRST Washington</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/google.png`).default.src} height="200px" className="member" />
-              <h3>Google</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/microsoft.png`).default.src} height="200px" className="member" />
-              <h3>Microsoft</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/mose.jpg`).default.src} height="200px" className="member" />
-              <h3>MSOE</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/sendcutsend.png`).default.src} height="200px" className="member" />
-              <h3>SendCutSend</h3>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/sponsors/tmobile.jpg`).default.src} height="200px" className="member" />
-              <h3>T-Mobile</h3>
-            </div>
-          </div>
+          <Gallery photos={photos} columns={columns} direction="column" />
         </div></FadeInSection>
       </div>
       

@@ -120,7 +120,13 @@
         }
     }
 
-    @media screen and (max-width: 820px) {
+    @media screen and (max-width: 950px) {
+        .firstrow {
+            grid-template-columns: auto auto;
+        }
+    }
+
+    @media screen and (max-width: 850px) {
         .firstrow {
             grid-template-columns: auto;
         }
@@ -196,18 +202,18 @@
         }
 
         .green {
-            border: 2px solid rgb(48, 160, 48);
-
-            .icon {
-                color: rgb(48, 160, 48);
-            }
-        }
-
-        .blue {
             border: 2px solid rgb(68, 68, 247);
 
             .icon {
                 color: rgb(68, 68, 247);
+            }
+        }
+
+        .blue {
+            border: 2px solid rgb(154, 68, 194);
+
+            .icon {
+                color: rgb(154, 68, 194);
             }
         }
     

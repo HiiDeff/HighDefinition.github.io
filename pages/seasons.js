@@ -66,19 +66,24 @@ export default function Seasons() {
         <div className="section">
           <Title name="Ultimate Goal: 2020 - 2021" />
           <FadeInSection><Collapse title="AWARDS"><div>
+            <h4>Global Awards</h4>
+            <div className="award-grid grid">
+              <div className="grid-item"><FontAwesomeIcon icon={faMobile} width="15" height="15" className="icon"/>Innovation Challenge Finalist</div>
+              <div className="grid-item"><FontAwesomeIcon icon={faUserAstronaut} width="15" height="15" className="icon"/>Dean's List Winner - Emma Shi</div>
+            </div>
             <h4>State Awards</h4>
             <div className="award-grid grid">
               <div className="grid-item blue"><FontAwesomeIcon icon={faStar} width="15" height="15" className="icon"/>Inspire Award Winner</div>
+              <div className="grid-item blue"><FontAwesomeIcon icon={faAward} width="15" height="15" className="icon"/>Top-Ranked Team</div>
+              <div className="grid-item blue"><FontAwesomeIcon icon={faLink} width="15" height="15" className="icon"/>Connect Award 3rd Place</div>
               <div className="grid-item blue"><FontAwesomeIcon icon={faBook} width="15" height="15" className="icon"/>Think Award 3rd Place</div>
             </div>
             <h4>Interleague Awards</h4>
             <div className="award-grid grid">
-              <div className="grid-item green"><FontAwesomeIcon icon={faStar} width="15" height="15" className="icon"/>Inspire Award Winner</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faAward} width="15" height="15" className="icon"/>Finalist Alliance Captain</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faPen} width="15" height="15" className="icon"/>Design Award Finalist</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faGamepad} width="15" height="15" className="icon"/>Control Award Finalist</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faHandshake} width="15" height="15" className="icon"/>Motivate Award Finalist</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faBook} width="15" height="15" className="icon"/>Think Award Finalist</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faStar} width="15" height="15" className="icon"/>Inspire Award Finalist</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faAward} width="15" height="15" className="icon"/>Top-Ranked Team</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faRobot} width="15" height="15" className="icon"/>Innovate Award</div>
+              <div className="grid-item green"><FontAwesomeIcon icon={faLink} width="15" height="15" className="icon"/>Connect Award 3rd Place</div>
             </div>
           </div></Collapse></FadeInSection>
           <Collapse title="ROBOT CAD IMAGES"><FadeInSection><div className="seasongrid grid">

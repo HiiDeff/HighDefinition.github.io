@@ -75,6 +75,11 @@ export default function About() {
             </div>
 
             <div className="grid-item">
+              <img src={require(`/public/images/mentors/patrick.jpg`).default.src} height="300px" className="member" />
+              <h3>Patrick Tien</h3>
+            </div>
+
+            <div className="grid-item">
               <img src={require(`/public/images/mentors/xiaoxi.jpg`).default.src} height="300px" className="member" />
               <h3>Xiaoxi Wang</h3>
             </div>

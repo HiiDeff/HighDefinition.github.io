@@ -38,7 +38,14 @@ export default function About() {
         <FadeInSection><div className="section">
           <Title name="Coaches" />
           <div className="person-grid grid">
-           <div className="grid-item">
+            <div className="grid-item">
+              <img src={require(`/public/images/coaches/jason.png`).default.src} height="300px" className="member" />
+              <h3>Coach Jason</h3>
+              <br />
+              <p style={{fontWeight: 300}}>I'm Coach Jason, a civil engineer and Mechanical Design Mentor. I helped form and develop the team by providing strategic guidance. I work closely with our mechanical team with training and purchasing robot parts, 3D printing parts, and helping our team handle logistic and administrative tasks.</p>
+            </div>
+
+            <div className="grid-item">
               <img src={require(`/public/images/coaches/liangshou.jpg`).default.src} height="300px" className="member" />
               <h3>Coach Liangshou</h3>
               <br />

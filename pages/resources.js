@@ -98,6 +98,28 @@ export default function Resources() {
           </div>
         </div></FadeInSection>
 
+        <FadeInSection><div className="section">
+          <Title name="Videos" />
+          <div className="resource-grid grid">
+            <div className="grid-item">
+              <h4>Washington State 2022 Control Award Video</h4>
+              <img src={require(`/public/images/controlthumbnail.jpg`).default.src} width="80%" />
+              <br />
+              <br />
+
+              <a href="https://www.youtube.com/watch?v=UlNMlCkZbEQ" target="_blank" className="button" id="2022control">Watch Now</a>
+            </div>
+            <div className="grid-item">
+              <h4>World Championship 2022 Robot Reveal Trailer</h4>
+              <img src={require(`/public/images/VISIONARY.jpg`).default.src} width="80%" />
+              <br />
+              <br />
+
+              <a href="https://www.youtube.com/watch?v=VaWNdEoWUtE" target="_blank" className="button" id="2022robotreveal">Watch Now</a>
+            </div>
+          </div>
+        </div></FadeInSection>
+
         <FadeInSection><div className="section" style={{backgroundColor: '#aaaaa'}}>
           <Title name="Store" />
           <div className="resource-grid grid">

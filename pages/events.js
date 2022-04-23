@@ -31,7 +31,11 @@ export default function Events() {
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', margin: 20}}><a className="purplebutton" href="https://www.youtube.com/c/EverstemEducation" target="_blank">Watch Our CWP Events Here</a></div>
             
             <div className="eventsection">STEM Advocacy</div>
+            <div className="eventsection">CADTable</div>
             <div className="eventsection">Washington Tech Invitationals (Co-Hosted with Saints Robotics)</div>
+            <div className="eventsection">Robotics Reactor Meetup</div>
+            <div className="eventsection">FTC Programming Bootcamp</div>
+            <div className="eventsection">FIRST Demonstration</div>
             <div className="eventsection">Chipotle Fundraiser</div>
             <div className="eventsection">Python Workshop</div>
             <div className="eventsection">
@@ -58,6 +62,7 @@ export default function Events() {
                       <li>Artificial Intelligence and Robotics</li>
                       <li>Science & Education: Indoors and Out</li>
                       <li>IP Protection in Robotics and Smart Transportation</li>
+                      <li>Business at Everyday Robots</li>
                     </ul>
                   </>   
                 ) : (
@@ -155,6 +160,11 @@ export default function Events() {
                     <tr style={{fontWeight: 300}}>
                       <td>IP Protection in Robotics and Smart Transportation</td>
                       <td>Shaobin Zhu</td>
+                    </tr>
+
+                    <tr style={{fontWeight: 300}}>
+                      <td>Business at Everyday Robots</td>
+                      <td>Jasmine Lawrence</td>
                     </tr>
                   </table>
                 )}

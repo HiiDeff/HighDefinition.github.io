@@ -87,7 +87,7 @@ export default function Index() {
           <div className="flex impact"><div className="grid" style={{width: '80%'}}>
             <div className="col" style={{textAlign: 'center'}}>
               <FontAwesomeIcon icon={faUser} width="75" height="75" className="icon"/>
-              <h2>Impacted 2000 People</h2>
+              <h2>Impacted 6000+ People</h2>
             </div>
 
             <div className="col" style={{textAlign: 'center'}}>

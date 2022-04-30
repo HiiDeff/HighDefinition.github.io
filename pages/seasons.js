@@ -17,6 +17,12 @@ export default function Seasons() {
         <div className="section">
           <Title name="Freight Frenzy: 2021 - 2022" />
           <FadeInSection><Collapse title="AWARDS"><div>
+            <h4>World Awards</h4>
+            <div className="award-grid grid">
+              <div className="grid-item"><FontAwesomeIcon icon={faAward} width="15" height="15" className="icon"/>Jemison Division Finalist Alliance</div>
+              <div className="grid-item"><FontAwesomeIcon icon={faLink} width="15" height="15" className="icon"/>Connect Award Finalist</div>
+            </div>
+
             <h4>State Awards</h4>
             <div className="award-grid grid">
               <div className="grid-item blue"><FontAwesomeIcon icon={faStar} width="15" height="15" className="icon"/>Inspire Award Winner</div>
@@ -60,13 +66,21 @@ export default function Seasons() {
                 <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=UlNMlCkZbEQ" target="_blank">WA State Control Award Video</a></div>
               </Collapse>              
             </div>
+
+            <div className="grid-item">
+              <Collapse title="World">
+                <img src={require(`/public/images/seasons/freightfrenzy/worlds.jpg`).default.src} width="80%" />
+                <br /><br />
+                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><a className="purplebutton" href="https://www.youtube.com/watch?v=Bo4R6sHHHWY&t" target="_blank">World Reveal Video</a></div>
+              </Collapse>              
+            </div>
           </div></FadeInSection></Collapse>
         </div>
 
         <div className="section">
           <Title name="Ultimate Goal: 2020 - 2021" />
           <FadeInSection><Collapse title="AWARDS"><div>
-            <h4>Global Awards</h4>
+            <h4>World Awards</h4>
             <div className="award-grid grid">
               <div className="grid-item"><FontAwesomeIcon icon={faMobile} width="15" height="15" className="icon"/>Innovation Challenge Finalist</div>
               <div className="grid-item"><FontAwesomeIcon icon={faUserAstronaut} width="15" height="15" className="icon"/>Dean's List Winner - Emma Shi</div>

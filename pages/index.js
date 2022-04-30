@@ -73,7 +73,7 @@ export default function Index() {
               </div>
               <div className="column" style={{fontWeight: 300}}>
                 <Title name="About Us" />
-                <p>We are First Tech Challenge (FTC) Team 18225 High Definition, a 2nd year veteran robotics team from Bellevue, Washington composed of 13 enthusiastic students grades 7-12.</p>
+                <p>We are FIRST Tech Challenge (FTC) Team 18225 High Definition, a 2nd year veteran robotics team from Bellevue, Washington composed of 13 enthusiastic students grades 7-12.</p>
                 
                 <p><b>Our mission</b> is to promote STEM and FIRST within our community to inspire the next generation of innovators to solve challenges of the future! We spread mechanical, programming, business, and other practices within the community to ensure their success.</p>
 
@@ -106,13 +106,13 @@ export default function Index() {
           <Title name="Team Highlights" />
           <div className="teamhighlights grid">
             <div className="col" style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/controlthumbnail.jpg'})`,
+              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/worldrobotrevealthumbnail.jpg'})`,
               backgroundPosition: 'top center',
               backgroundAttachment: 'fixed',
               backgroundSize: 'contain'
             }}>
-              <a href="https://www.youtube.com/watch?v=UlNMlCkZbEQ">
-                <h3>Washington State Control Award Video</h3>
+              <a href="https://www.youtube.com/watch?v=Bo4R6sHHHWY">
+                <h3>FTC 18225 World Robot Reveal</h3>
               </a>
             </div>
             <div className="col" style={{
@@ -126,13 +126,13 @@ export default function Index() {
               </a>
             </div>
             <div className="col" style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/fundraiser.jpeg'})`,
+              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/controlthumbnail.jpg'})`,
               backgroundPosition: 'top center',
               backgroundAttachment: 'fixed',
               backgroundSize: 'contain'
             }}>
-              <a href="https://gofund.me/7da764b4">
-                <h3>Fund Our Journey to Worlds</h3>
+              <a href="https://www.youtube.com/watch?v=UlNMlCkZbEQ">
+                <h3>Washington State Control Award Video</h3>
               </a>
             </div>
             <div className="col" style={{
@@ -143,51 +143,6 @@ export default function Index() {
             }}>
               <a href="https://tinyurl.com/FTC18225StateRobot">
                 <h3>Washington State Freight Frenzy Robot CAD</h3>
-              </a>
-            </div>
-            <div className="col" style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/scrimmage.jpg'})`,
-              backgroundPosition: 'top center',
-              backgroundAttachment: 'fixed',
-              backgroundSize: 'contain'
-            }}>
-              <a href="https://ftc18225.everstem.org/events">
-                <h3>Upcoming Events</h3>
-              </a>
-            </div>
-            <div className="col" style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/prematchscouting.png'})`,
-              backgroundPosition: 'top center',
-              backgroundAttachment: 'fixed',
-              backgroundSize: 'contain'
-            }}>
-              <a href="https://ftc18225.everstem.org/resources">
-                <h3>Resources for Other Teams</h3>
-              </a>
-            </div>
-            <div className="col" style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/TeamPicture.png'})`,
-              backgroundPosition: 'top center',
-              backgroundAttachment: 'fixed',
-              backgroundSize: 'contain'
-            }}>
-              <a href="https://ftc18225.everstem.org/about">
-                <h3>Learn About our Team</h3>
-              </a>
-            </div>
-            <div className="col" style={{
-              backgroundImage: `url(${process.env.PUBLIC_URL+'/images/freightfrenzy.jpg'})`,
-              backgroundPosition: 'top center',
-              backgroundAttachment: 'fixed',
-              backgroundSize: 'contain'
-            }}>
-              <a href="">
-                <div>
-                  <h3>SCORING CAPABILITIES</h3>
-                  <p><b>Auto: </b>7-cycle hub + park, spin duck + score duck/preload + park</p>
-                  <p><b>Tele: </b>14-15 cycle on either hub</p>
-                  <p><b>Endgame: </b>double capping + park, ducks + park</p>
-                </div>
               </a>
             </div>
           </div>

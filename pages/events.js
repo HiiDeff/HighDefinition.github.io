@@ -1,7 +1,8 @@
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
-import UpcomingEvents from '../components/upcomingevents';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTrophy, faCalendarAlt, faHotdog } from '@fortawesome/free-solid-svg-icons';
 import React, { useEffect, useState } from 'react';
 import FadeInSection from '../components/fadeinsection';
 import Collapse from '../components/collapse';
@@ -24,7 +25,18 @@ export default function Events() {
       <Header title="Events" page="Events" description="Join us at our various events!" />
       
       <div className="Events">
-        ​<UpcomingEvents />
+        <FadeInSection><div className="section">
+          <Title name="Upcoming or Current Events" />
+          <div className="flex"><iframe src="https://calendar.google.com/calendar/embed?src=9l8bq35qskdac9jls6a0bf04gc%40group.calendar.google.com&ctz=America%2FLos_Angeles&showCalendars=0&showTabs=0&showPrint=0&color=%23000000" style={{borderWidth: 0}} width="800" height="600" frameborder="0" scrolling="no"></iframe></div>
+
+
+          <br />
+
+          <div style={{display: 'flex', alignItems: 'center', justifyContent: 'center'}}><div style={{display: 'flex', alignItems: 'left', justifyContent: 'center', flexDirection: 'column'}} className="upcomingEvents">
+            {/*<span style={{display: 'flex', alignItems: 'center', marginBottom: 10}}><FontAwesomeIcon icon={faTrophy} width="20" height="20" className="icon"/> &nbsp; &nbsp; <a href=""><b>World Championship</b>: April 20 - 24</a></span>*/}
+          </div></div>
+        </div></FadeInSection>
+
         <FadeInSection><div className="section">
           <Title name="Past Events" />
           <div id="outreaches">

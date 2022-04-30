@@ -72,11 +72,6 @@ export default function About() {
           <Title name="Mentors" />
           <div className="person-grid grid">
             <div className="grid-item">
-              <img src={require(`/public/images/mentors/jacky.jpg`).default.src} height="300px" className="member" />
-              <h3>Jacky Pai</h3>
-            </div>
-
-            <div className="grid-item">
               <img src={require(`/public/images/mentors/mihir.jpg`).default.src} height="300px" className="member" />
               <h3>Mihir Jain</h3>
             </div>
@@ -104,7 +99,7 @@ export default function About() {
             <div className="grid-item">
               <img src={require(`/public/images/teammembers/albert.jpg`).default.src} height="300px" className="member" />
               <h3>Albert Lu</h3>
-              <p className="description">CAD / Programming</p>
+              <p className="description">CAD</p>
               <br />
               <br />
               <p style={{fontWeight: 300}}>I'm Albert, a 7th grader at Tyee Middle School. This is my 3rd year in FIRST (2nd in FLL, 1st in FTC). I like to read, play the clarinet, and programming in my free time. I also have a science YouTube channel which I update weekly.</p>
@@ -132,7 +127,7 @@ export default function About() {
               <img src={require(`/public/images/teammembers/andy.jpg`).default.src} height="300px" className="member" />
               <h3>Andy Tien</h3>
               <p className="description">CAD Co-Lead</p>
-              <p className="description">Programming</p>
+              <p className="description"></p>
               <br />
               <p style={{fontWeight: 300}}>I'm Andy, a freshman at Newport High School. This is my 1st year of FTC, following 2 years of FLL. When I'm not dabbling in competitive and robotics mechanical engineering and programming, I enjoy playing soccer and violin.</p>
             </div>
@@ -141,33 +136,15 @@ export default function About() {
               <img src={require(`/public/images/teammembers/eesha.jpg`).default.src} height="300px" className="member" />
               <h3>Eesha Jain</h3>
               <p className="description">CAD Co-Lead</p>
-              <p className="description">Web Developer / Outreach</p>
+              <p className="description">Web Development / Outreach</p>
               <br />
               <p style={{fontWeight: 300}}>I'm Eesha, a 9th grader at Interlake High School. This is my 5th year in FIRST (2 in FLL and 3 in FTC). In my free time, I enjoy web and app development, writing, listening to music, and hanging out with my friends.</p>
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/emma.jpg`).default.src} height="300px" className="member" />
-              <h3>Emma Shi</h3>
-              <p className="description">Co-Captain</p>
-              <p className="description">Business / Outreach / Engineering Notebook</p>
-              <br />
-              <p style={{fontWeight: 300}}>I'm Emma, a senior at Tesla STEM High School! This is my 9th year in FIRST (6th year in FTC), and enjoyed learning the disciplines of FIRST. As co-captain, I lead business and outreach aspects of our team, including mentoring our younger team members. Outside of robotics, I like to read, bake, listen to musicals, ski, and play games!</p>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/teammembers/erik.jpg`).default.src} height="300px" className="member" />
-              <h3>Erik Ma</h3>
-              <p className="description">Co-Captain</p>
-              <p className="description">CAD / Mechanical / Programming / Drive</p>
-              <br />
-              <p style={{fontWeight: 300}}>I'm Erik, a senior at Interlake High School. This is my 3rd year within FIRST (FTC/FRC), and I have a big passion for engineering. As co-captain, I manage the overall architectural design of our robot (mechanical, programming, and CAD), lead the drive team, and mentor students in robotics. In my free time, I love spending time with friends, hosting events, and playing ultimate frisbee!</p>
-            </div>
-
-            <div className="grid-item">
               <img src={require(`/public/images/teammembers/eugene.jpg`).default.src} height="300px" className="member" />
               <h3>Eugene Li</h3>
-              <p className="description">Programming</p>
+              <p className="description">Outreach</p>
               <br />
               <br />
               <p style={{fontWeight: 300}}>I'm Eugene, a freshman at Newport High School. This is my 2nd year of FTC following 1 year of FLL. Some fun facts about me are I have a passion for music, my favorite series is the Lord of the Rings trilogy, vanilla is my favorite icecream flavor, and I hate the sound of Velcro.</p>
@@ -183,39 +160,59 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/katrina.jpg`).default.src} height="300px" className="member" />
-              <h3>Katrina Li</h3>
-              <p className="description">Business / Outreach</p>
-              <br />
-              <br />
-              <p style={{fontWeight: 300}}>I'm Katrina, a senior at Newport High School. This is my 2nd year as a member of High Definition focusing on business and outreach. I am really interested in how engineering can be used to solve current challenges in ethical ways. In my free time I enjoy baking, hiking, and watching documentaries.</p>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/teammembers/lucas.jpg`).default.src} height="300px" className="member" />
-              <h3>Lucas Wu</h3>
-              <p className="description">Engineering Notebook Lead</p>
-              <p className="description">Business / Outreach</p>
-              <br />
-              <p style={{fontWeight: 300}}>I'm Lucas, a senior at Interlake High School. This is my 3rd year in FTC, focusing mainly on documentation and hardware aspects of the robot. Outside of FIRST and robotics, I spend time studying math and chemistry, and enjoy reading novels and playing the piano in my free time.</p>
-            </div>
-
-            <div className="grid-item">
-              <img src={require(`/public/images/teammembers/rishabh.jpg`).default.src} height="300px" className="member" />
-              <h3>Rishabh Venkatesan</h3>
-              <p className="description">Programming</p>
-              <br />
-              <br />
-              <p style={{fontWeight: 300}}>I'm Rishabh, a senior at Tesla STEM High School. This is my 5th in both FTC and FRC. As a programmer, I have learned many techniques and solutions to common issues over my journey in FIRST! In my free time, I sketch cars, learn about new technologies, and play basketball for fun.</p>
-            </div>
-
-            <div className="grid-item">
               <img src={require(`/public/images/teammembers/rohit.jpg`).default.src} height="300px" className="member" />
               <h3>Rohit Venkatesan</h3>
               <p className="description">CAD / Mechanical</p>
               <br />
               <br />
               <p style={{fontWeight: 300}}>I'm Rohit, an 8th grader at Evergreen Middle School. This is my 1st year of FTC following 1 year of FLL and 2 years of VEX (IQ). My current hobbies include reading, playing board games, and playing the piano and several percussion instruments.</p>
+            </div>
+          </div>
+        </div></FadeInSection>
+
+        <FadeInSection><div className="section">
+          <Title name="Alumni" />
+          <div className="person-grid grid">
+            <div className="grid-item">
+              <img src={require(`/public/images/teammembers/emma.jpg`).default.src} height="300px" className="member" />
+              <h3>Emma Shi</h3>
+              <p className="description">Team Co-Founder</p>
+              <br />
+              <p style={{fontWeight: 300}}>I'm Emma, and I have 9 years of experience in FIRST (6th year in FTC), and enjoyed learning the disciplines of FIRST. As a co-captain, I led business and outreach aspects of our team, including mentoring our younger team members. Outside of robotics, I like to read, bake, listen to musicals, ski, and play games!</p>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/teammembers/erik.jpg`).default.src} height="300px" className="member" />
+              <h3>Erik Ma</h3>
+              <p className="description">Team Co-Founder</p>
+              <br />
+              <p style={{fontWeight: 300}}>I'm Erik, and I have 3 years of experience in FIRST, and I have a big passion for engineering. As co-captain, I managed the overall architectural design of our robot (mechanical, programming, and CAD), led the drive team, and mentored students in robotics. In my free time, I love spending time with friends, hosting events, and playing ultimate frisbee!</p>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/teammembers/katrina.jpg`).default.src} height="300px" className="member" />
+              <h3>Katrina Li</h3>
+              <p className="description"></p>
+              <br />
+              <br />
+              <p style={{fontWeight: 300}}>I'm Katrina, and I focused on business and outreach. I am really interested in how engineering can be used to solve current challenges in ethical ways. In my free time I enjoy baking, hiking, and watching documentaries.</p>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/teammembers/lucas.jpg`).default.src} height="300px" className="member" />
+              <h3>Lucas Wu</h3>
+              <p className="description"></p>
+              <br /><br />
+              <p style={{fontWeight: 300}}>I'm Lucas, and I have 3 years of experience in FTC, focusing mainly on documentation and hardware aspects of the robot. Outside of FIRST and robotics, I spend time studying math and chemistry, and enjoy reading novels and playing the piano in my free time.</p>
+            </div>
+
+            <div className="grid-item">
+              <img src={require(`/public/images/teammembers/rishabh.jpg`).default.src} height="300px" className="member" />
+              <h3>Rishabh Venkatesan</h3>
+              <p className="description"></p>
+              <br />
+              <br />
+              <p style={{fontWeight: 300}}>I'm Rishabh, and I have 5 years of FIRST experience in both FTC and FRC. As a programmer, I have learned many techniques and solutions to common issues over my journey in FIRST! In my free time, I sketch cars, learn about new technologies, and play basketball for fun.</p>
             </div>
           </div>
         </div></FadeInSection>

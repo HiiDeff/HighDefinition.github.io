@@ -7,8 +7,12 @@ html, body, input, textarea, label {
     color: $white;
 }
 
-html, body, input, button, textarea, label {
+html, body, input::placeholder, textarea::placeholder, button, textarea, label {
     font-family: 'Roboto Condensed', 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+input, textarea {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 ::-moz-selection {

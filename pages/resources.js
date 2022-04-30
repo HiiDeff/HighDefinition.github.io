@@ -76,7 +76,7 @@ export default function Resources() {
               <Link href="/documents/FTCPreMatchScouting.pdf" target="_blank" download id="ftcprematchdownloadbutton"><a className="button" id="ftcprematchscouting">Download Now</a></Link>
             </div>
           </div>
-          <p style={{fontSize: 20}}><b>FLL</b></p>
+          <p style={{fontSize: 20}}><b>Other</b></p>
           <div className="resource-grid grid">
             <div className="grid-item">
               <h4>FLL Programming Tutorials</h4>
@@ -85,37 +85,13 @@ export default function Resources() {
               <br />
               <a href="https://www.youtube.com/playlist?list=PLUHAVG5dAdrM8x77VdUg-EOhq5HwJ2RLn" className="button" id="fllprogrammingtutorial">Watch Now</a>
             </div>
-          </div>
-          <p style={{fontSize: 20}}><b>Everyone</b></p>
-          <div className="resource-grid grid">
+
             <div className="grid-item">
               <h4>Connecting with Professionals Series</h4>
               <img src={require(`/public/images/resources/cwp.jpg`).default.src} width="80%" />
               <br />
               <br />
               <a href="https://www.youtube.com/c/EverstemEducation" className="button" id="connectingwprofessionals">Watch Now</a>
-            </div>
-          </div>
-        </div></FadeInSection>
-
-        <FadeInSection><div className="section">
-          <Title name="Videos" />
-          <div className="resource-grid grid">
-            <div className="grid-item">
-              <h4>Washington State 2022 Control Award Video</h4>
-              <img src={require(`/public/images/controlthumbnail.jpg`).default.src} width="80%" />
-              <br />
-              <br />
-
-              <a href="https://www.youtube.com/watch?v=UlNMlCkZbEQ" target="_blank" className="button" id="2022control">Watch Now</a>
-            </div>
-            <div className="grid-item">
-              <h4>World Championship 2022 Robot Reveal Trailer</h4>
-              <img src={require(`/public/images/VISIONARY.jpg`).default.src} width="80%" />
-              <br />
-              <br />
-
-              <a href="https://www.youtube.com/watch?v=VaWNdEoWUtE" target="_blank" className="button" id="2022robotreveal">Watch Now</a>
             </div>
           </div>
         </div></FadeInSection>

@@ -6,6 +6,9 @@ const assetPrefix = '';
 const publicUrl = isProd ? 'https://ftc18225.everstem.org' : 'http://localhost:3000';
 
 module.exports = {
+  images: {
+    loader: 'custom'
+  },
   exportPathMap: () => ({
     '/': { page: '/' },
     "/about": { page: "/about" },

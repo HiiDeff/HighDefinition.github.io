@@ -90,6 +90,7 @@ export default function Events() {
                       <li>Science & Education: Indoors and Out</li>
                       <li>IP Protection in Robotics and Smart Transportation</li>
                       <li>Business at Everyday Robots</li>
+                      <li>Natural Hazards Reconnaissance</li>
                     </ul>
                   </>   
                 ) : (
@@ -192,6 +193,11 @@ export default function Events() {
                     <tr style={{fontWeight: 300}}>
                       <td>Business at Everyday Robots</td>
                       <td>Jasmine Lawrence</td>
+                    </tr>
+
+                    <tr style={{fontWeight: 300}}>
+                      <td>Natural Hazards Reconnaissance</td>
+                      <td>Jeffrey W. Berman</td>
                     </tr>
                   </table>
                 )}

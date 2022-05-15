@@ -5,6 +5,8 @@ import FadeInSection from '../components/fadeinsection';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faBook, faLink, faAward, faPen, faGamepad, faRobot, faMobile, faHandshake, faUserAstronaut } from '@fortawesome/free-solid-svg-icons';
 import Collapse from '../components/collapse';
+import Link from 'next/link';
+import Award from '../components/award';
 
 export default function Seasons() {
   return (
@@ -19,23 +21,23 @@ export default function Seasons() {
           <FadeInSection><Collapse title="AWARDS"><div>
             <h4>World Awards</h4>
             <div className="award-grid grid">
-              <div className="grid-item"><FontAwesomeIcon icon={faAward} width="15" height="15" className="icon"/>Jemison Division Finalist Alliance</div>
-              <div className="grid-item"><FontAwesomeIcon icon={faLink} width="15" height="15" className="icon"/>Connect Award Finalist</div>
+              <Award icon={faAward} award="Jemison Division Finalist Alliance" classn="" />
+              <Award icon={faLink} award="Connect Award Finalist" classn="" />
             </div>
 
             <h4>State Awards</h4>
             <div className="award-grid grid">
-              <div className="grid-item blue"><FontAwesomeIcon icon={faStar} width="15" height="15" className="icon"/>Inspire Award Winner</div>
-              <div className="grid-item blue"><FontAwesomeIcon icon={faBook} width="15" height="15" className="icon"/>Think Award 3rd Place</div>
+              <Award icon={faStar} award="Inspire Award Winner" classn="blue" />
+              <Award icon={faBook} award="Think Award 3rd Place" classn="blue" />
             </div>
             <h4>Interleague Awards</h4>
             <div className="award-grid grid">
-              <div className="grid-item green"><FontAwesomeIcon icon={faStar} width="15" height="15" className="icon"/>Inspire Award Winner</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faAward} width="15" height="15" className="icon"/>Finalist Alliance Captain</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faPen} width="15" height="15" className="icon"/>Design Award Finalist</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faGamepad} width="15" height="15" className="icon"/>Control Award Finalist</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faHandshake} width="15" height="15" className="icon"/>Motivate Award Finalist</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faBook} width="15" height="15" className="icon"/>Think Award Finalist</div>
+              <Award icon={faStar} award="Inspire Award Winner" classn="green" />
+              <Award icon={faAward} award="Finalist Alliance Captain" classn="green" />
+              <Award icon={faPen} award="Design Award Finalist" classn="green" />
+              <Award icon={faGamepad} award="Control Award Finalist" classn="green" />
+              <Award icon={faHandshake} award="Motivate Award Finalist" classn="green" />
+              <Award icon={faBook} award="Think Award Finalist" classn="green" />
             </div>
           </div></Collapse></FadeInSection>
           <Collapse title="ROBOT CAD IMAGES"><FadeInSection><div className="seasongrid grid">
@@ -82,22 +84,22 @@ export default function Seasons() {
           <FadeInSection><Collapse title="AWARDS"><div>
             <h4>World Awards</h4>
             <div className="award-grid grid">
-              <div className="grid-item"><FontAwesomeIcon icon={faMobile} width="15" height="15" className="icon"/>Innovation Challenge Finalist</div>
-              <div className="grid-item"><FontAwesomeIcon icon={faUserAstronaut} width="15" height="15" className="icon"/>Dean's List Winner - Emma Shi</div>
+              <Award icon={faMobile} award="Innovation Challenge Finalist" classn="" />
+              <Award icon={faUserAstronaut} award="Dean's List Winner - Emma Shi" classn="" />
             </div>
             <h4>State Awards</h4>
             <div className="award-grid grid">
-              <div className="grid-item blue"><FontAwesomeIcon icon={faStar} width="15" height="15" className="icon"/>Inspire Award Winner</div>
-              <div className="grid-item blue"><FontAwesomeIcon icon={faAward} width="15" height="15" className="icon"/>Top-Ranked Team</div>
-              <div className="grid-item blue"><FontAwesomeIcon icon={faLink} width="15" height="15" className="icon"/>Connect Award 3rd Place</div>
-              <div className="grid-item blue"><FontAwesomeIcon icon={faBook} width="15" height="15" className="icon"/>Think Award 3rd Place</div>
+              <Award icon={faStar} award="Inspire Award Winner" classn="blue" />
+              <Award icon={faAward} award="Top-Ranked Team" classn="blue" />
+              <Award icon={faLink} award="Connect Award 3rd Place" classn="blue" />
+              <Award icon={faBook} award="Think Award 3rd Place" classn="blue" />
             </div>
             <h4>Interleague Awards</h4>
             <div className="award-grid grid">
-              <div className="grid-item green"><FontAwesomeIcon icon={faStar} width="15" height="15" className="icon"/>Inspire Award Finalist</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faAward} width="15" height="15" className="icon"/>Top-Ranked Team</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faRobot} width="15" height="15" className="icon"/>Innovate Award</div>
-              <div className="grid-item green"><FontAwesomeIcon icon={faLink} width="15" height="15" className="icon"/>Connect Award 3rd Place</div>
+              <Award icon={faStar} award="Inspire Award Finalist" classn="green" />
+              <Award icon={faAward} award="Top-Ranked Team" classn="green" />
+              <Award icon={faRobot} award="Innovate Award" classn="green" />
+              <Award icon={faLink} award="Connect Award 3rd Place" classn="green" />
             </div>
           </div></Collapse></FadeInSection>
           <Collapse title="ROBOT CAD IMAGES"><FadeInSection><div className="seasongrid grid">

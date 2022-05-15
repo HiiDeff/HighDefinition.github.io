@@ -5,10 +5,14 @@ import Footer from '../components/footer';
 import Title from '../components/title';
 import Banner from '../components/banner';
 import FadeInSection from '../components/fadeinsection';
+import Image from 'next/image';
 import React, {useEffect, useState} from 'react';
 React.useLayoutEffect = React.useEffect;
 
 export default function About() {
+  const WIDTH = 230;
+  const HEIGHT = 300;
+
   return (
     <>
       <Header title="About" page="About" description="Meet the Team!" />
@@ -20,28 +24,28 @@ export default function About() {
           <Title name="Coaches" />
           <div className="person-grid grid">
             <div className="grid-item">
-              <img src={require(`/public/images/coaches/jason.png`).default.src} height="300px" className="member" />
+              <Image src="/images/coaches/jason.png" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Coach Jason</h3>
               <br />
               <p style={{fontWeight: 300}}>I'm Coach Jason, a civil engineer and Mechanical Design Mentor. I helped form and develop the team by providing strategic guidance. I work closely with our mechanical team with training and purchasing robot parts, 3D printing parts, and helping our team handle logistic and administrative tasks.</p>
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/coaches/liangshou.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/coaches/liangshou.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Coach Liangshou</h3>
               <br />
               <p style={{fontWeight: 300}}>I'm Liangshou Wu, and I work for Google. I have been a mentor/coach for FLL and FTC for 4 years. I enjoy working with students in various FIRST programs. Specifically in FTC 18225, I have been focusing on coaching programming and mentoring other FTC teams.</p>
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/coaches/lynne.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/coaches/lynne.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Coach Lynne</h3>
               <br />
               <p style={{fontWeight: 300}}>I'm Lynne Dong, and I work for Microsoft. I have been coaching and mentoring FLL and FTC teams for the past 9 years. It's my pleasure to work with so many talented students in FIRST by teaching them technical/business skills and connecting them with professionals in the tech industry.</p>
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/coaches/mark.jpg`).default.src} height="300px" className="member" />
+             <Image src="/images/coaches/mark.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Coach Mark</h3>
               <br />
               <p style={{fontWeight: 300}}>I'm Mark Ma, and I work for the King County DJA. I have been an FTC mentor/coach for 3 years. Supporting STEM is one of my biggest passions, and in FIRST, I focus on coaching the mechanical/CAD team. I strive to push students to think creatively while learning important skills such as problem analysis and resolution.</p>
@@ -53,22 +57,22 @@ export default function About() {
           <Title name="Mentors" />
           <div className="person-grid grid">
             <div className="grid-item">
-              <img src={require(`/public/images/mentors/mihir.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/mentors/mihir.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Mihir Jain</h3>
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/mentors/patrick.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/mentors/patrick.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Patrick Tien</h3>
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/mentors/xiaoxi.jpg`).default.src} height="300px" className="member" />
+             <Image src="/images/mentors/xiaoxi.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Xiaoxi Wang</h3>
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/mentors/yinhai.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/mentors/yinhai.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Yinhai Wang</h3>
             </div>
           </div>
@@ -78,7 +82,7 @@ export default function About() {
           <Title name="The Team" />
           <div className="person-grid grid">
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/albert.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/teammembers/albert.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Albert Lu</h3>
               <p className="description">CAD</p>
               <br />
@@ -87,7 +91,7 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/allen.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/teammembers/allen.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Allen Wu</h3>
               <p className="description">Programming Lead</p>
               <br />
@@ -96,7 +100,7 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/andrew.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/teammembers/andrew.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Andrew Pai</h3>
               <p className="description">Safety Captain</p>
               <p className="description">Drive / Mechanical</p>
@@ -105,7 +109,7 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/andy.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/teammembers/andy.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Andy Tien</h3>
               <p className="description">CAD Co-Lead</p>
               <p className="description"></p>
@@ -114,7 +118,7 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/eesha.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/teammembers/eesha.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Eesha Jain</h3>
               <p className="description">CAD Co-Lead</p>
               <p className="description">Web Development / Outreach</p>
@@ -123,7 +127,7 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/eugene.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/teammembers/eugene.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Eugene Li</h3>
               <p className="description">Outreach</p>
               <br />
@@ -132,7 +136,7 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/julia.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/teammembers/julia.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Julia Wang</h3>
               <p className="description">Public Relations Lead</p>
               <p className="description">Business / Outreach</p>
@@ -141,7 +145,7 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/rohit.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/teammembers/rohit.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Rohit Venkatesan</h3>
               <p className="description">CAD / Mechanical</p>
               <br />
@@ -155,7 +159,7 @@ export default function About() {
           <Title name="Alumni" />
           <div className="person-grid grid">
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/emma.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/alumni/emma.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Emma Shi</h3>
               <p className="description">Team Co-Founder</p>
               <br />
@@ -163,7 +167,7 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/erik.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/alumni/erik.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Erik Ma</h3>
               <p className="description">Team Co-Founder</p>
               <br />
@@ -171,7 +175,7 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/katrina.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/alumni/katrina.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Katrina Li</h3>
               <p className="description"></p>
               <br />
@@ -180,7 +184,7 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/lucas.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/alumni/lucas.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Lucas Wu</h3>
               <p className="description"></p>
               <br /><br />
@@ -188,7 +192,7 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <img src={require(`/public/images/teammembers/rishabh.jpg`).default.src} height="300px" className="member" />
+              <Image src="/images/alumni/rishabh.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Rishabh Venkatesan</h3>
               <p className="description"></p>
               <br />

@@ -42,23 +42,6 @@ export default function Header({title, description, page}) {
           </div>
         </div>
       </div>
-      {/*
-
-      <Banner />
-      
-      <div className="Header" style={{ 
-        backgroundImage: `url(${process.env.PUBLIC_URL + image})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'top center',
-        backgroundAttachment: 'fixed',
-        backgroundSize: 'cover'
-      }}>
-        <div className="headerborder">
-          <h1>{title}</h1>
-          <p>{description}</p>
-        </div>
-        <div id="overlay"></div>
-      </div>*/}
     </>
   );
 };

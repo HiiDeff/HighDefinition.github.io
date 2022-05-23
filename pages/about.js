@@ -97,7 +97,7 @@ export default function About() {
             <div className="grid-item">
               <Image loader={loader} src="/images/teammembers/allen.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Allen Wu</h3>
-              <p className="description">Programming Lead</p>
+              <p className="description">Co-Captain</p>
               <br />
               <br />
               <p style={{fontWeight: 300}}>I'm Allen, a freshman at Newport High School. This is my 2nd year of FTC, following 2 years of FLL. Outside of robotics, I'm extremely passionate about competitive programming and piano. I also enjoy playing basketball, tennis, volleyball, and hang out with friends!</p>
@@ -115,7 +115,7 @@ export default function About() {
             <div className="grid-item">
               <Image loader={loader} src="/images/teammembers/andy.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Andy Tien</h3>
-              <p className="description">CAD Co-Lead</p>
+              <p className="description">CAD / Mech Lead</p>
               <p className="description"></p>
               <br />
               <p style={{fontWeight: 300}}>I'm Andy, a freshman at Newport High School. This is my 1st year of FTC, following 2 years of FLL. When I'm not dabbling in competitive and robotics mechanical engineering and programming, I enjoy playing soccer and violin.</p>
@@ -124,8 +124,7 @@ export default function About() {
             <div className="grid-item">
               <Image loader={loader} src="/images/teammembers/eesha.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Eesha Jain</h3>
-              <p className="description">CAD Co-Lead</p>
-              <p className="description">Web Development / Outreach</p>
+              <p className="description">Co-Captain</p>
               <br />
               <p style={{fontWeight: 300}}>I'm Eesha, a 9th grader at Interlake High School. This is my 5th year in FIRST (2 in FLL and 3 in FTC). In my free time, I enjoy web and app development, writing, listening to music, and hanging out with my friends.</p>
             </div>
@@ -142,8 +141,7 @@ export default function About() {
             <div className="grid-item">
               <Image loader={loader} src="/images/teammembers/julia.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Julia Wang</h3>
-              <p className="description">Public Relations Lead</p>
-              <p className="description">Business / Outreach</p>
+              <p className="description">Co-Captain</p>
               <br />
               <p style={{fontWeight: 300}}>I'm Julia, a sophomore at The Bush School. This is my 2nd year of FTC following 1 year of FLL. Some of my favorite things include golf, Pixar, astrology, Valorant, strawberry icecream, and the Land of Stories book series.</p>
             </div>

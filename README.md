@@ -5,7 +5,7 @@ Welcome to our team! My name is Eesha and this README should walk you through ev
 This website is coded via Next using npm.
 
 ## Code Organization
-```python
+```java
 v components
     > award.js //award component: season page
     > banner.js //banner - notice to user

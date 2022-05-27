@@ -5,7 +5,7 @@ Welcome to our team! My name is Eesha and this README should walk you through ev
 This website is coded via Next using npm.
 
 ## Code Organization
-```java
+```
 v components
     > award.js //award component: season page
     > banner.js //banner - notice to user
@@ -43,7 +43,7 @@ v scss
 ## Making Changes
 You will be making changes on your own branch and then merging it periodically once you have an update. 
 
-**DO NOT DIRECTLY EDIT MAIN!**
+==**DO NOT DIRECTLY EDIT MAIN!**==
 
 Here are the steps to do that:
 

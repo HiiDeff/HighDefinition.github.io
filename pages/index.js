@@ -2,7 +2,6 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Title from '../components/title';
 import FadeInSection from '../components/fadeinsection';
-import UpcomingEvents from '../components/upcomingevents';
 import Link from 'next/link';
 import Typewriter from 'typewriter-effect';
 import React from 'react';

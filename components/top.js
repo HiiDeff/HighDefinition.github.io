@@ -18,6 +18,23 @@ export default function Top({name}) {
                 gtag('config', 'G-HMB95Q5EXV');
             `}}></Script>
 
+            <script
+                async
+                src={`https://www.googletagmanager.com/gtag/js?id=G-HMB95Q5EXV`}
+            />
+            <script
+                dangerouslySetInnerHTML={{
+                __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', 'G-HMB95Q5EXV', {
+                page_path: window.location.pathname,
+                });
+            `,
+                }}
+            />
+
             <link rel="icon" href="/logo.png" />    
         </Head>
     );

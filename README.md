@@ -1,5 +1,7 @@
 # FTC #18225 High Definition Team Website
 
+![HighDefinition](HighDefinition.png)
+
 Welcome to our team! My name is Eesha and this README should walk you through everything you need to know to edit our website. Please read this entirely so that you know how to edit and make updates to our website properly.
 
 This website is coded via Next using npm.

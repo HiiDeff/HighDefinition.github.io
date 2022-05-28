@@ -10,12 +10,12 @@ export default function Top({name}) {
             <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
             <meta property="og:image" content="/logo.png" />
             
-            <Script async src="https://www.googletagmanager.com/gtag/js?id=G-VWJ18NMGVG"></Script>
+            <Script async src="https://www.googletagmanager.com/gtag/js?id=G-HMB95Q5EXV"></Script>
             <Script type="text/javascript" dangerouslySetInnerHTML={{ __html: `
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', 'G-VWJ18NMGVG');
+                gtag('config', 'G-HMB95Q5EXV');
             `}}></Script>
 
             <link rel="icon" href="/logo.png" />    

@@ -187,6 +187,10 @@
     .member {
         margin-bottom: 10px;
     }
+
+    #coach-grid {
+        grid-template-columns: 33% 33% 33% !important;
+    }
 }
 
 .Resources, .Seasons {

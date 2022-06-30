@@ -26,12 +26,12 @@ export default function About() {
 
         <FadeInSection><div className="section">
           <Title name="Coaches" />
-          <div className="person-grid grid">
+          <div className="flex" style={{alignItems: 'center', justifyContent: 'center'}}><div className="person-grid grid" id="coach-grid" style={{width: '75%'}}>
             <div className="grid-item">
               <Image loader={loader} src="/images/coaches/jason.png" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Coach Jason</h3>
               <br />
-              <p style={{fontWeight: 300}}>I'm Coach Jason, a civil engineer and Mechanical Design Mentor. I helped form and develop the team by providing strategic guidance. I work closely with our mechanical team with training and purchasing robot parts, 3D printing parts, and helping our team handle logistic and administrative tasks.</p>
+              <p style={{fontWeight: 300}}>I'm Coach Jason, a civil engineer and mechanical design mentor. I helped form and develop the team by providing strategic guidance. I work closely with our mechanical team with training and purchasing robot parts, and helping our team handle administrative tasks.</p>
             </div>
 
             <div className="grid-item">
@@ -42,24 +42,32 @@ export default function About() {
             </div>
 
             <div className="grid-item">
-              <Image loader={loader} src="/images/coaches/lynne.jpg" height={HEIGHT} width={WIDTH} className="member" />
-              <h3>Coach Lynne</h3>
+              <Image loader={loader} src="/images/coaches/yinhai.jpg" height={HEIGHT} width={WIDTH} className="member" />
+              <h3>Yinhai Wang</h3>
               <br />
-              <p style={{fontWeight: 300}}>I'm Lynne Dong, and I work for Microsoft. I have been coaching and mentoring FLL and FTC teams for the past 9 years. It's my pleasure to work with so many talented students in FIRST by teaching them technical/business skills and connecting them with professionals in the tech industry.</p>
+              <p style={{fontWeight: 300}}>bio</p>
             </div>
-
-            <div className="grid-item">
-             <Image loader={loader} src="/images/coaches/mark.jpg" height={HEIGHT} width={WIDTH} className="member" />
-              <h3>Coach Mark</h3>
-              <br />
-              <p style={{fontWeight: 300}}>I'm Mark Ma, and I work for the King County DJA. I have been an FTC mentor/coach for 3 years. Supporting STEM is one of my biggest passions, and in FIRST, I focus on coaching the mechanical/CAD team. I strive to push students to think creatively while learning important skills such as problem analysis and resolution.</p>
-            </div>
-          </div>
+          </div></div>
         </div></FadeInSection>
 
         <FadeInSection><div className="section">
           <Title name="Mentors" />
           <div className="person-grid grid">
+            <div className="grid-item">
+              <Image loader={loader} src="/images/mentors/lani.jpg" height={HEIGHT} width={WIDTH} className="member" />
+              <h3>Lani Cao</h3>
+            </div>
+
+            <div className="grid-item">
+              <Image loader={loader} src="/images/mentors/lynne.jpg" height={HEIGHT} width={WIDTH} className="member" />
+              <h3>Lynne Dong</h3>
+            </div>
+
+            <div className="grid-item">
+             <Image loader={loader} src="/images/mentors/mark.jpg" height={HEIGHT} width={WIDTH} className="member" />
+              <h3>Mark Ma</h3>
+            </div>
+
             <div className="grid-item">
               <Image loader={loader} src="/images/mentors/mihir.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Mihir Jain</h3>
@@ -73,12 +81,7 @@ export default function About() {
             <div className="grid-item">
              <Image loader={loader} src="/images/mentors/xiaoxi.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Xiaoxi Wang</h3>
-            </div>
-
-            <div className="grid-item">
-              <Image loader={loader} src="/images/mentors/yinhai.jpg" height={HEIGHT} width={WIDTH} className="member" />
-              <h3>Yinhai Wang</h3>
-            </div>
+            </div>            
           </div>
         </div></FadeInSection>
 

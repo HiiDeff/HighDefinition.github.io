@@ -68,15 +68,15 @@ export default function Index() {
           <FadeInSection>
             <div className="row" style={{margin: 10, padding: 10, backgroundColor: '#333', borderRadius: 10}}>
               <div className="column" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-                <img src={require(`/public/images/TeamPicture.png`).default.src} width="80%" />
+                <img src={require(`/public/images/TeamPicture.png`).default.src} width="70%" />
               </div>
-              <div className="column" style={{fontWeight: 300}}>
+              <div className="column" style={{fontWeight: 300, borderLeftWidth: 2, borderLeftColor: 'white', borderLeftStyle:"solid", padding: 20}}>
                 <Title name="About Us" />
-                <p>We are FIRST Tech Challenge (FTC) Team 18225 High Definition, a 3rd year veteran robotics team from Bellevue, Washington composed of 12 enthusiastic students grades 7-12.</p>
+                <p style={{fontSize: 16}}>We are FIRST Tech Challenge (FTC) Team 18225 High Definition, a 3rd year veteran robotics team from Bellevue, Washington composed of 12 enthusiastic students grades 7-12.</p>
                 
-                <p><b>Our mission</b> is to promote STEM and FIRST within our community to inspire the next generation of innovators to solve challenges of the future! We spread mechanical, programming, business, and other practices within the community to ensure their success.</p>
+                <p style={{fontSize: 16}}><b>Our mission</b> is to promote STEM and FIRST within our community to inspire the next generation of innovators to solve challenges of the future! We spread mechanical, programming, business, and other practices within the community to ensure their success.</p>
 
-                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><Link href='/about' as={ process.env.PUBLIC_URL + '/about'}><a className="purplebutton">More about us</a></Link></div>
+                <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}><Link href='/about' as={ process.env.PUBLIC_URL + '/about'}><a className="purplebutton">Learn More</a></Link></div>
               </div>
             </div>
           </FadeInSection>
@@ -149,29 +149,29 @@ export default function Index() {
 
         <FadeInSection><div className="section">
           <Title name="About FIRST" />
-          <p style={{fontWeight: 300, marginTop: 0}}><a href="https://www.firstinspires.org/" style={{color: 'white'}}>FIRST Inspires</a> is a non-profit that strives to inspire the next generation of STEM innovators by challenging them in hands-on-learning through robotics competitions. Through these programs, students not only learn how to build and program a robot, but how to be a leader, work in a team, be confident in themselves, and more.</p>
+          <p style={{fontWeight: 300, marginTop: 0}}><a href="https://www.firstinspires.org/" style={{color: 'white'}}>FIRST Inspires</a> is a non-profit that <b>inspires</b> the next generation of STEM innovators by challenging them in hands-on-learning through robotics competitions. Through these programs, students not only learn how to build and program a robot, but how to be a leader, work in a team, be confident in themselves, and more.</p>
 
           <p>FIRST consists of 3 programs:</p>
 
           <div className="firstrow">
-            <div className="col">
+            <div className="col" style={{padding: 10}}>
               <a href="https://www.firstinspires.org/robotics/fll">
                 <h3>FIRST LEGO LEAGUE</h3>
-                <p>Students ages 4-16 compete in friendly competition where they are encouraged to explore real world challenges by developing a solution and build/program a LEGO robot to complete missions on a field.</p>
+                <p style={{fontWeight: 300}}>Students ages 4-16 compete in friendly competition where they are encouraged to explore real world challenges by developing a solution and build/program a LEGO robot to complete missions on a field.</p>
                 <img src="https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/fll/event-experience.jpg" width="300px" />
               </a>
             </div>
-            <div className="col">
+            <div className="col" style={{padding: 10}}>
               <a href="https://www.firstinspires.org/robotics/ftc">
                 <h3>FIRST TECH CHALLENGE</h3>
-                <p>Students ages 12-18 learn to design and build robots using electronics programmed by Android technology and Java-based programming. Teams compete in an alliance format against other teams and in the process, learn to think like engineers.</p>
+                <p style={{fontWeight: 300}}>Students ages 12-18 learn to design and build robots using electronics programmed with Android and Java-based programming. Teams compete in an alliance format against other teams and in the process, learn to think like engineers.</p>
                 <img src="https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/ftc/event-experience.jpg" width="300px" />
               </a>
             </div>
-            <div className="col">
+            <div className="col" style={{padding: 10}}>
               <a href="https://www.firstinspires.org/robotics/frc">
                 <h3>FIRST ROBOTICS COMPETITION</h3>
-                <p>Teams of high school students are challenged to design industrial-size robots to compete in difficult field missions in an alliance format. Through this process, they maintain a team brand, meet their goals, and promote STEM respect in the community.</p>
+                <p style={{fontWeight: 300}}>Teams of high school students are challenged to design industrial-size robots to compete in difficult field missions in an alliance format. They also maintain a team brand, meet their goals, and promote STEM respect in the community.</p>
                 <img src="https://www.firstinspires.org/sites/all/themes/first/assets/images/2020/frc/event-experience.jpg" width="300px" />
               </a>
             </div>

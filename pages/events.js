@@ -53,7 +53,7 @@ export default function Events() {
         </div></FadeInSection>
 
         <FadeInSection><div className="section">
-          <Title name="Past Events" />
+          <Title name="Noteable Past Events" />
           <div id="outreaches">
             <div style={{display: 'flex', justifyContent: 'center', alignItems: 'center', margin: 20}}><a className="purplebutton" href="https://www.youtube.com/c/EverstemEducation" target="_blank">Watch Our CWP Events Here</a></div>
             

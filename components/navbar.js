@@ -33,12 +33,12 @@ export default function NavBar({name}) {
       <ul className="tabs">
           <li className="logo"><Link href="/"><a><img src={logo.src} width="45px" height="45px" /></a></Link></li>
           
-          <li style={{display: open}} className="tab"><Link href='/' as={ process.env.PUBLIC_URL + '/'}><a id="Home" className="tab-label">Home</a></Link></li>
-          <li style={{display: open}} className="tab"><Link href='/about' as={ process.env.PUBLIC_URL + '/about'}><a id="About" className="tab-label">About</a></Link></li>
-          <li style={{display: open}} className="tab"><Link href='/events' as={ process.env.PUBLIC_URL + '/events'}><a id="Events" className="tab-label">Events</a></Link></li>
-          <li style={{display: open}} className="tab"><Link href='/seasons' as={ process.env.PUBLIC_URL + '/seasons'}><a id="Seasons" className="tab-label">Seasons</a></Link></li>
-          <li style={{display: open}} className="tab"><Link href='/resources' as={ process.env.PUBLIC_URL + '/resources'}><a id="Resources" className="tab-label">Resources</a></Link></li>
-          <li style={{display: open}} className="tab"><Link href='/contact' as={ process.env.PUBLIC_URL + '/contact'}><a id="Contact" className="tab-label">Contact</a></Link></li>
+          <li style={{display: open}} className="tab"><Link href='/'><a id="Home" className="tab-label">Home</a></Link></li>
+          <li style={{display: open}} className="tab"><Link href='/about'><a id="About" className="tab-label">About</a></Link></li>
+          <li style={{display: open}} className="tab"><Link href='/events'><a id="Events" className="tab-label">Events</a></Link></li>
+          <li style={{display: open}} className="tab"><Link href='/seasons'><a id="Seasons" className="tab-label">Seasons</a></Link></li>
+          <li style={{display: open}} className="tab"><Link href='/resources'><a id="Resources" className="tab-label">Resources</a></Link></li>
+          <li style={{display: open}} className="tab"><Link href='/contact'><a id="Contact" className="tab-label">Contact</a></Link></li>
 
           <li onClick={onClickToggle} className="toggle" style={{padding: 5, paddingBottom: 10, marginRight: 10}}><span className="bars"><FontAwesomeIcon icon={faBars} width="26" height="26" style={{color: 'white'}} /></span></li>
       </ul>

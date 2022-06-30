@@ -7,7 +7,7 @@ export default function MyApp({ Component, pageProps }) {
   return <>
     <Script
       strategy="lazyOnload"
-      src={`https://www.googletagmanager.com/gtag/js?id=G-VWJ18NMGVG`}
+      src={`https://www.googletagmanager.com/gtag/js?id=G-HMB95Q5EXV`}
     />
 
     <Script strategy="lazyOnload">
@@ -15,7 +15,7 @@ export default function MyApp({ Component, pageProps }) {
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
-        gtag('config', 'G-VWJ18NMGVG', {
+        gtag('config', 'G-HMB95Q5EXV', {
           page_path: window.location.pathname,
         });
       `}

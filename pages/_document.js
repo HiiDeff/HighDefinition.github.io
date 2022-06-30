@@ -1,4 +1,4 @@
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from 'next/document';
 
 class DocPage extends Document {
   static async getInitialProps(ctx) {
@@ -18,22 +18,6 @@ class DocPage extends Document {
             <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet"/>
             <link href="https://fonts.googleapis.com/css2?family=Mali:wght@200&display=swap" rel="stylesheet" />
             <link href="https://fonts.googleapis.com/css2?family=Hubballi&display=swap" rel="stylesheet" />
-
-            <script
-              async
-              src="https://www.googletagmanager.com/gtag/js?id=G-VWJ18NMGVG"
-            />
-
-            <script
-              dangerouslySetInnerHTML={{
-                __html: `
-                  window.dataLayer = window.dataLayer || [];
-                  function gtag(){dataLayer.push(arguments);}
-                  gtag('js', new Date());
-                  gtag('config', 'G-VWJ18NMGVG', { page_path: window.location.pathname });
-                `,
-              }}
-            />
         </Head>
         <body>
           <Main />

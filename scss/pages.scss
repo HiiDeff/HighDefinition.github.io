@@ -67,6 +67,10 @@
         }
     }
 
+    .aboutUsCol {
+        border-left: 2px solid white;
+    }
+
     .teamhighlights {
         .col {
             min-height: 200px;
@@ -123,6 +127,10 @@
     @media screen and (max-width: 950px) {
         .firstrow {
             grid-template-columns: auto auto;
+        }
+
+        .aboutUsCol {
+            border-left-width: 0;
         }
     }
 
@@ -190,6 +198,12 @@
 
     #coach-grid {
         grid-template-columns: 33% 33% 33% !important;
+    }
+
+    @media only screen and (max-width: 700px) {
+        #coach-grid {
+            grid-template-columns: 100% !important;
+        }
     }
 }
 

@@ -70,7 +70,7 @@ export default function Index() {
               <div className="column" style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
                 <img src={require(`/public/images/TeamPicture.png`).default.src} width="70%" />
               </div>
-              <div className="column" style={{fontWeight: 300, borderLeftWidth: 2, borderLeftColor: 'white', borderLeftStyle:"solid", padding: 20}}>
+              <div className="column aboutUsCol" style={{fontWeight: 300, padding: 20}}>
                 <Title name="About Us" />
                 <p style={{fontSize: 16}}>We are FIRST Tech Challenge (FTC) Team 18225 High Definition, a 3rd year veteran robotics team from Bellevue, Washington composed of 12 enthusiastic students grades 7-12.</p>
                 

@@ -45,7 +45,7 @@ export default function About() {
               <Image loader={loader} src="/images/coaches/yinhai.jpg" height={HEIGHT} width={WIDTH} className="member" />
               <h3>Yinhai Wang</h3>
               <br />
-              <p style={{fontWeight: 300}}>bio</p>
+              <p style={{fontWeight: 300}}>I'm Dr. Yinhai Wang, a professor in transportation engineering and the founding director of the STAR Lab at the University of Washington (UW). I work directly with the team to come up with new ideas and ways to move the team into a great direction in mechanical and outreach.</p>
             </div>
           </div></div>
         </div></FadeInSection>

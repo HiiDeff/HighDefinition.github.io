@@ -92,6 +92,14 @@ export default function Resources() {
             </div>
 
             <div className="grid-item">
+              <h4>FIRST FLL Ultimate Guide</h4>
+              <img src={require(`/public/images/resources/fllguide.png`).default.src} width="80%" />
+              <br />
+              <br />
+              <a href="https://ftc18225.everstem.org/guides/fll-ultimate-guide" className="button" id="fllultimateguide">Read Now</a>
+            </div>
+
+            <div className="grid-item">
               <h4>Connecting with Professionals Series</h4>
               <img src={require(`/public/images/resources/cwp.jpg`).default.src} width="80%" />
               <br />

@@ -18,6 +18,7 @@ module.exports = {
     "/seasons": { page: "/seasons" },
     "/guides/ftc-programming-guide": { page: "/guides/ftc-programming-guide" },
     "/guides/ftc-robot-guide": { page: "/guides/ftc-robot-guide" },
+    "/guides/fll-ultimate-guide": { page: "/guides/fll-ultimate-guide" },
   }),
   assetPrefix: assetPrefix,
   basePath: assetPrefix,

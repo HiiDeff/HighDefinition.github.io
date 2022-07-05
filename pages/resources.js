@@ -22,7 +22,6 @@ export default function Resources() {
               <img src={require(`/public/images/resources/ftcprogrammingguide.jpg`).default.src} width="80%" />
               <br />
               <br />
-
               <a href="https://ftc18225.everstem.org/guides/ftc-programming-guide" className="button" id="ftcprogrammingguide">Read Now</a>
             </div>
             <div className="grid-item">
@@ -30,8 +29,28 @@ export default function Resources() {
               <img src={require(`/public/images/resources/ftcrobotguide.jpg`).default.src} width="80%" />
               <br />
               <br />
-
               <a href="https://ftc18225.everstem.org/guides/ftc-robot-guide" className="button" id="ftcrobotguide">Read Now</a>
+            </div>
+            <div className="grid-item">
+              <h4>Onshape: How to Design a Part</h4>
+              <img src={require(`/public/images/resources/Workshop1.png`).default.src} width="80%" />
+              <br />
+              <br />
+              <a href="https://www.youtube.com/watch?v=EjxB3MKf9iI" className="button" id="designAPart">Watch Now</a>
+            </div>
+            <div className="grid-item">
+              <h4>Onshape: Integrating Parts into Assemblies</h4>
+              <img src={require(`/public/images/resources/Workshop2.png`).default.src} width="80%" />
+              <br />
+              <br />
+              <a href="https://www.youtube.com/watch?v=Fg8-kblLP8o" className="button" id="assemblies">Watch Now</a>
+            </div>
+            <div className="grid-item">
+              <h4>Onshape + Fusion: Rendering Parts</h4>
+              <img src={require(`/public/images/resources/Workshop3.png`).default.src} width="80%" />
+              <br />
+              <br />
+              <a href="https://www.youtube.com/watch?v=ybXjqJI4S9M" className="button" id="renderingParts">Watch Now</a>
             </div>
             <div className="grid-item">
               <h4>FTC Scout</h4>
@@ -60,20 +79,6 @@ export default function Resources() {
               <br />
               <br />
               <a href="https://drive.google.com/file/d/1RocDP6b87MZtnrJV8-5Id32_aBtGlHm3/view?usp=sharing" className="button" id="statepres2021">View Now</a>
-            </div>
-
-            <div className="grid-item">
-              <h4>FTC Freight Frenzy - Points Condensed Version</h4>
-              <img src={require(`/public/images/ftcfreightfrenzypointsystem.png`).default.src} width="90%" />
-            </div>
-
-            <div className="grid-item">
-              <h4>FTC Freight Frenzy - Pre-Match Scouting Sheet </h4>
-              <img src={require(`/public/images/prematchscouting.png`).default.src} width="80%" />
-              <br />
-              <br />
-
-              <Link href="/documents/FTCPreMatchScouting.pdf" target="_blank" download id="ftcprematchdownloadbutton"><a className="button" id="ftcprematchscouting">Download Now</a></Link>
             </div>
           </div>
           <p style={{fontSize: 20}}><b>Other</b></p>

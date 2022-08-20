@@ -116,6 +116,15 @@ iframe {
     margin: 20px;
 }
 
+.grid-two {
+    display: grid;
+    width: 50%;
+    grid-template-columns: 48% 48%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    margin: 20px auto;
+}
+
 @media only screen and (max-width: 1000px) {
     .grid {
         grid-template-columns: 49% 49%;
@@ -123,7 +132,7 @@ iframe {
 }
 
 @media only screen and (max-width: 600px) {
-    .grid {
+    .grid, .grid-two {
         grid-template-columns: 98%;
     }
 }

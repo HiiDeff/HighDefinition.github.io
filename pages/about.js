@@ -122,7 +122,7 @@ export default function About() {
                       objectFit="cover"
                     />
                   </div>
-                  <h3>Yinhai Wang</h3>
+                  <h3>Coach Yinhai</h3>
                   <br />
                   <p style={{ fontWeight: 300 }}>
                     I'm Dr. Yinhai Wang, a professor in transportation

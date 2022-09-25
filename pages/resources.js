@@ -236,6 +236,32 @@ export default function Resources() {
                 </a>
               </div>
               <div className="grid-item">
+                <h4>Introduction to FTC Playlist</h4>
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: "80%",
+                    height: 150,
+                  }}
+                >
+                  <Image
+                    loader={loader}
+                    src="/images/resources/build.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <a
+                  href="https://www.youtube.com/playlist?list=PLQD2HEVsKM40Z0YShgfN8nUfw7niadZKQ"
+                  className="button"
+                  id="introToFTCBuildPlaylist"
+                >
+                  Watch Now
+                </a>
+              </div>
+              <div className="grid-item">
                 <h4>2021 WA State Engineering Portfolio</h4>
                 <div
                   style={{

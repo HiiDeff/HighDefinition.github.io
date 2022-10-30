@@ -277,9 +277,8 @@ export default function About() {
                     objectFit="cover"
                   />
                 </div>
-                <h3>Albert Lu</h3>
-                <p className="description">CAD</p>
                 <br />
+                <h3>Albert Lu</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
                   I'm Albert, a 7th grader at Tyee Middle School. This is my 3rd
@@ -306,10 +305,9 @@ export default function About() {
                     objectFit="cover"
                   />
                 </div>
+                <br />
                 <h3>Allen Wu</h3>
                 <p className="description">Co-Captain</p>
-                <br />
-                <br />
                 <p style={{ fontWeight: 300 }}>
                   I'm Allen, a freshman at Newport High School. This is my 2nd
                   year of FTC, following 2 years of FLL. Outside of robotics,
@@ -336,9 +334,8 @@ export default function About() {
                     objectFit="cover"
                   />
                 </div>
+                <br />
                 <h3>Andrew Pai</h3>
-                <p className="description">Safety Captain</p>
-                <p className="description">Drive / Mechanical</p>
                 <br />
                 <p style={{ fontWeight: 300 }}>
                   I'm Andrew, a 9th grader at Newport High School. This is my
@@ -360,22 +357,90 @@ export default function About() {
                 >
                   <Image
                     loader={loader}
+                    src="/images/teammembers/alex.jpg"
+                    className="member"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <h3>Alexander Bonev</h3>
+                <br />
+                <p style={{ fontWeight: 300 }}>x</p>
+              </div>
+
+              <div className="grid-item">
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: WIDTH,
+                    height: HEIGHT,
+                  }}
+                >
+                  <Image
+                    loader={loader}
                     src="/images/teammembers/andy.jpg"
                     className="member"
                     layout="fill"
                     objectFit="cover"
                   />
                 </div>
+                <br />
                 <h3>Andy Tien</h3>
-                <p className="description">CAD / Mech Lead</p>
-                <p className="description"></p>
                 <br />
                 <p style={{ fontWeight: 300 }}>
-                  I'm Andy, a freshman at Newport High School. This is my 1st
-                  year of FTC, following 2 years of FLL. When I'm not dabbling
-                  in competitive and robotics mechanical engineering and
-                  programming, I enjoy playing soccer and violin.
+                  I’m Andy, a 10th grader at Newport High School. This is my
+                  fourth year in FIRST (2 in FLL and 2 in FTC). In my free time,
+                  I enjoy playing violin and soccer. A fun fact about me is that
+                  I like dinosaurs.
                 </p>
+              </div>
+
+              <div className="grid-item">
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: WIDTH,
+                    height: HEIGHT,
+                  }}
+                >
+                  <Image
+                    loader={loader}
+                    src="/images/teammembers/calvin.jpg"
+                    className="member"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <h3>Calvin Zhang</h3>
+                <br />
+                <p style={{ fontWeight: 300 }}>x</p>
+              </div>
+
+              <div className="grid-item">
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: WIDTH,
+                    height: HEIGHT,
+                  }}
+                >
+                  <Image
+                    loader={loader}
+                    src="/images/teammembers/cynthia.jpg"
+                    className="member"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <h3>Cynthia Lu</h3>
+                <br />
+                <p style={{ fontWeight: 300 }}>x</p>
               </div>
 
               <div className="grid-item">
@@ -395,14 +460,14 @@ export default function About() {
                     objectFit="cover"
                   />
                 </div>
+                <br />
                 <h3>Eesha Jain</h3>
                 <p className="description">Co-Captain</p>
-                <br />
                 <p style={{ fontWeight: 300 }}>
-                  I'm Eesha, a 9th grader at Interlake High School. This is my
-                  5th year in FIRST (2 in FLL and 3 in FTC). In my free time, I
-                  enjoy web and app development, writing, listening to music,
-                  and hanging out with my friends.
+                  I'm Eesha, a 10th grader at Interlake High School. This is my
+                  6th year in FIRST (2 in FLL and 4 in FTC). In my free time, I
+                  enjoy programming and listening to music. A fun fact about me
+                  is that I enjoy eating mint chocolate chip icecream.
                 </p>
               </div>
 
@@ -423,9 +488,8 @@ export default function About() {
                     objectFit="cover"
                   />
                 </div>
-                <h3>Eugene Li</h3>
-                <p className="description">Outreach</p>
                 <br />
+                <h3>Eugene Li</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
                   I'm Eugene, a freshman at Newport High School. This is my 2nd
@@ -447,20 +511,43 @@ export default function About() {
                 >
                   <Image
                     loader={loader}
+                    src="/images/teammembers/jeffrey.jpg"
+                    className="member"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <h3>Jeffrey Luo</h3>
+                <br />
+                <p style={{ fontWeight: 300 }}>x</p>
+              </div>
+
+              <div className="grid-item">
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: WIDTH,
+                    height: HEIGHT,
+                  }}
+                >
+                  <Image
+                    loader={loader}
                     src="/images/teammembers/julia.jpg"
                     className="member"
                     layout="fill"
                     objectFit="cover"
                   />
                 </div>
+                <br />
                 <h3>Julia Wang</h3>
                 <p className="description">Co-Captain</p>
-                <br />
                 <p style={{ fontWeight: 300 }}>
-                  I'm Julia, a sophomore at The Bush School. This is my 2nd year
-                  of FTC following 1 year of FLL. Some of my favorite things
-                  include golf, Pixar, astrology, Valorant, strawberry icecream,
-                  and the Land of Stories book series.
+                  I'm Julia, a 11th grader at The Bush School. This is my fourth
+                  year in FIRST (1 in FLL and 3 in FTC). In my free time, I
+                  enjoy acrylic painting and playing golf. A fun fact about me
+                  is that I have gotten 17 mosquito bites at once before!
                 </p>
               </div>
 
@@ -481,9 +568,8 @@ export default function About() {
                     objectFit="cover"
                   />
                 </div>
-                <h3>Rohit Venkatesan</h3>
-                <p className="description">CAD / Mechanical</p>
                 <br />
+                <h3>Rohit Venkatesan</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
                   I'm Rohit, an 8th grader at Evergreen Middle School. This is
@@ -519,7 +605,6 @@ export default function About() {
                 </div>
                 <h3>Emma Shi</h3>
                 <p className="description">Team Co-Founder</p>
-                <br />
                 <p style={{ fontWeight: 300 }}>
                   I'm Emma, and I have 9 years of experience in FIRST (6th year
                   in FTC), and enjoyed learning the disciplines of FIRST. As a
@@ -549,7 +634,6 @@ export default function About() {
                 </div>
                 <h3>Erik Ma</h3>
                 <p className="description">Team Co-Founder</p>
-                <br />
                 <p style={{ fontWeight: 300 }}>
                   I'm Erik, and I have 3 years of experience in FIRST, and I
                   have a big passion for engineering. As co-captain, I managed
@@ -578,8 +662,6 @@ export default function About() {
                   />
                 </div>
                 <h3>Katrina Li</h3>
-                <p className="description"></p>
-                <br />
                 <br />
                 <p style={{ fontWeight: 300 }}>
                   I'm Katrina, and I focused on business and outreach. I am
@@ -607,8 +689,6 @@ export default function About() {
                   />
                 </div>
                 <h3>Lucas Wu</h3>
-                <p className="description"></p>
-                <br />
                 <br />
                 <p style={{ fontWeight: 300 }}>
                   I'm Lucas, and I have 3 years of experience in FTC, focusing
@@ -637,8 +717,6 @@ export default function About() {
                   />
                 </div>
                 <h3>Rishabh Venkatesan</h3>
-                <p className="description"></p>
-                <br />
                 <br />
                 <p style={{ fontWeight: 300 }}>
                   I'm Rishabh, and I have 5 years of FIRST experience in both

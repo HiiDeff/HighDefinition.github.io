@@ -390,7 +390,7 @@ export default function About() {
                 <h3>Andy Tien</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
-                  I’m Andy, a 10th grader at Newport High School. This is my
+                  I'm Andy, a 10th grader at Newport High School. This is my
                   fourth year in FIRST (2 in FLL and 2 in FTC). In my free time,
                   I enjoy playing violin and soccer. A fun fact about me is that
                   I like dinosaurs.
@@ -492,11 +492,10 @@ export default function About() {
                 <h3>Eugene Li</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
-                  I'm Eugene, a freshman at Newport High School. This is my 2nd
-                  year of FTC following 1 year of FLL. Some fun facts about me
-                  are I have a passion for music, my favorite series is the Lord
-                  of the Rings trilogy, vanilla is my favorite icecream flavor,
-                  and I hate the sound of Velcro.
+                  I'm Eugene, a 10th grader Newport High School. This is my
+                  fourth year in FIRST (1 in FLL and 3 in FTC). In my free time,
+                  I enjoy playing piano and working on rocketry. A fun fact
+                  about me is that I don't like dinosaurs.
                 </p>
               </div>
 

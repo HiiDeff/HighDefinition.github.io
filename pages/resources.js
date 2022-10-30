@@ -381,6 +381,33 @@ export default function Resources() {
             <Title name="Store" />
             <div className="resource-grid grid">
               <div className="grid-item">
+                <h4>High Definition Merch!</h4>
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: "80%",
+                    height: 150,
+                  }}
+                >
+                  <Image
+                    loader={loader}
+                    src="/images/resources/merch.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <a
+                  href="https://www.customink.com/fundraising/promoting-stem-worldwide"
+                  className="button"
+                  id="highdefmerch"
+                >
+                  Buy Now
+                </a>
+              </div>
+
+              <div className="grid-item">
                 <h4>BL-300B-2M 12" Anodized Black Slide</h4>
                 <div
                   style={{

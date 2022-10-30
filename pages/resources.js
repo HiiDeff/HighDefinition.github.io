@@ -381,7 +381,7 @@ export default function Resources() {
             <Title name="Store" />
             <div className="resource-grid grid">
               <div className="grid-item">
-                <h4>BL-300A-2M 12" Advanced Slide</h4>
+                <h4>BL-300B-2M 12" Anodized Black Slide</h4>
                 <div
                   style={{
                     position: "relative",

@@ -281,10 +281,10 @@ export default function About() {
                 <h3>Albert Lu</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
-                  I'm Albert, a 7th grader at Tyee Middle School. This is my 3rd
-                  year in FIRST (2nd in FLL, 1st in FTC). I like to read, play
-                  the clarinet, and programming in my free time. I also have a
-                  science YouTube channel which I update weekly.
+                  I'm Albert, an 8th grader at Tyee Middle School. This is my
+                  fourth year in FIRST (2 in FLL and 2 in FTC). In my free time,
+                  I enjoy playing the clarinet and existing. A fun fact about me
+                  is that I dislike caramel in any form.
                 </p>
               </div>
 
@@ -440,7 +440,12 @@ export default function About() {
                 <br />
                 <h3>Cynthia Lu</h3>
                 <br />
-                <p style={{ fontWeight: 300 }}>x</p>
+                <p style={{ fontWeight: 300 }}>
+                  I'm Cynthia, a 9th grader at Newport High School. This is my
+                  second year in FIRST (1 in FLL). In my free time, I enjoy
+                  rifle shooting, video games, and spending time with friends. A
+                  fun fact about me is that I love Pochacco.
+                </p>
               </div>
 
               <div className="grid-item">
@@ -519,7 +524,12 @@ export default function About() {
                 <br />
                 <h3>Jeffrey Luo</h3>
                 <br />
-                <p style={{ fontWeight: 300 }}>x</p>
+                <p style={{ fontWeight: 300 }}>
+                  I'm Jeffrey, a 9th grader at International School. This is my
+                  first year in FIRST. In my free time, I enjoy watching
+                  football, playing other sports, spending time with friends,
+                  and playing chess.{" "}
+                </p>
               </div>
 
               <div className="grid-item">

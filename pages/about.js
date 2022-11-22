@@ -417,7 +417,12 @@ export default function About() {
                 <br />
                 <h3>Calvin Zhang</h3>
                 <br />
-                <p style={{ fontWeight: 300 }}>x</p>
+                <p style={{ fontWeight: 300 }}>
+                  I'm Calvin, an 8th grader at Odle Middle School. This is my
+                  first year of FIRST. In my free time, I enjoy playing piano
+                  and game development. A fun fact about me is that I like
+                  cheese.
+                </p>
               </div>
 
               <div className="grid-item">

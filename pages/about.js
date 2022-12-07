@@ -140,47 +140,52 @@ export default function About() {
         <FadeInSection>
           <div className="section">
             <Title name="Mentors" />
-            <div className="person-grid grid">
-              <div className="grid-item">
-                <div
-                  style={{
-                    position: "relative",
-                    margin: "auto",
-                    width: WIDTH,
-                    height: HEIGHT,
-                  }}
-                >
+            <div
+              className="flex"
+              style={{ alignItems: "center", justifyContent: "center" }}
+            >
+              <div className="person-grid grid">
+                <div className="grid-item">
+                  <div
+                    style={{
+                      position: "relative",
+                      margin: "auto",
+                      width: WIDTH,
+                      height: HEIGHT,
+                    }}
+                  >
+                    <Image
+                      loader={loader}
+                      src="/images/mentors/lani.jpg"
+                      className="member"
+                      layout="fill"
+                      objectFit="cover"
+                    />
+                  </div>
+                  <h3>Lani Cao</h3>
+                </div>
+
+                <div className="grid-item">
                   <Image
                     loader={loader}
-                    src="/images/mentors/lani.jpg"
+                    src="/images/mentors/patrick.jpg"
+                    height={HEIGHT}
+                    width={WIDTH}
                     className="member"
-                    layout="fill"
-                    objectFit="cover"
                   />
+                  <h3>Patrick Tien</h3>
                 </div>
-                <h3>Lani Cao</h3>
-              </div>
 
-              <div className="grid-item">
-                <Image
-                  loader={loader}
-                  src="/images/mentors/patrick.jpg"
-                  height={HEIGHT}
-                  width={WIDTH}
-                  className="member"
-                />
-                <h3>Patrick Tien</h3>
-              </div>
-
-              <div className="grid-item">
-                <Image
-                  loader={loader}
-                  src="/images/mentors/shikha.jpg"
-                  height={HEIGHT}
-                  width={WIDTH}
-                  className="member"
-                />
-                <h3>Shikha Jain</h3>
+                <div className="grid-item">
+                  <Image
+                    loader={loader}
+                    src="/images/mentors/shikha.jpg"
+                    height={HEIGHT}
+                    width={WIDTH}
+                    className="member"
+                  />
+                  <h3>Shikha Jain</h3>
+                </div>
               </div>
             </div>
           </div>

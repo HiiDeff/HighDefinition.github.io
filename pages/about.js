@@ -140,7 +140,7 @@ export default function About() {
         <FadeInSection>
           <div className="section">
             <Title name="Mentors" />
-            <div className="person-grid grid-two">
+            <div className="person-grid grid">
               <div className="grid-item">
                 <div
                   style={{

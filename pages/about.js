@@ -171,86 +171,16 @@ export default function About() {
                 />
                 <h3>Patrick Tien</h3>
               </div>
-            </div>
-            <div className="person-grid grid">
-              <div className="grid-item">
-                <div
-                  style={{
-                    position: "relative",
-                    margin: "auto",
-                    width: WIDTH,
-                    height: HEIGHT,
-                  }}
-                >
-                  <Image
-                    loader={loader}
-                    src="/images/mentors/lynne.jpg"
-                    className="member"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-                <h3>Lynne Dong</h3>
-              </div>
 
               <div className="grid-item">
-                <div
-                  style={{
-                    position: "relative",
-                    margin: "auto",
-                    width: WIDTH,
-                    height: HEIGHT,
-                  }}
-                >
-                  <Image
-                    loader={loader}
-                    src="/images/mentors/mark.jpg"
-                    className="member"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-                <h3>Mark Ma</h3>
-              </div>
-
-              <div className="grid-item">
-                <div
-                  style={{
-                    position: "relative",
-                    margin: "auto",
-                    width: WIDTH,
-                    height: HEIGHT,
-                  }}
-                >
-                  <Image
-                    loader={loader}
-                    src="/images/mentors/mihir.jpg"
-                    className="member"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-                <h3>Mihir Jain</h3>
-              </div>
-
-              <div className="grid-item">
-                <div
-                  style={{
-                    position: "relative",
-                    margin: "auto",
-                    width: WIDTH,
-                    height: HEIGHT,
-                  }}
-                >
-                  <Image
-                    loader={loader}
-                    src="/images/mentors/xiaoxi.jpg"
-                    className="member"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-                <h3>Xiaoxi Wang</h3>
+                <Image
+                  loader={loader}
+                  src="/images/mentors/shikha.jpg"
+                  height={HEIGHT}
+                  width={WIDTH}
+                  className="member"
+                />
+                <h3>Shikha Jain</h3>
               </div>
             </div>
           </div>

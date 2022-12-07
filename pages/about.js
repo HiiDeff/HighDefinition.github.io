@@ -144,7 +144,11 @@ export default function About() {
               className="flex"
               style={{ alignItems: "center", justifyContent: "center" }}
             >
-              <div className="person-grid grid">
+              <div
+                className="person-grid grid"
+                id="coach-grid"
+                style={{ width: "75%" }}
+              >
                 <div className="grid-item">
                   <div
                     style={{

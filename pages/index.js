@@ -16,16 +16,23 @@ React.useLayoutEffect = React.useEffect;
 
 export default function Index() {
   var photos = [
+    { src: "/images/sponsors/aiwaysion.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/boeing.png", width: 100, height: 100 },
     { src: "/images/sponsors/bwtlink2.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/chineseinstitute.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/everstem.jpg", width: 100, height: 100 },
+    { src: "/images/sponsors/eyecloud.png", width: 100, height: 100 },
     { src: "/images/sponsors/firstwa.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/goodwill.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/google.png", width: 100, height: 100 },
     { src: "/images/sponsors/hasbro.png", width: 100, height: 100 },
     { src: "/images/sponsors/microsoft.png", width: 100, height: 100 },
+    { src: "/images/sponsors/oracle.png", width: 100, height: 100 },
+    { src: "/images/sponsors/pactrans.png", width: 100, height: 100 },
+    { src: "/images/sponsors/protech.png", width: 100, height: 100 },
+    { src: "/images/sponsors/seattlechineseradio.png", width: 100, height: 100 },
     { src: "/images/sponsors/sendcutsend.png", width: 100, height: 100 },
+    { src: "/images/sponsors/svtseattlevoctech.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/tmobile.jpg", width: 100, height: 100 },
   ];
 

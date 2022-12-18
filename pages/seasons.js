@@ -57,6 +57,56 @@ export default function Seasons() {
         </div>
 
         <div className="section">
+          <Title name="Power Play: 2022 - 2023" />
+          <FadeInSection>
+            <Collapse title="AWARDS" expanded={true}>
+              <div>
+                <h4>Interleague Awards</h4>
+                <div className="award-grid grid">
+                  <Award
+                    icon={faStar}
+                    award="Inspire Award Winner"
+                    classn="green"
+                  />
+                  <Award
+                    icon={faAward}
+                    award="Winning Alliance 1st Pick"
+                    classn="green"
+                  />
+                  <Award
+                    icon={faBook}
+                    award="Think Award Finalist"
+                    classn="green"
+                  />
+                  <Award
+                    icon={faPen}
+                    award="Design Award 3rd Place"
+                    classn="green"
+                  />
+                  <Award
+                    icon={faHandshake}
+                    award="Motivate Award 3rd Place"
+                    classn="green"
+                  />
+
+                  <Award
+                    icon={faGamepad}
+                    award="Control Award 3rd Place"
+                    classn="green"
+                  />
+
+                  <Award
+                    icon={faLink}
+                    award="Connect Award 3rd Place"
+                    classn="green"
+                  />
+                </div>
+              </div>
+            </Collapse>
+          </FadeInSection>
+        </div>
+
+        <div className="section">
           <Title name="Freight Frenzy: 2021 - 2022" />
           <FadeInSection>
             <Collapse title="AWARDS" expanded={true}>

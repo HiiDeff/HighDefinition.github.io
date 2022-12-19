@@ -17,6 +17,7 @@ React.useLayoutEffect = React.useEffect;
 export default function Index() {
   var photos = [
     { src: "/images/sponsors/aiwaysion.jpg", width: 100, height: 100 },
+    { src: "/images/sponsors/avidian.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/boeing.png", width: 100, height: 100 },
     { src: "/images/sponsors/bwtlink2.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/chineseinstitute.jpg", width: 100, height: 100 },

@@ -305,7 +305,7 @@ export default function About() {
                 <br />
                 <h3>Alexander Bonev</h3>
                 <br />
-                <p style={{ fontWeight: 300 }}>x</p>
+                <p style={{ fontWeight: 300 }}>I’m Alex, an 8th grader at Tyee Middle School. This is my first year in FIRST. In my free time, I enjoy skiing, playing piano, and playing video games. A fun fact about me is that I don’t have a pet even though I really want one.</p>
               </div>
 
               <div className="grid-item">

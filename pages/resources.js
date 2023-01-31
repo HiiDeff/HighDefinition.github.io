@@ -399,7 +399,7 @@ export default function Resources() {
                 </div>
                 <br />
                 <a
-                  href="https://www.customink.com/fundraising/promoting-stem-worldwide"
+                  href="https://forms.gle/8ac1a9B5rPZE1hyR9"
                   className="button"
                   id="highdefmerch"
                 >
@@ -435,7 +435,7 @@ export default function Resources() {
               </div>
 
               <div className="grid-item">
-                <h4>BL-400A-2M 16" Advanced Slide</h4>
+                <h4>BL-400B-2M 16" Anodized Black Slide</h4>
                 <div
                   style={{
                     position: "relative",
@@ -453,7 +453,7 @@ export default function Resources() {
                 </div>
                 <br />
                 <a
-                  href="https://www.bwtlink.com/ProductItem.aspx?PID=6"
+                  href="https://www.bwtlink.com/ProductItem.aspx?PID=13"
                   className="button"
                   id="bwtlinkslides"
                 >
@@ -461,7 +461,7 @@ export default function Resources() {
                 </a>
               </div>
               <div className="grid-item">
-                <h4>BL-300-2M 12" Slide</h4>
+                <h4>BL-PM-01B Anodized Black Slide Pulley Module</h4>
                 <div
                   style={{
                     position: "relative",
@@ -479,33 +479,7 @@ export default function Resources() {
                 </div>
                 <br />
                 <a
-                  href="https://www.bwtlink.com/ProductItem.aspx?PID=2"
-                  className="button"
-                  id="bwtlinkslides"
-                >
-                  Buy Now
-                </a>
-              </div>
-              <div className="grid-item">
-                <h4>BL-300-2M 12" Slide</h4>
-                <div
-                  style={{
-                    position: "relative",
-                    margin: "auto",
-                    width: "80%",
-                    height: 150,
-                  }}
-                >
-                  <Image
-                    loader={loader}
-                    src="/images/resources/bwt3.jpg"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-                <br />
-                <a
-                  href="https://www.bwtlink.com/ProductItem.aspx?PID=2"
+                  href="https://www.bwtlink.com/ProductItem.aspx?PID=11"
                   className="button"
                   id="bwtlinkslides"
                 >
@@ -565,7 +539,7 @@ export default function Resources() {
                 </a>
               </div>
               <div className="grid-item">
-                <h4>BL-TS10 T-Type Screw</h4>
+                <h4>M4-10-5.5 10mm Slide Mounting Screw</h4>
                 <div
                   style={{
                     position: "relative",
@@ -577,6 +551,58 @@ export default function Resources() {
                   <Image
                     loader={loader}
                     src="/images/resources/bwt6.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <a
+                  href="https://www.bwtlink.com/ProductItem.aspx?PID=12"
+                  className="button"
+                  id="bwtlinkslides"
+                >
+                  Buy Now
+                </a>
+              </div>
+              <div className="grid-item">
+                <h4>M4-13-5.5 13mm Slide Mounting Screw</h4>
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: "80%",
+                    height: 150,
+                  }}
+                >
+                  <Image
+                    loader={loader}
+                    src="/images/resources/bwt7.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <a
+                  href="https://www.bwtlink.com/ProductItem.aspx?PID=14"
+                  className="button"
+                  id="bwtlinkslides"
+                >
+                  Buy Now
+                </a>
+              </div>
+              <div className="grid-item">
+                <h4>BL-TS10 T-Type Screw</h4>
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: "80%",
+                    height: 150,
+                  }}
+                >
+                  <Image
+                    loader={loader}
+                    src="/images/resources/bwt8.jpg"
                     layout="fill"
                     objectFit="cover"
                   />
@@ -602,7 +628,7 @@ export default function Resources() {
                 >
                   <Image
                     loader={loader}
-                    src="/images/resources/bwt7.jpg"
+                    src="/images/resources/bwt9.jpg"
                     layout="fill"
                     objectFit="cover"
                   />
@@ -610,6 +636,32 @@ export default function Resources() {
                 <br />
                 <a
                   href="https://www.bwtlink.com/ProductItem.aspx?PID=9"
+                  className="button"
+                  id="bwtlinkslides"
+                >
+                  Buy Now
+                </a>
+              </div>
+              <div className="grid-item">
+                <h4>BL-HG01 Slide Hole Guide</h4>
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: "80%",
+                    height: 150,
+                  }}
+                >
+                  <Image
+                    loader={loader}
+                    src="/images/resources/bwt10.jpg"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <a
+                  href="https://www.bwtlink.com/ProductItem.aspx?PID=8"
                   className="button"
                   id="bwtlinkslides"
                 >

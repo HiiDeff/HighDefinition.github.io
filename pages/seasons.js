@@ -61,6 +61,24 @@ export default function Seasons() {
           <FadeInSection>
             <Collapse title="AWARDS" expanded={true}>
               <div>
+              <h4>State Awards</h4>
+                <div className="award-grid grid-two">
+                  <Award
+                    icon={faStar}
+                    award="Inspire Award Winner"
+                    classn="blue"
+                  />
+                  <Award
+                    icon={faHandshake}
+                    award="Motivate Award 2nd Place"
+                    classn="blue"
+                  />
+                  <Award
+                    icon={faBook}
+                    award="Think Award 3rd Place"
+                    classn="blue"
+                  />
+                </div>
                 <h4>Interleague Awards</h4>
                 <div className="award-grid grid">
                   <Award

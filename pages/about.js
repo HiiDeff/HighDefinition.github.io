@@ -220,7 +220,7 @@ export default function About() {
                 <h3>Albert Lu</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
-                  I'm Albert, an 8th grader at Tyee Middle School. This is my
+                  I’m Albert, an 8th grader at Tyee Middle School. This is my
                   fourth year in FIRST (2 in FLL and 2 in FTC). In my free time,
                   I enjoy playing the clarinet and existing. A fun fact about me
                   is that I dislike caramel in any form.
@@ -248,11 +248,10 @@ export default function About() {
                 <h3>Allen Wu</h3>
                 <p className="description">Co-Captain</p>
                 <p style={{ fontWeight: 300 }}>
-                  I'm Allen, a freshman at Newport High School. This is my 2nd
-                  year of FTC, following 2 years of FLL. Outside of robotics,
-                  I'm extremely passionate about competitive programming and
-                  piano. I also enjoy playing basketball, tennis, volleyball,
-                  and hang out with friends!
+                  I'm Allen, a 10th grader at Newport High School. This is my
+                  fifth year in FIRST (2 in FLL and 3 in FTC). In my free time,
+                  I enjoy competitive programming, playing tennis, and hanging
+                  out with my friends.
                 </p>
               </div>
 
@@ -277,11 +276,9 @@ export default function About() {
                 <h3>Andrew Pai</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
-                  I'm Andrew, a 9th grader at Newport High School. This is my
-                  1st year in both FTC and FRC. In my free time, I play various
-                  sports like tennis or basketball, hang out with friends, read
-                  books from the Mistborn series and the Grishaverse, play video
-                  games, and binge anime.
+                  I'm Andrew, a 10th grader at Newport High School. This is my
+                  second year in FIRST (2 in FTC, 1 in FRC). In my free time,
+                  I enjoy playing chess, binging anime, and reading books.
                 </p>
               </div>
 
@@ -305,7 +302,12 @@ export default function About() {
                 <br />
                 <h3>Alexander Bonev</h3>
                 <br />
-                <p style={{ fontWeight: 300 }}>I’m Alex, an 8th grader at Tyee Middle School. This is my first year in FIRST. In my free time, I enjoy skiing, playing piano, and playing video games. A fun fact about me is that I don’t have a pet even though I really want one.</p>
+                <p style={{ fontWeight: 300 }}>
+                  I’m Alex, an 8th grader at Tyee Middle School. This is my
+                  first year in FIRST. In my free time, I enjoy skiing, playing
+                  piano, and playing video games. A fun fact about me is that I
+                  don’t have a pet even though I really want one.
+                </p>
               </div>
 
               <div className="grid-item">
@@ -329,7 +331,7 @@ export default function About() {
                 <h3>Andy Tien</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
-                  I'm Andy, a 10th grader at Newport High School. This is my
+                  I’m Andy, a 10th grader at Newport High School. This is my
                   fourth year in FIRST (2 in FLL and 2 in FTC). In my free time,
                   I enjoy playing violin and soccer. A fun fact about me is that
                   I like dinosaurs.
@@ -416,7 +418,7 @@ export default function About() {
                   I'm Eesha, a 10th grader at Interlake High School. This is my
                   6th year in FIRST (2 in FLL and 4 in FTC). In my free time, I
                   enjoy programming and listening to music. A fun fact about me
-                  is that I enjoy eating mint chocolate chip icecream.
+                  is that I enjoy eating mint chocolate chip ice cream.
                 </p>
               </div>
 
@@ -441,10 +443,10 @@ export default function About() {
                 <h3>Eugene Li</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
-                  I'm Eugene, a 10th grader Newport High School. This is my
+                  I’m Eugene, a 10th grader at Newport High School. This is my
                   fourth year in FIRST (1 in FLL and 3 in FTC). In my free time,
                   I enjoy playing piano and working on rocketry. A fun fact
-                  about me is that I don't like dinosaurs.
+                  about me is that I don’t like dinosaurs.
                 </p>
               </div>
 
@@ -497,7 +499,7 @@ export default function About() {
                 <h3>Julia Wang</h3>
                 <p className="description">Co-Captain</p>
                 <p style={{ fontWeight: 300 }}>
-                  I'm Julia, a 11th grader at The Bush School. This is my fourth
+                  I’m Julia, a 11th grader at The Bush School. This is my fourth
                   year in FIRST (1 in FLL and 3 in FTC). In my free time, I
                   enjoy acrylic painting and playing golf. A fun fact about me
                   is that I have gotten 17 mosquito bites at once before!
@@ -525,10 +527,9 @@ export default function About() {
                 <h3>Rohit Venkatesan</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
-                  I'm Rohit, an 8th grader at Evergreen Middle School. This is
-                  my 1st year of FTC following 1 year of FLL and 2 years of VEX
-                  (IQ). My current hobbies include reading, playing board games,
-                  and playing the piano and several percussion instruments.
+                  I'm Rohit, an 9th grader at Eastlake High School. This is my third
+                  year in FIRST (1 in FLL and 2 in FTC). In my free time, I
+                  enjoy reading, playing board games, and playing the piano and several precussion instruments.
                 </p>
               </div>
             </div>

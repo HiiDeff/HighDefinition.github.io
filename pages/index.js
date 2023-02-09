@@ -27,12 +27,15 @@ export default function Index() {
     { src: "/images/sponsors/firstwa.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/goodwill.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/google.png", width: 100, height: 100 },
-    { src: "/images/sponsors/hasbro.png", width: 100, height: 100 },
     { src: "/images/sponsors/microsoft.png", width: 100, height: 100 },
     { src: "/images/sponsors/oracle.png", width: 100, height: 100 },
     { src: "/images/sponsors/pactrans.png", width: 100, height: 100 },
     { src: "/images/sponsors/protech.png", width: 100, height: 100 },
-    { src: "/images/sponsors/seattlechineseradio.png", width: 100, height: 100 },
+    {
+      src: "/images/sponsors/seattlechineseradio.png",
+      width: 100,
+      height: 100,
+    },
     { src: "/images/sponsors/sendcutsend.png", width: 100, height: 100 },
     { src: "/images/sponsors/svtseattlevoctech.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/tmobile.jpg", width: 100, height: 100 },
@@ -177,7 +180,7 @@ export default function Index() {
                     height="75"
                     className="icon"
                   />
-                  <h2>Awarded $1000 in Grants</h2>
+                  <h2>Awarded $3000 in Grants</h2>
                 </div>
               </div>
             </div>

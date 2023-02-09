@@ -365,7 +365,7 @@ export default function Resources() {
                 </div>
                 <br />
                 <a
-                  href="https://www.youtube.com/c/EverstemEducation"
+                  href="https://www.youtube.com/@highdefinition6017/streams"
                   className="button"
                   id="connectingwprofessionals"
                 >

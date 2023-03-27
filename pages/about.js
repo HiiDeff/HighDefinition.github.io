@@ -277,8 +277,8 @@ export default function About() {
                 <br />
                 <p style={{ fontWeight: 300 }}>
                   I'm Andrew, a 10th grader at Newport High School. This is my
-                  second year in FIRST (2 in FTC, 1 in FRC). In my free time,
-                  I enjoy playing chess, binging anime, and reading books.
+                  second year in FIRST (2 in FTC, 1 in FRC). In my free time, I
+                  enjoy playing chess, binging anime, and reading books.
                 </p>
               </div>
 
@@ -329,7 +329,7 @@ export default function About() {
                 </div>
                 <br />
                 <h3>Andy Tien</h3>
-                <br />
+                <p className="description">Mech Lead</p>
                 <p style={{ fontWeight: 300 }}>
                   I’m Andy, a 10th grader at Newport High School. This is my
                   fourth year in FIRST (2 in FLL and 2 in FTC). In my free time,
@@ -527,9 +527,10 @@ export default function About() {
                 <h3>Rohit Venkatesan</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
-                  I'm Rohit, an 9th grader at Eastlake High School. This is my third
-                  year in FIRST (1 in FLL and 2 in FTC). In my free time, I
-                  enjoy reading, playing board games, and playing the piano and several precussion instruments.
+                  I'm Rohit, an 9th grader at Eastlake High School. This is my
+                  third year in FIRST (1 in FLL and 2 in FTC). In my free time,
+                  I enjoy reading, playing board games, and playing the piano
+                  and several precussion instruments.
                 </p>
               </div>
             </div>

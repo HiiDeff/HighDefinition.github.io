@@ -28,6 +28,84 @@ export default function Resources() {
             </p>
             <div className="resource-grid grid">
               <div className="grid-item">
+                <h4>Introduction to Computer Vision</h4>
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: "80%",
+                    height: 150,
+                  }}
+                >
+                  <Image
+                    loader={loader}
+                    src="/images/resources/computervision.png"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <a
+                  href="https://www.youtube.com/watch?v=IwvFhflCf7s"
+                  className="button"
+                  id="introTocomputervision"
+                >
+                  Watch Now
+                </a>
+              </div>
+              <div className="grid-item">
+                <h4>Alumni Success Stories</h4>
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: "80%",
+                    height: 150,
+                  }}
+                >
+                  <Image
+                    loader={loader}
+                    src="/images/resources/alumni.png"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <a
+                  href="https://www.youtube.com/watch?v=cgm7AjknTso"
+                  className="button"
+                  id="introTocomputervision"
+                >
+                  Watch Now
+                </a>
+              </div>
+              <div className="grid-item">
+                <h4>Introduction to Onshape</h4>
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: "80%",
+                    height: 150,
+                  }}
+                >
+                  <Image
+                    loader={loader}
+                    src="/images/resources/onshape.png"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <a
+                  href="https://www.youtube.com/watch?v=UUPNkN4GC7E"
+                  className="button"
+                  id="introTocomputervision"
+                >
+                  Watch Now
+                </a>
+              </div>
+              <div className="grid-item">
                 <h4>Programming Guide for Beginners</h4>
                 <div
                   style={{
@@ -75,6 +153,32 @@ export default function Resources() {
                   href="https://ftc18225.everstem.org/guides/ftc-robot-guide"
                   className="button"
                   id="ftcrobotguide"
+                >
+                  Read Now
+                </a>
+              </div>
+              <div className="grid-item">
+                <h4>How to Transition from FLL to FTC</h4>
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: "80%",
+                    height: 150,
+                  }}
+                >
+                  <Image
+                    loader={loader}
+                    src="/images/resources/transition.png"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <a
+                  href="https://ftc18225.everstem.org/guides/transition-fll-ftc"
+                  className="button"
+                  id="ftcprogrammingguide"
                 >
                   Read Now
                 </a>
@@ -155,58 +259,6 @@ export default function Resources() {
                   id="renderingParts"
                 >
                   Watch Now
-                </a>
-              </div>
-              <div className="grid-item">
-                <h4>FTC Scout</h4>
-                <div
-                  style={{
-                    position: "relative",
-                    margin: "auto",
-                    width: "80%",
-                    height: 150,
-                  }}
-                >
-                  <Image
-                    loader={loader}
-                    src="/images/resources/ftcscout.jpg"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-                <br />
-                <a
-                  href="https://ftcscout.herokuapp.com/"
-                  className="button"
-                  id="ftcscout"
-                >
-                  Scout Now
-                </a>
-              </div>
-              <div className="grid-item">
-                <h4>FTC Shipping Element Detector</h4>
-                <div
-                  style={{
-                    position: "relative",
-                    margin: "auto",
-                    width: "80%",
-                    height: 150,
-                  }}
-                >
-                  <Image
-                    loader={loader}
-                    src="/images/resources/shippingelement.jpg"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-                <br />
-                <a
-                  href="https://github.com/HiiDeff/ShippingElementDetector"
-                  className="button"
-                  id="ftcshippingelementdetector"
-                >
-                  View Now
                 </a>
               </div>
               <div className="grid-item">
@@ -380,33 +432,6 @@ export default function Resources() {
           <div className="section" style={{ backgroundColor: "#aaaaa" }}>
             <Title name="Store" />
             <div className="resource-grid grid">
-              <div className="grid-item">
-                <h4>High Definition Merch!</h4>
-                <div
-                  style={{
-                    position: "relative",
-                    margin: "auto",
-                    width: "80%",
-                    height: 150,
-                  }}
-                >
-                  <Image
-                    loader={loader}
-                    src="/images/resources/merch.jpg"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-                <br />
-                <a
-                  href="https://forms.gle/8ac1a9B5rPZE1hyR9"
-                  className="button"
-                  id="highdefmerch"
-                >
-                  Buy Now
-                </a>
-              </div>
-
               <div className="grid-item">
                 <h4>BL-300B-2M 12" Anodized Black Slide</h4>
                 <div

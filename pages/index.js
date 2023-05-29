@@ -19,16 +19,16 @@ export default function Index() {
     { src: "/images/sponsors/adobe.png", width: 100, height: 100 },
     { src: "/images/sponsors/aiwaysion.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/avidian.jpg", width: 100, height: 100 },
+    { src: "/images/sponsors/baesystems.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/boeing.png", width: 100, height: 100 },
     { src: "/images/sponsors/bwtlink2.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/chineseinstitute.jpg", width: 100, height: 100 },
+    { src: "/images/sponsors/electroimpact.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/everstem.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/eyecloud.png", width: 100, height: 100 },
     { src: "/images/sponsors/firstwa.jpg", width: 100, height: 100 },
-    { src: "/images/sponsors/goodwill.jpg", width: 100, height: 100 },
     { src: "/images/sponsors/google.png", width: 100, height: 100 },
     { src: "/images/sponsors/microsoft.png", width: 100, height: 100 },
-    { src: "/images/sponsors/oracle.png", width: 100, height: 100 },
     { src: "/images/sponsors/pactrans.png", width: 100, height: 100 },
     { src: "/images/sponsors/protech.png", width: 100, height: 100 },
     {
@@ -38,7 +38,6 @@ export default function Index() {
     },
     { src: "/images/sponsors/sendcutsend.png", width: 100, height: 100 },
     { src: "/images/sponsors/svtseattlevoctech.jpg", width: 100, height: 100 },
-    { src: "/images/sponsors/tmobile.jpg", width: 100, height: 100 },
   ];
 
   function columns(containerWidth) {
@@ -121,8 +120,8 @@ export default function Index() {
                 <Title name="About Us" />
                 <p style={{ fontSize: 16 }}>
                   We are FIRST Tech Challenge (FTC) Team 18225 High Definition,
-                  a 3rd year veteran robotics team from Bellevue, Washington
-                  composed of 12 enthusiastic students grades 7-12.
+                  a 4th year veteran robotics team from Bellevue, Washington
+                  composed of 12 enthusiastic students grades 8-12.
                 </p>
 
                 <p style={{ fontSize: 16 }}>
@@ -187,6 +186,7 @@ export default function Index() {
           </div>
         </FadeInSection>
 
+        {/*
         <FadeInSection>
           <div className="section">
             <Title name="Team Highlights" />
@@ -255,6 +255,7 @@ export default function Index() {
             </div>
           </div>
         </FadeInSection>
+        */}
 
         <FadeInSection>
           <div className="section">

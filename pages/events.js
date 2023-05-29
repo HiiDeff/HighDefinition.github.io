@@ -130,7 +130,7 @@ export default function Events() {
               >
                 <a
                   className="purplebutton"
-                  href="https://www.youtube.com/c/EverstemEducation"
+                  href="https://www.youtube.com/@highdefinition6017/streams"
                   target="_blank"
                   style={{
                     display: "flex",
@@ -146,16 +146,20 @@ export default function Events() {
                 </a>
               </div>
 
-              <div className="eventsection">STEM Advocacy</div>
-              <div className="eventsection">CADTable</div>
               <div className="eventsection">
                 Washington Tech Invitationals (Co-Hosted with Saints Robotics)
               </div>
-              <div className="eventsection">Robotics Reactor Meetup</div>
-              <div className="eventsection">FTC Programming Bootcamp</div>
-              <div className="eventsection">FIRST Demonstration</div>
-              <div className="eventsection">Chipotle Fundraiser</div>
-              <div className="eventsection">Python Workshop</div>
+              <div className="eventsection">
+                Building STEM and other Key Capabilities with Fun
+              </div>
+              <div className="eventsection">Inspire Grant</div>
+              <div className="eventsection">
+                Mariner's Game: Invited by FIRST Washington
+              </div>
+              <div className="eventsection">CIE Annual Convention</div>
+              <div className="eventsection">
+                Collaboration with Green SeaTac
+              </div>
               <div className="eventsection">
                 <Collapse title="Connecting with Professionals">
                   <br />
@@ -187,6 +191,17 @@ export default function Events() {
                         </li>
                         <li>Business at Everyday Robots</li>
                         <li>Natural Hazards Reconnaissance</li>
+                        <li>Medical AI</li>
+                        <li>
+                          Multi-agent Reinforcement Learning for Aircraft
+                          Separation Assurance
+                        </li>
+                        <li>
+                          Department of Civil and Environmental Engineering at
+                          the University of Missouri
+                        </li>
+                        <li>Innovative Technology for Traffic Sensing and
+                          Connected Vehicles</li>
                       </ul>
                     </>
                   ) : (
@@ -302,18 +317,40 @@ export default function Events() {
                         <td>Natural Hazards Reconnaissance</td>
                         <td>Jeffrey W. Berman</td>
                       </tr>
+
+                      <tr style={{ fontWeight: 300 }}>
+                        <td>Medical AI</td>
+                        <td>Chai Xiangfei</td>
+                      </tr>
+
+                      <tr style={{ fontWeight: 300 }}>
+                        <td>
+                          Multi-agent Reinforcement Learning for Aircraft
+                          Separation Assurance
+                        </td>
+                        <td>Wei Peng</td>
+                      </tr>
+
+                      <tr style={{ fontWeight: 300 }}>
+                        <td>
+                          Department of Civil and Environmental Engineering at
+                          the University of Missouri
+                        </td>
+                        <td>Yaw Adu-Gyamfi</td>
+                      </tr>
+
+                      <tr style={{ fontWeight: 300 }}>
+                        <td>
+                          Innovative Technology for Traffic Sensing and
+                          Connected Vehicles
+                        </td>
+                        <td>Wei Sun</td>
+                      </tr>
                     </table>
                   )}
                 </Collapse>
               </div>
             </div>
-          </div>
-        </FadeInSection>
-
-        <FadeInSection>
-          <div className="section">
-            <Title name="Photo Gallery" />
-            <Gallery photos={photos} />
           </div>
         </FadeInSection>
       </div>

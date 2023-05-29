@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAward, faLink } from "@fortawesome/free-solid-svg-icons";
-import { faYoutube, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube, faLinkedin, faInstagram } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -39,6 +39,15 @@ export default function Footer() {
             >
               <FontAwesomeIcon
                 icon={faLinkedin}
+                style={{ height: 25, marginRight: 10, color: "white" }}
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/ftc18225/"
+              target="_blank"
+            >
+              <FontAwesomeIcon
+                icon={faInstagram}
                 style={{ height: 25, marginRight: 10, color: "white" }}
               />
             </a>

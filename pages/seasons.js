@@ -60,6 +60,19 @@ export default function Seasons() {
           <Title name="Power Play: 2022 - 2023" />
           <FadeInSection>
             <Collapse title="AWARDS" expanded={true}>
+              <h4>World Awards</h4>
+              <div className="award-grid grid-two">
+                <Award
+                  icon={faAward}
+                  award="Jemison Division Finalist Alliance"
+                  classn=""
+                />
+                <Award
+                  icon={faGamepad}
+                  award="Control Award Finalist"
+                  classn=""
+                />
+              </div>
               <div>
                 <h4>State Awards</h4>
                 <div className="award-grid grid">

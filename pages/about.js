@@ -92,10 +92,23 @@ export default function About() {
             style={{
               display: "flex",
               alignItems: "center",
+              marginRight: "15px",
               justifyContent: "center",
             }}
           >
             2020-2021
+          </a>
+
+          <a
+            className="purplebutton"
+            href="/about/alumni"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            Alumni
           </a>
         </div>
 
@@ -597,13 +610,6 @@ export default function About() {
                 </p>
               </div>
             </div>
-          </div>
-        </FadeInSection>
-
-        <FadeInSection>
-          <div className="section">
-            <Title name="Photo Gallery" />
-            <Gallery photos={photos} />
           </div>
         </FadeInSection>
       </div>

@@ -17,6 +17,7 @@ module.exports = {
     "/about/power-play": { page: "/about/power-play" },
     "/about/freight-frenzy": { page: "/about/freight-frenzy" },
     "/about/ultimate-goal": { page: "/about/ultimate-goal" },
+    "/about/alumni": { page: "/about/alumni" },
     "/events": { page: "/events" },
     "/resources": { page: "/resources" },
     "/contact": { page: "/contact" },

@@ -133,11 +133,24 @@ export default function About() {
             href="/about/ultimate-goal"
             style={{
               display: "flex",
+              marginRight: "15px",
               alignItems: "center",
               justifyContent: "center",
             }}
           >
             2020-2021
+          </a>
+
+          <a
+            className="purplebutton"
+            href="/about/alumni"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            Alumni
           </a>
         </div>
 

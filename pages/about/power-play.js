@@ -4,6 +4,7 @@ import Header from "../../components/header";
 import Footer from "../../components/footer";
 import Title from "../../components/title";
 import Banner from "../../components/banner";
+import Gallery from "react-photo-gallery";
 import FadeInSection from "../../components/fadeinsection";
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
@@ -16,6 +17,28 @@ const loader = ({ src, width, quality }) => {
 export default function About() {
   const WIDTH = 230;
   const HEIGHT = 300;
+  const [photos, setPhotos] = useState([]);
+
+  useEffect(() => {
+    const list = [
+      "1sNRWEPOWdg9jDdQSIZH4dCpYz8COtyTk",
+      "1xqLQrnZCuv0fzW7otox1u5ugy1hLlg1I",
+      "1tRaoht8GATTZO1akzYcpQpcETH0H4LlW",
+      "15_SrTBgYBCaNJIOHhO58qwG_mfGRD5Rc",
+    ];
+
+    const sample = [];
+
+    list.forEach((item) => {
+      sample.push({
+        src: "https://drive.google.com/uc?export=view&id=" + item,
+        height: 300,
+        width: 300,
+      });
+    });
+
+    setPhotos(sample);
+  }, []);
 
   return (
     <>
@@ -746,6 +769,13 @@ export default function About() {
                 </p>
               </div>
             </div>
+          </div>
+        </FadeInSection>
+
+        <FadeInSection>
+          <div className="section">
+            <Title name="Photo Gallery" />
+            <Gallery photos={photos} />
           </div>
         </FadeInSection>
       </div>

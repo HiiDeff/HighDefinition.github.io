@@ -81,6 +81,66 @@ export default function About() {
           establish the next generation of innovators!
         </div>
 
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            margin: 20,
+          }}
+        >
+          <a
+            className="purplebutton"
+            href="/about"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginRight: "15px",
+            }}
+          >
+            2023-2024
+          </a>
+
+          <a
+            className="purplebutton"
+            href="/about/power-play"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginRight: "15px",
+            }}
+          >
+            2022-2023
+          </a>
+
+          <a
+            className="purplebutton"
+            href="/about/freight-frenzy"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginRight: "15px",
+            }}
+          >
+            2021-2022
+          </a>
+
+          <a
+            className="purplebutton"
+            href="/about/ultimate-goal"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            2020-2021
+          </a>
+        </div>
+
         <FadeInSection>
           <div className="section">
             <Title name="Coaches" />
@@ -492,6 +552,75 @@ export default function About() {
                   (IQ). My current hobbies include reading, playing board games,
                   and playing the piano and several percussion instruments.
                 </p>
+              </div>
+            </div>
+          </div>
+        </FadeInSection>
+
+        <FadeInSection>
+          <div className="section">
+            <Title name="Team Highlights" />
+            <div className="teamhighlights grid">
+              <div
+                className="col"
+                style={{
+                  backgroundImage: `url(${
+                    process.env.PUBLIC_URL +
+                    "/images/worldrobotrevealthumbnail.jpg"
+                  })`,
+                  backgroundPosition: "top center",
+                  backgroundAttachment: "fixed",
+                  backgroundSize: "contain",
+                }}
+              >
+                <a href="https://www.youtube.com/watch?v=Bo4R6sHHHWY">
+                  <h3>FTC 18225 World Robot Reveal</h3>
+                </a>
+              </div>
+              <div
+                className="col"
+                style={{
+                  backgroundImage: `url(${
+                    process.env.PUBLIC_URL + "/images/VISIONARY.jpg"
+                  })`,
+                  backgroundPosition: "top center",
+                  backgroundAttachment: "fixed",
+                  backgroundSize: "contain",
+                }}
+              >
+                <a href="https://www.youtube.com/watch?v=VaWNdEoWUtE">
+                  <h3>World Championship Robot Reveal Trailer</h3>
+                </a>
+              </div>
+              <div
+                className="col"
+                style={{
+                  backgroundImage: `url(${
+                    process.env.PUBLIC_URL + "/images/controlthumbnail.jpg"
+                  })`,
+                  backgroundPosition: "top center",
+                  backgroundAttachment: "fixed",
+                  backgroundSize: "contain",
+                }}
+              >
+                <a href="https://www.youtube.com/watch?v=UlNMlCkZbEQ">
+                  <h3>Washington State Control Award Video</h3>
+                </a>
+              </div>
+              <div
+                className="col"
+                style={{
+                  backgroundImage: `url(${
+                    process.env.PUBLIC_URL + "/images/robotskeleton.jpg"
+                  })`,
+                  backgroundPosition: "top center",
+                  backgroundAttachment: "fixed",
+                  backgroundSize: "contain",
+                }}
+              >
+                <a href="https://tinyurl.com/FTC18225StateRobot">
+                  <h3>Washington State Freight Frenzy Robot CAD</h3>
+                </a>
               </div>
             </div>
           </div>

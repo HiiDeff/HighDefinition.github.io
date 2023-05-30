@@ -56,7 +56,7 @@ export default function Header({ title, description, page }) {
           </div>
         </div>
       </div>
-      <Banner />
+      {/*<Banner />*/}
     </>
   );
 }

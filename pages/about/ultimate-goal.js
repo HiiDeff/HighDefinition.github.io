@@ -81,6 +81,66 @@ export default function About() {
           establish the next generation of innovators!
         </div>
 
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            margin: 20,
+          }}
+        >
+          <a
+            className="purplebutton"
+            href="/about"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginRight: "15px",
+            }}
+          >
+            2023-2024
+          </a>
+
+          <a
+            className="purplebutton"
+            href="/about/power-play"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginRight: "15px",
+            }}
+          >
+            2022-2023
+          </a>
+
+          <a
+            className="purplebutton"
+            href="/about/freight-frenzy"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+              marginRight: "15px",
+            }}
+          >
+            2021-2022
+          </a>
+
+          <a
+            className="purplebutton"
+            href="/about/ultimate-goal"
+            style={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            2020-2021
+          </a>
+        </div>
+
         <FadeInSection>
           <div className="section">
             <Title name="Coaches" />
@@ -369,8 +429,73 @@ export default function About() {
 
         <FadeInSection>
           <div className="section">
-            <Title name="Photo Gallery" />
-            <Gallery photos={photos} />
+            <Title name="Team Highlights" />
+            <div className="teamhighlights grid">
+              <div
+                className="col"
+                style={{
+                  backgroundImage: `url(${
+                    process.env.PUBLIC_URL +
+                    "/images/seasons/ultimategoal/scorpionv3.png"
+                  })`,
+                  backgroundPosition: "top center",
+                  backgroundAttachment: "fixed",
+                  backgroundSize: "contain",
+                }}
+              >
+                <a href="https://www.youtube.com/watch?v=Fn46jRJG2Es">
+                  <h3>Scorpion CAD Version 3</h3>
+                </a>
+              </div>
+              <div
+                className="col"
+                style={{
+                  backgroundImage: `url(${
+                    process.env.PUBLIC_URL +
+                    "/images/seasons/ultimategoal/intake.png"
+                  })`,
+                  backgroundPosition: "top center",
+                  backgroundAttachment: "fixed",
+                  backgroundSize: "contain",
+                }}
+              >
+                <a href="https://www.youtube.com/watch?v=eL6ZAtWQX9g">
+                  <h3>Simplest Ring Intake Subsystem</h3>
+                </a>
+              </div>
+              <div
+                className="col"
+                style={{
+                  backgroundImage: `url(${
+                    process.env.PUBLIC_URL +
+                    "/images/seasons/ultimategoal/statecontrol.png"
+                  })`,
+                  backgroundPosition: "top center",
+                  backgroundAttachment: "fixed",
+                  backgroundSize: "contain",
+                }}
+              >
+                <a href="https://www.youtube.com/watch?v=vkxp2Lw1z80">
+                  <h3>State Control Award Video</h3>
+                </a>
+              </div>
+              <div
+                className="col"
+                style={{
+                  backgroundImage: `url(${
+                    process.env.PUBLIC_URL +
+                    "/images/seasons/ultimategoal/interleaguecontrol.png"
+                  })`,
+                  backgroundPosition: "top center",
+                  backgroundAttachment: "fixed",
+                  backgroundSize: "contain",
+                }}
+              >
+                <a href="https://www.youtube.com/watch?v=tQRB3qGeSY8">
+                  <h3>Interleague Control Award Video</h3>
+                </a>
+              </div>
+            </div>
           </div>
         </FadeInSection>
       </div>

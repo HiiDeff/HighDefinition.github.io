@@ -71,31 +71,6 @@
         border-left: 2px solid white;
     }
 
-    .teamhighlights {
-        .col {
-            min-height: 200px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: all .2s ease-in-out;
-
-            h3 {
-                color: white !important;
-            }
-
-            a {
-                text-decoration: none;
-                color: white !important;
-                background-color: rgba(104, 19, 93, 0.705);
-                width: 100%;
-            }
-        }
-
-        .col:hover {
-            transform: scale(1.15);
-        }
-    }
-
     .grid-item {
         border: 2px solid $purple;
         text-align: center;

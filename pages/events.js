@@ -81,15 +81,13 @@ export default function Events() {
         <FadeInSection>
           <div className="section">
             <Title name="Upcoming or Current Events" />
-            <div className="flex">
-              <iframe
-                src="https://calendar.google.com/calendar/embed?src=9l8bq35qskdac9jls6a0bf04gc%40group.calendar.google.com&ctz=America%2FLos_Angeles&showCalendars=0&showTabs=0&showPrint=0&color=%23000000"
-                style={{ borderWidth: 0 }}
-                width="800"
-                height="600"
-                frameBorder="0"
-                scrolling="no"
-              ></iframe>
+            <div id="outreaches">
+              <div className="eventsection">
+                Ongoing Mentorship of 10+ Teams
+              </div>
+              <div className="eventsection">
+                STEM Advocacy
+              </div>
             </div>
 
             <br />
@@ -145,7 +143,13 @@ export default function Events() {
                   Watch Our CWP Events
                 </a>
               </div>
-
+              
+              <div className="eventsection">
+                2023 PacTrans Conference
+              </div>
+              <div className="eventsection">
+                SeaFair
+              </div>
               <div className="eventsection">
                 Washington Tech Invitationals (Co-Hosted with Saints Robotics)
               </div>

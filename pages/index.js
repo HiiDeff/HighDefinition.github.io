@@ -121,7 +121,7 @@ export default function Index() {
                 <p style={{ fontSize: 16 }}>
                   We are FIRST Tech Challenge (FTC) Team 18225 High Definition,
                   a 4th year veteran robotics team from Bellevue, Washington
-                  composed of 12 enthusiastic students grades 8-12.
+                  composed of 12 enthusiastic students grades 7-12.
                 </p>
 
                 <p style={{ fontSize: 16 }}>

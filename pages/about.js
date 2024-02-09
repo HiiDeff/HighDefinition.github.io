@@ -573,10 +573,7 @@ export default function About() {
                 <h3>Julia Wang</h3>
                 <p className="description">Co-Captain</p>
                 <p style={{ fontWeight: 300 }}>
-                  I’m Julia, a 11th grader at The Bush School. This is my fourth
-                  year in FIRST (1 in FLL and 3 in FTC). In my free time, I
-                  enjoy acrylic painting and playing golf. A fun fact about me
-                  is that I have gotten 17 mosquito bites at once before!
+                  I’m Julia, a senior at The Bush School. This is my fifth year in FIRST (1 in FLL and 4 in FTC). In my free time, I enjoy painting, playing games with friends, or singing. A fun fact about me is that western pond turtles are my favorite animals!
                 </p>
               </div>
 

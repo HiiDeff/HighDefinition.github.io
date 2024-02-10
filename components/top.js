@@ -6,7 +6,7 @@ export default function Top({ name }) {
       <title>High Definition | {name}</title>
       <meta
         name="description"
-        content="We are First Tech Challenge (FTC) Team 18225 High Definition, a 3rd year veteran robotics team from Bellevue, Washington composed of 12 enthusiastic students grades 7-12. Our mission is to promote STEM and FIRST within our community to inspire the next generation of innovators to solve challenges of the future! We spread mechanical, programming, business, and other practices within the community to ensure their success."
+        content="We are First Tech Challenge (FTC) Team 18225 High Definition, a 4th year veteran robotics team from Bellevue, Washington composed of 14 enthusiastic students grades 7-12. Our mission is to promote STEM and FIRST within our community to inspire the next generation of innovators to solve challenges of the future! We spread mechanical, programming, business, and other practices within the community to ensure their success."
       />
 
       <meta

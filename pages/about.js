@@ -461,10 +461,7 @@ export default function About() {
                 <h3>Cynthia Lu</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
-                  I'm Cynthia, a 9th grader at Newport High School. This is my
-                  second year in FIRST (1 in FLL). In my free time, I enjoy
-                  rifle shooting, video games, and spending time with friends. A
-                  fun fact about me is that I love Pochacco.
+                  I'm Cynthia, a sophomore at Newport High School. This is my third year in FIRST (1 in FLL and 2 in FTC). In my free time, I enjoy rifle shooting, watching kdramas, and baking. A fun fact about me is that I was born on the day of the Beijing Olympics!
                 </p>
               </div>
 

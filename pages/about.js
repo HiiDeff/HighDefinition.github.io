@@ -377,10 +377,7 @@ export default function About() {
                 <h3>Alexander Bonev</h3>
                 <br />
                 <p style={{ fontWeight: 300 }}>
-                  I’m Alex, an 8th grader at Tyee Middle School. This is my
-                  first year in FIRST. In my free time, I enjoy skiing, playing
-                  piano, and playing video games. A fun fact about me is that I
-                  don’t have a pet even though I really want one.
+                  I'm Alex, a freshman at Newport High School. This is my second year in FIRST (2 in FTC). In my free time, I enjoy skiing, hiking, and car spotting. A fun fact about me is that my dream car is a 2005 Subaru Impreza WRX STI.
                 </p>
               </div>
 

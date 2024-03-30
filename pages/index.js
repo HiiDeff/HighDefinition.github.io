@@ -22,7 +22,8 @@ export default function Index() {
     { src: "/images/sponsors/google.png", width: 100, height: 100 },
     { src: "/images/sponsors/microsoft.png", width: 100, height: 100 },
     { src: "/images/sponsors/pactrans.png", width: 100, height: 100 },
-    { src: "/images/sponsors/protocase.png", width: 100, height: 100 }
+    { src: "/images/sponsors/protocase.png", width: 200, height: 100 },
+    { src: "/images/sponsors/xcamp.gif", width: 200, height: 100 }
   ];
 
   function columns(containerWidth) {

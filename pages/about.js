@@ -501,6 +501,31 @@ export default function About() {
                 >
                   <Image
                     loader={loader}
+                    src="/images/teammembers/ethan.jpg"
+                    className="member"
+                    layout="fill"
+                    objectFit="cover"
+                  />
+                </div>
+                <br />
+                <h3>Ethan Lee</h3>
+                <br />
+                <p style={{ fontWeight: 300 }}>
+                  I'm Ethan, a freshman at Interlake High School. This is my first year in FIRST. I like playing piano, flute, and tennis in my free time. I also enjoy listening to music and reading. A fun fact about me is that I love foxes.
+                </p>
+              </div>
+
+              <div className="grid-item">
+                <div
+                  style={{
+                    position: "relative",
+                    margin: "auto",
+                    width: WIDTH,
+                    height: HEIGHT,
+                  }}
+                >
+                  <Image
+                    loader={loader}
                     src="/images/teammembers/eugene.jpg"
                     className="member"
                     layout="fill"

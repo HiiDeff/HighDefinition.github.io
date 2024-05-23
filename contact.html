@@ -221,9 +221,6 @@
                 return;
             }
 
-            console.log(submitText);
-            console.log(message);
-
             submitText.innerText = "";
 
             const data = {
@@ -231,9 +228,9 @@
                 email: email,
                 subject: subject,
                 honeypot: honeypot,
-                message: message.replace(/\n/g, '<br>'), // Convert newlines to <br> tags
+                message: message.replace(/\n/g, '<br>'),
                 replyTo: '@',
-                accessKey: 'd0789afa-b8bc-44c9-bc78-6063378682ba'
+                accessKey: '8190767b-a5e0-4db2-8e98-6cbbd115e99b'
             };
 
             try {

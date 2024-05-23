@@ -115,20 +115,6 @@ iframe {
     }
 }
 
-.fade {
-    opacity: .6;
-    transform: translateY(8vh);
-    visibility: hidden;
-    transition: opacity 1.2s ease-out, transform .6s ease-out, visibility 1.2s ease-out;
-    will-change: opacity, transform, visibility
-}
-
-.fade.is-visible {
-    opacity: 1;
-    transform: none;
-    visibility: visible
-}
-
 .grid {
     grid-template-columns: 24% 24% 24% 24%;
     margin: 20px

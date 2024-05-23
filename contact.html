@@ -149,7 +149,7 @@
                                 for="message">MESSAGE:</label><br /><textarea name="message" id="user-message"
                                 placeholder="Enter your message..." required=""></textarea><br /><br /><input
                                 type="text" name="honeypot" style="display:none" />
-                            <div class="flex"><button type="submit" class="submit flex"><svg aria-hidden="true"
+                            <div class="flex"><button type="submit" class="submit flex" id="submitFlex"><svg aria-hidden="true"
                                         focusable="false" data-prefix="fas" data-icon="envelope"
                                         class="svg-inline--fa fa-envelope icon" role="img"
                                         xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
@@ -208,6 +208,7 @@
     <script>
         async function handleSubmit(event) {
             event.preventDefault();
+            console.log("test");
             const form = event.target;
             const name = form.name.value;
             const email = form.email.value;
@@ -215,6 +216,14 @@
             const message = form.message.value;
             const honeypot = form.honeypot.value;
             const submitText = document.getElementById("submitText");
+
+            if (!submitText) {
+                console.error('submitText element not found');
+                return;
+            }
+
+            console.log(submitText);
+            console.log(message);
 
             submitText.innerText = "";
 

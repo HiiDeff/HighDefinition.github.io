@@ -139,11 +139,11 @@
                         </table>
                     </div>
                     <div class="col" style="align-content:center;justify-content:center;display:flex">
-                        <form class="contact-form" action='https://api.staticforms.xyz/submit' method='POST'
-                            onsubmit="return handleSubmit(event)"><label for="firstname">NAME:</label><br /><input
-                                type="text" id="name" name="name" placeholder="Type Name Here..." required=""
-                                value="" /><br /><br /><label for="email">EMAIL:</label><br /><input type="email"
-                                id="email" name="email" placeholder="Email..." required="" value="" /><br /><br /><label
+                        <form class="contact-form" onsubmit="return handleSubmit(event)"><label
+                                for="firstname">NAME:</label><br /><input type="text" id="name" name="name"
+                                placeholder="Type Name Here..." required="" value="" /><br /><br /><label
+                                for="email">EMAIL:</label><br /><input type="email" id="email" name="email"
+                                placeholder="Email..." required="" value="" /><br /><br /><label
                                 for="subject">SUBJECT:</label><br /><input type="text" id="subject" name="subject"
                                 placeholder="Subject..." required="" value="" /><br /><br /><label
                                 for="message">MESSAGE:</label><br /><textarea name="message" id="user-message"
@@ -204,6 +204,47 @@
         type="application/json">{"props":{"pageProps":{}},"page":"/contact","query":{},"buildId":"kWtDBIdpwMm36nIJ5prE9","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXFMZ4S" height="0" width="0"
             style="display:none;visibility:hidden"></iframe></noscript>
+
+    <script>
+        async function handleSubmit(event) {
+            event.preventDefault();
+            const form = event.target;
+            const name = form.name.value;
+            const email = form.email.value;
+            const subject = form.subject.value;
+            const message = form.message.value;
+            const honeypot = form.honeypot.value;
+            const submitText = document.getElementById("submitText");
+
+            submitText.innerText = "";
+
+            const data = {
+                name: name,
+                email: email,
+                subject: subject,
+                honeypot: honeypot,
+                message: message.replace(/\n/g, '<br>'), // Convert newlines to <br> tags
+                replyTo: '@',
+                accessKey: 'd0789afa-b8bc-44c9-bc78-6063378682ba'
+            };
+
+            try {
+                const response = await fetch('https://api.staticforms.xyz/submit', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                const result = await response.json();
+                if (result.success) {
+                    submitText.innerText = "Email successfully sent!";
+                } else {
+                    submitText.innerText = "Faced error: retry again now or later.";
+                }
+            } catch (e) {
+                submitText.innerText = "Faced error: retry again now or later.";
+            }
+        }
+    </script>
 </body>
 
 </html>

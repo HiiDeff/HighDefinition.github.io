@@ -221,7 +221,8 @@ h1 {
 }
 
 .Tabs .toggle {
-    display: none
+    display: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width:800px) {

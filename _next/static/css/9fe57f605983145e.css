@@ -115,11 +115,6 @@ iframe {
     }
 }
 
-.grid {
-    grid-template-columns: 24% 24% 24% 24%;
-    margin: 20px
-}
-
 .grid,
 .grid-two {
     display: grid;
@@ -127,10 +122,14 @@ iframe {
     grid-row-gap: 10px
 }
 
+.grid {
+    grid-template-columns: 24% 24% 24% 24%;
+    margin: 20px;
+}
+
 .grid-two {
-    width: 50%;
     grid-template-columns: 48% 48%;
-    margin: 20px auto
+    margin: 20px;
 }
 
 @media only screen and (max-width:1000px) {
@@ -140,16 +139,9 @@ iframe {
 }
 
 @media only screen and (max-width:600px) {
-
     .grid,
     .grid-two {
         grid-template-columns: 98%
-    }
-
-    .grid-two {
-        width: 100%;
-        grid-template-columns: 98%;
-        margin: 20px;
     }
 }
 

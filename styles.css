@@ -127,6 +127,10 @@ iframe {
     margin: 20px;
 }
 
+.person-three-grid {
+    grid-template-columns: 33% 33% 33%;
+}
+
 .grid-two {
     grid-template-columns: 48% 48%;
     margin: 20px;
@@ -508,9 +512,24 @@ h1 {
     grid-template-columns: 33% 33% 33% !important
 }
 
+.aboutbuttons {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:20px;
+}
+
 @media only screen and (max-width:700px) {
     .About #coach-grid {
         grid-template-columns: 100% !important
+    }
+
+    .aboutbuttons {
+        display: block;
+    }
+
+    .aboutbuttons .purplebutton {
+        margin: 10px;
     }
 }
 

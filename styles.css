@@ -452,6 +452,25 @@ h1 {
     }
 }
 
+.Index .react-photo-gallery--gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Index .gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px; /* Space between images */
+}
+
+.Index .gallery-row img {
+    margin: 2px;
+    display: block;
+    width: calc(100% / auto); /* Ensures images are responsive */
+    max-width: 100%;
+    height: auto; /* Keeps the aspect ratio */
+}
+
 .photogallery {
     display: flex;
     flex-wrap: wrap;

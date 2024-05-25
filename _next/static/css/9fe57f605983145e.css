@@ -213,18 +213,7 @@ h1 {
 }
 
 .Tabs .toggle {
-    display: none;
     cursor: pointer;
-}
-
-@media screen and (max-width:800px) {
-    .Tabs .toggle {
-        display: flex
-    }
-
-    .Tabs .tab {
-        display: none
-    }
 }
 
 .toggle-button {

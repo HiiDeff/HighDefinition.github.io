@@ -68,7 +68,7 @@
             </div>
         </div>
         <div class="Events">
-            <div >
+            <div>
                 <div class="section">
                     <h1 style="font-family:Hubballi;font-size:35px;transform:scale(1, 1.3);text-align:center">Upcoming
                         or Current Events</h1>
@@ -83,7 +83,7 @@
                     </div>
                 </div>
             </div>
-            <div >
+            <div>
                 <div class="section">
                     <h1 style="font-family:Hubballi;font-size:35px;transform:scale(1, 1.3);text-align:center">Noteable
                         Past Events</h1>
@@ -109,22 +109,11 @@
                         <div class="eventsection">Collaboration with Green SeaTac</div>
                         <div class="eventsection">
                             <div class="collapsible">
-                                <div class="header" id=":R2la6:-toggle" aria-controls=":R2la6:" aria-expanded="false"
-                                    role="button" tabindex="0">
-                                    <div style="display:flex;align-items:center"><svg aria-hidden="true"
-                                            focusable="false" data-prefix="fas" data-icon="angle-up"
-                                            class="svg-inline--fa fa-angle-up icon" role="img"
-                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
-                                            style="margin-right:15px;color:white;margin:0;padding:0" width="25"
-                                            height="25">
-                                            <path fill="currentColor"
-                                                d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z">
-                                            </path>
-                                        </svg>
-                                        <h4>Connecting with Professionals</h4>
-                                    </div>
+                                <div class="toggle-button" id="toggleButton">
+                                    <h4><span class="arrow" id="arrow" style="margin-right: 4px;">▲</span>Connecting with Professionals</h4>
                                 </div>
-                                <div id=":R2la6:" aria-hidden="true" style="box-sizing:border-box" role="region">
+                                <div style="box-sizing:border-box">
+                                    <div class="content" id="content">
                                     <div class="content"><br />
                                         <ul style="font-weight:300">
                                             <li>Self Taught Airplane Building and Pilot</li>
@@ -199,6 +188,27 @@
             </div>
         </div>
     </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const toggleButtons = document.querySelectorAll('#toggleButton');
+            const contents = document.querySelectorAll('#content');
+            const arrows = document.querySelectorAll('#arrow');
+
+            toggleButtons.forEach(function (toggleButton, index) {
+                toggleButton.addEventListener('click', function () {
+                    const content = contents[index];
+                    const arrow = arrows[index];
+                    if (content.style.display === 'none' || content.style.display === '') {
+                        content.style.display = 'block';
+                        arrow.textContent = '▲';
+                    } else {
+                        content.style.display = 'none';
+                        arrow.textContent = '▼';
+                    }
+                });
+            });
+        });
+    </script>
     <script id="__NEXT_DATA__"
         type="application/json">{"props":{"pageProps":{}},"page":"/events","query":{},"buildId":"kWtDBIdpwMm36nIJ5prE9","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script>
     <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TXFMZ4S" height="0" width="0"

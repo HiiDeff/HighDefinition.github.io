@@ -148,7 +148,7 @@ iframe {
 
     .grid-two {
         width: 100%;
-        grid-template-columns: 48% 48%;
+        grid-template-columns: 98%;
         margin: 20px;
     }
 }
@@ -233,6 +233,23 @@ h1 {
     .Tabs .tab {
         display: none
     }
+}
+
+.toggle-button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.arrow {
+    font-size: 12px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.content {
+    display: none;
+    margin-left: 10px;
 }
 
 .Banner .col {

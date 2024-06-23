@@ -11,12 +11,12 @@ textarea {
 
 input::-moz-placeholder,
 textarea::-moz-placeholder {
-    font-family: Roboto Condensed, Roboto, Arial, Helvetica, sans-serif
+    font-family: Poppins, Roboto Condensed, Roboto, Arial, Helvetica, sans-serif
 }
 
 input:-ms-input-placeholder,
 textarea:-ms-input-placeholder {
-    font-family: Roboto Condensed, Roboto, Arial, Helvetica, sans-serif
+    font-family: Poppins, Roboto Condensed, Roboto, Arial, Helvetica, sans-serif
 }
 
 body,
@@ -26,12 +26,12 @@ input::placeholder,
 label,
 textarea,
 textarea::placeholder {
-    font-family: Roboto Condensed, Roboto, Arial, Helvetica, sans-serif
+    font-family: Poppins, Roboto Condensed, Roboto, Arial, Helvetica, sans-serif
 }
 
 input,
 textarea {
-    font-family: Roboto, Arial, Helvetica, sans-serif
+    font-family: Poppins, Roboto, Arial, Helvetica, sans-serif
 }
 
 ::-moz-selection {
@@ -859,6 +859,3 @@ h1 {
   font-weight: 700;
   font-style: italic;
 }
-
-}
-

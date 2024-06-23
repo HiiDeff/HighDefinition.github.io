@@ -49,6 +49,75 @@ textarea {
     text-align: center
 }
 
+.banner-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    color: #fff;
+}
+
+.box {
+    font-size: 35px;
+    font-family: Poppins;
+    font-weight: bold;
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.b1 {
+    animation: ani1 15s infinite;
+}
+
+.b2 {
+    animation: ani1 15s infinite;
+}
+
+.b3 {
+    animation: ani1 15s infinite;
+}
+
+.b4 {
+    animation: ani1 15s infinite;
+}
+
+.b5 {
+    animation: ani1 15s infinite;
+}
+
+@keyframes ani1{
+    0% {opacity: 0;}
+    10% {opacity: 1;}
+    20% {opacity 0;}
+}
+
+@keyframes ani2{
+    20% {opacity: 0;}
+    30% {opacity: 1;}
+    40% {opacity 0;}
+}
+
+@keyframes ani3{
+    40% {opacity: 0;}
+    50% {opacity: 1;}
+    60% {opacity 0;}
+}
+
+@keyframes ani4{
+    60% {opacity: 0;}
+    70% {opacity: 1;}
+    80% {opacity 0;}
+}
+
+@keyframes ani5{
+    80% {opacity: 0;}
+    90% {opacity: 1;}
+    100% {opacity 0;}
+}
+
 .icon {
     color: #e455b4
 }

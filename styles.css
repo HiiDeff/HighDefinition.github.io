@@ -50,11 +50,11 @@ textarea {
 }
 
 .box {
-    font-size: 50px;
+    font-size: 75px;
     font-family: Poppins;
     font-weight: bold;
     opacity: 0;
-    position: absolute;
+
     width: 100%;
     white-space: nowrap;
 }

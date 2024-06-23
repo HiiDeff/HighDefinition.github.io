@@ -56,6 +56,7 @@ textarea {
     opacity: 0;
     position: absolute;
     width: 100%;
+    white-space: nowrap;
 }
 
 .b1 {

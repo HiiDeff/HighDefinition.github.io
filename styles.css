@@ -60,23 +60,23 @@ textarea {
 }
 
 .b1 {
-    animation: ani1 14s infinite;
+    animation: ani1 15s infinite;
 }
 
 .b2 {
-    animation: ani2 14s infinite;
+    animation: ani2 15s infinite;
 }
 
 .b3 {
-    animation: ani3 14s infinite;
+    animation: ani3 15s infinite;
 }
 
 .b4 {
-    animation: ani4 14s infinite;
+    animation: ani4 15s infinite;
 }
 
 .b5 {
-    animation: ani5 14s infinite;
+    animation: ani5 15s infinite;
 }
 
 @keyframes ani1{

@@ -398,21 +398,19 @@ h1 {
     }
 }
 
-.Footer .footerPt2 {
+.Footer {
     background-color: #000;
     padding: 10px
-    position: absolute;
+    position: fixed;
     bottom: 0;
 }
 
-.Footer .footerPt2 h4 {
+.Footer h4 {
     font-weight: 300;
     color: #fff;
     text-align: center;
     margin: 0;
     padding: 0
-    position: absolute;
-    bottom: 0;
 }
 
 .coolHeader {

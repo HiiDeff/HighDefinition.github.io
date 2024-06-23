@@ -401,6 +401,8 @@ h1 {
 .Footer .footerPt2 {
     background-color: #000;
     padding: 10px
+    position: fixed;
+    bottom: 0;
 }
 
 .Footer .footerPt2 h4 {
@@ -409,6 +411,8 @@ h1 {
     text-align: center;
     margin: 0;
     padding: 0
+    position: fixed;
+    bottom: 0;
 }
 
 .coolHeader {

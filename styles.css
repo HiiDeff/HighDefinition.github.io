@@ -580,7 +580,7 @@ h1 {
 
 .About .description,
 .About h3 {
-    color: #e455b4
+    color: #AB3D86
 }
 
 .About .member {
@@ -918,4 +918,16 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   font-style: italic;
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 800
+
+.open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
 }

@@ -412,7 +412,7 @@ h1 {
 }
 
 .coolHeader {
-    background-image: linear-gradient(180deg, #000, rgb(0, 0, 0, .5)), url("../images/centerstageworldsrobot.JPG");
+    background: linear-gradient(180deg, #000, rgba(0, 0, 0, .5)), url(/images/coolstaterobotcadphoto.jpg);
     width: 100%;
     padding: 0
 }

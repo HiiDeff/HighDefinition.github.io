@@ -935,6 +935,7 @@ h1 {
 
 .blankBox {
     width: 300px;
+    height: 500px;
     border: 15px white;
     padding: 50px;
     margin: 20px;

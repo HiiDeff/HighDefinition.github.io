@@ -939,9 +939,9 @@ u {
 
 .container {
     display: grid;
-    align-items: center;
+    align-items: end;
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 5px;
+    column-gap: 10px;
 }
 
 

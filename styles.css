@@ -932,3 +932,10 @@ h1 {
   font-variation-settings:
     "width" 100;
 }
+
+.blankBox {
+    width: 300px;
+    border: 15px white;
+    padding: 50px;
+    margin: 20px;
+}

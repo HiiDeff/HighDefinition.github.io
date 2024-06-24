@@ -938,4 +938,5 @@ h1 {
     border: 15px white;
     padding: 50px;
     margin: 20px;
+    position: static;
 }

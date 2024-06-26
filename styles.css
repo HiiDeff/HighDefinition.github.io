@@ -938,10 +938,9 @@ u {
 }
 
 .container {
-    display: flex;
-    align-items: end;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 10px;
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-gap: 10px;
 }
 
 

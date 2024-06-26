@@ -943,10 +943,15 @@ u {
   text-decoration: underline;
 }
 
-.container {
+.container1 {
     display: grid;
-    grid-template-columns: 500px 500px;
+    grid-template-columns: 600px 500px;
     grid-gap: 50px;
 }
 
+.container2 {
+    display: grid;
+    grid-gap:50px;
+    grid-template-columns: 550px 550px;
+}
 

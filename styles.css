@@ -9,6 +9,12 @@ textarea {
     color: #000000;
 }
 
+body{
+    height:100%;
+    display:grid;
+    place-items:center;
+}
+
 input::-moz-placeholder,
 textarea::-moz-placeholder {
     font-family: Poppins, Roboto Condensed, Roboto, Arial, Helvetica, sans-serif

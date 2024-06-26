@@ -939,7 +939,7 @@ u {
 
 .container {
     display: grid;
-    grid-template-columns: 800px 800px;
+    grid-template-columns: 600px 500px;
     grid-gap: 10px;
 }
 

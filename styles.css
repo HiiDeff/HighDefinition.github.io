@@ -952,6 +952,6 @@ u {
 .container2 {
     display: grid;
     grid-gap:50px;
-    grid-template-columns: 550px 550px;
+    grid-template-columns: 500px 500px;
 }
 

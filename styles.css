@@ -9,6 +9,16 @@ textarea {
     color: #000000;
 }
 
+body,
+button,
+html,
+input::placeholder,
+label,
+textarea,
+textarea::placeholder {
+    font-family: Poppins, Roboto Condensed, Roboto, Arial, Helvetica, sans-serif
+}
+
 /* Cool Header */
 
 .coolHeader {
@@ -122,6 +132,30 @@ textarea {
     }
 }
 
+.table1 .table2 {
+    background-size: cover;
+    display: table;
+    position: relative;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.table2 {
+    display: table-cell;
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.table3 {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+
 /*
 @media only screen and (min-width: 768px) {
     .sec1 {
@@ -169,15 +203,7 @@ textarea:-ms-input-placeholder {
     font-family: Poppins, Roboto Condensed, Roboto, Arial, Helvetica, sans-serif
 }
 
-body,
-button,
-html,
-input::placeholder,
-label,
-textarea,
-textarea::placeholder {
-    font-family: Poppins, Roboto Condensed, Roboto, Arial, Helvetica, sans-serif
-}
+
 
 input,
 textarea {

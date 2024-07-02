@@ -9,6 +9,36 @@ textarea {
     color: #000000;
 }
 
+@media only screen and (min-width: 768px) {
+    .sec1 {
+        padding-bottom: 1.5rem;
+        padding-top: 1.5rem;
+
+    }
+}
+
+.sec1 .AbtUs {
+     background-size: cover;
+     display: table;
+     position: relative;
+     table-layout: fixed;
+     width: 100%;
+    }
+}
+
+.AbtUs {
+        display: table-cell;
+        height: 100%;
+        left: 0;
+        pointer-events: none;
+        position: absolute;
+        top: 0;
+        width: 100%;
+}
+
+
+
+
 .grid1{
     height:100%;
     display:grid;
@@ -954,4 +984,17 @@ u {
     grid-gap:50px;
     grid-template-columns: 500px 500px;
 }
+
+.CampaignCtaFeatured {
+    display: grid;
+    grid-gap: 1em;
+    row-gap: 1em;
+    column-gap: 1em;
+    grid-template-areas:
+        "image"
+        "heading"
+        "text"
+        "link";
+    align-items: center;
+    }
 

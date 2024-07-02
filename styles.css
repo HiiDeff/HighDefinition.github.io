@@ -621,7 +621,7 @@ h1 {
     flex-wrap: wrap;
     gap: 4px;
 }
-
+*/
 .Index .gallery-row img {
     margin: 2px;
     display: block;
@@ -647,7 +647,7 @@ h1 {
     vertical-align: middle;
     width: 100%
 }
-
+/*
 @media screen and (max-width:820px) {
     .firstrow {
         grid-template-columns: auto

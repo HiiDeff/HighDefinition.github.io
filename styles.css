@@ -150,7 +150,7 @@ textarea::placeholder {
     width: 100%;
 }
 
-.table3 {
+.table3 .text {
     display: table-cell;
     vertical-align: middle;
     width: 100%;

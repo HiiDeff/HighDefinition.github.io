@@ -201,7 +201,7 @@ textarea::placeholder {
 }
 
 .feature-banner {
-    background-color: var(--midnight-blue);
+    background-color: #E47DC2;
     border-radius: 1rem;
     height: 500px;
     display: flex;

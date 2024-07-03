@@ -135,15 +135,15 @@ textarea::placeholder {
 /* About Us Section */
 
 @media only screen and (min-width: 768px) {
-    .grid-container {
+    .table1 .table2 {
         background-size: cover;
-        display: grid;
-        width: 100%
-        justify-content: center;
-        grid-template-columns: 1280px;
+        display: table;
+        position: relative;
+        table-layout: fixed;
+        width: 100%;
     }
 }
-/*
+
 .table2 {
     display: table-cell;
     height: 100%;
@@ -152,6 +152,7 @@ textarea::placeholder {
     position: absolute;
     top: 0;
     width: 100%;
+    vertical-align: middle;
 }
 
 .table3 .text {
@@ -159,7 +160,7 @@ textarea::placeholder {
     vertical-align: middle;
     width: 100%;
 }
-*/
+
 .AbtUs {
     width: 100%;
     margin-top: 0;

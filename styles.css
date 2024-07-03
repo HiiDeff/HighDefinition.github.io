@@ -134,8 +134,7 @@ textarea::placeholder {
 
 /* About Us Section */
 
-@media only screen and (min-width: 300px) {
-    .table1 .table2 {
+.table1 .table2 {
         background-size: cover;
         display: table;
         position: relative;
@@ -168,8 +167,7 @@ textarea::placeholder {
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
-    padding-left: 48px;
-    padding-right: 48px;
+
     outline: 0;
 }
 

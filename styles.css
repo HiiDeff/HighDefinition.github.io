@@ -134,7 +134,7 @@ textarea::placeholder {
 
 /* About Us Section */
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 300px) {
     .table1 .table2 {
         background-size: cover;
         display: table;

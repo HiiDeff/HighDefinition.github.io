@@ -161,13 +161,14 @@ textarea::placeholder {
 }
 
 .AbtUs {
-    width: 100%;
+    width: 90%;
     margin-top: 0;
     margin-bottom: 0;
     max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
-
+    padding-left: 30px;
+    padding-right: 30px;
     outline: 0;
 }
 
